@@ -1,0 +1,81 @@
+source,target,value
+Hombre,Administración y Comercio,91636
+Hombre,Agropecuaria,13617
+Hombre,Arte y Arquitectura,25509
+Hombre,C. Sociales,33130
+Hombre,Ciencias Básicas,8920
+Hombre,Derecho,19914
+Hombre,Educación,39333
+Hombre,Humanidades,3783
+Hombre,Salud,52972
+Hombre,Tecnología,246978
+Mujer,Administración y Comercio,109064
+Mujer,Agropecuaria,13299
+Mujer,Arte y Arquitectura,28328
+Mujer,C. Sociales,67142
+Mujer,Ciencias Básicas,8106
+Mujer,Derecho,22473
+Mujer,Educación,100464
+Mujer,Humanidades,6019
+Mujer,Salud,159736
+Mujer,Tecnología,66552
+Administración y Comercio,15 a 19 años,31092
+Agropecuaria,15 a 19 años,5078
+Arte y Arquitectura,15 a 19 años,11078
+C. Sociales,15 a 19 años,17017
+Ciencias Básicas,15 a 19 años,5498
+Derecho,15 a 19 años,7842
+Educación,15 a 19 años,22451
+Humanidades,15 a 19 años,2107
+Salud,15 a 19 años,44216
+Tecnología,15 a 19 años,61018
+Administración y Comercio,20 a 24 años,91348
+Agropecuaria,20 a 24 años,15073
+Arte y Arquitectura,20 a 24 años,31854
+C. Sociales,20 a 24 años,51508
+Ciencias Básicas,20 a 24 años,8994
+Derecho,20 a 24 años,20396
+Educación,20 a 24 años,74703
+Humanidades,20 a 24 años,5399
+Salud,20 a 24 años,118410
+Tecnología,20 a 24 años,154169
+Administración y Comercio,25 a 29 años,37397
+Agropecuaria,25 a 29 años,5027
+Arte y Arquitectura,25 a 29 años,8388
+C. Sociales,25 a 29 años,15333
+Ciencias Básicas,25 a 29 años,2059
+Derecho,25 a 29 años,7218
+Educación,25 a 29 años,25422
+Humanidades,25 a 29 años,1390
+Salud,25 a 29 años,33307
+Tecnología,25 a 29 años,55594
+Administración y Comercio,30 a 34 años,19115
+Agropecuaria,30 a 34 años,1053
+Arte y Arquitectura,30 a 34 años,1591
+C. Sociales,30 a 34 años,6525
+Ciencias Básicas,30 a 34 años,312
+Derecho,30 a 34 años,2841
+Educación,30 a 34 años,9081
+Humanidades,30 a 34 años,412
+Salud,30 a 34 años,8971
+Tecnología,30 a 34 años,22162
+Administración y Comercio,35 a 39 años,10962
+Agropecuaria,35 a 39 años,386
+Arte y Arquitectura,35 a 39 años,508
+C. Sociales,35 a 39 años,4055
+Ciencias Básicas,35 a 39 años,94
+Derecho,35 a 39 años,1664
+Educación,35 a 39 años,4161
+Humanidades,35 a 39 años,202
+Salud,35 a 39 años,3866
+Tecnología,35 a 39 años,11316
+Administración y Comercio,40 y más años,10784
+Agropecuaria,40 y más años,299
+Arte y Arquitectura,40 y más años,417
+C. Sociales,40 y más años,5831
+Ciencias Básicas,40 y más años,67
+Derecho,40 y más años,2424
+Educación,40 y más años,3977
+Humanidades,40 y más años,290
+Salud,40 y más años,3937
+Tecnología,40 y más años,9270
