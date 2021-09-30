@@ -1,1 +1,9 @@
 datos_limpios/*
+
+.ipynb_checkpoints
+matriculas2011-2015-2019_filtrado.csv
+matriculas2011-2015-2019.csv
+one_hot/one_hot_area_carrera_generica.csv
+one_hot/one_hot_comuna_sede.csv
+one_hot/one_hot_oecd_subarea.csv
+one_hot/one_hot_region_sede.csv
