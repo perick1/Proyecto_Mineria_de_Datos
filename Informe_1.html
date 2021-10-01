@@ -20188,8 +20188,8 @@ all of MD as it is not optimized for dense, information rich UIs.
 
 // set the dimensions and margins of the graph
 var margin = {top: 80, right: 25, bottom: 30, left: 40},
-  width = 750 - margin.left - margin.right,
-  height = 750 - margin.top - margin.bottom;
+  width = 1000 - margin.left - margin.right,
+  height = 1000 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
@@ -20201,7 +20201,7 @@ var svg = d3.select("#my_dataviz")
         "translate(" + margin.left + "," + margin.top + ")");
 
 //Read the data
-d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/heatmap_data.csv", function(data) {
+d3.csv("https://raw.githubusercontent.com/perick1/Proyecto_Mineria_de_Datos/main/corr/corr_2011-2019_filtrado_D3.csv", function(data) {
 
   // Labels of row and columns -> unique identifier of the column called 'group' and 'variable'
   var myGroups = d3.map(data, function(d){return d.group;}).keys()
@@ -20231,7 +20231,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/he
   // Build color scale
   var myColor = d3.scaleSequential()
     .interpolator(d3.interpolateInferno)
-    .domain([1,100])
+    .domain([-1,1])
 
   // create a tooltip
   var tooltip = d3.select("#my_dataviz")
@@ -20260,7 +20260,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/he
   }
   var mouseleave = function(d) {
     tooltip
-      .style("opacity", 0)
+      .style("opacity", 1)
     d3.select(this)
       .style("stroke", "none")
       .style("opacity", 0.8)
