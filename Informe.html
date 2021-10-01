@@ -19885,13 +19885,12 @@ all of MD as it is not optimized for dense, information rich UIs.
       pointer-events: none;
     }
 
-    .grilla{
+    .grilla {
       display: grid;
-      grid-template: auto 1fr;
-    }
-    .container {
+      grid-template-columns: auto 64px;
       height: 1300px;
       position: relative;
+      text-align: left;
     }
 
     .AxisX {
@@ -19902,19 +19901,21 @@ all of MD as it is not optimized for dense, information rich UIs.
       text-anchor: start;
     }
   </style>
-
-  <div class = "grilla">
-  <div class="container">
-    <!-- Create a div where the graph will take place -->
-    <div id="my_dataviz" style="display: grid; place-items: center;"></div>
+  <div style="display: grid; place-items: center;">
+    <div class="grilla">
+      <!-- Create a div where the graph will take place -->
+      <div id="my_dataviz"></div>
+      <div style="display: grid; place-items: center; padding-bottom: 242px;">
+        <img src="https://raw.githubusercontent.com/perick1/Proyecto_Mineria_de_Datos/main/graficos/a.png">
+      </div>
+    </div>
   </div>
-</div>
 
   <script>
     // set the dimensions and margins of the graph
     var margin = {
         top: 80,
-        right: 25,
+        right: 15,
         bottom: 270,
         left: 270
       },
@@ -20121,15 +20122,15 @@ all of MD as it is not optimized for dense, information rich UIs.
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
     <div class="jp-RenderedImage jp-OutputArea-output ">
-      <div style="height: 650px; position: relative;" >
+      <div style="height: 650px; position: relative;">
         <div style="display: grid; place-items: center;">
           <p>Relación entre Área de conocimiento, edad y género</p>
           <img src="https://raw.githubusercontent.com/perick1/Proyecto_Mineria_de_Datos/main/graficos/sankey.png">
-        
+
         </div>
-          </div>
-        
-</div>
+      </div>
+
+    </div>
 
   </div>
 
@@ -20216,14 +20217,15 @@ all of MD as it is not optimized for dense, information rich UIs.
 
     <div class="jp-RenderedImage jp-OutputArea-output ">
 
-      <div style="position: relative;" >
+      <div style="position: relative;">
         <div style="display: grid; place-items: center;">
-          <img src="https://raw.githubusercontent.com/perick1/Proyecto_Mineria_de_Datos/main/graficos/Evolucion_de_costos.PNG">
+          <img
+            src="https://raw.githubusercontent.com/perick1/Proyecto_Mineria_de_Datos/main/graficos/Evolucion_de_costos.PNG">
         </div>
-          </div>
-        
-      
-      
+      </div>
+
+
+
     </div>
 
   </div>
