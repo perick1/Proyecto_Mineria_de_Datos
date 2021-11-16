@@ -39,7 +39,7 @@ GEN_ALU,oecd_area_Sin área definida,-0.0014690476280811726
 GEN_ALU,acreditada_carr,0.03695427257446169
 GEN_ALU,acreditada_inst,-0.0906397359410955
 GEN_ALU,anio_en_carr_actual,0.009154446978689149
-GEN_ALU,class,-0.05284498791222959
+GEN_ALU,Class,-0.05284498791222959
 rango_edad_15 a 19 años,GEN_ALU,0.02391067698553565
 rango_edad_15 a 19 años,rango_edad_15 a 19 años,1.0
 rango_edad_15 a 19 años,rango_edad_20 a 24 años,-0.3372954348633483
@@ -80,7 +80,7 @@ rango_edad_15 a 19 años,oecd_area_Sin área definida,-0.002181761933134101
 rango_edad_15 a 19 años,acreditada_carr,0.008158605687872423
 rango_edad_15 a 19 años,acreditada_inst,0.11568120989420169
 rango_edad_15 a 19 años,anio_en_carr_actual,-0.006162910250047235
-rango_edad_15 a 19 años,class,-0.021864323145508006
+rango_edad_15 a 19 años,Class,-0.021864323145508006
 rango_edad_20 a 24 años,GEN_ALU,0.004502999640662308
 rango_edad_20 a 24 años,rango_edad_15 a 19 años,-0.3372954348633483
 rango_edad_20 a 24 años,rango_edad_20 a 24 años,1.0
@@ -121,7 +121,7 @@ rango_edad_20 a 24 años,oecd_area_Sin área definida,-0.005580918703035571
 rango_edad_20 a 24 años,acreditada_carr,0.14845944275503642
 rango_edad_20 a 24 años,acreditada_inst,0.18996568530495128
 rango_edad_20 a 24 años,anio_en_carr_actual,-0.009371141383479883
-rango_edad_20 a 24 años,class,0.024808802692457308
+rango_edad_20 a 24 años,Class,0.024808802692457308
 rango_edad_25 a 29 años,GEN_ALU,-0.014151462763208396
 rango_edad_25 a 29 años,rango_edad_15 a 19 años,-0.19567818202046894
 rango_edad_25 a 29 años,rango_edad_20 a 24 años,-0.5005422494642069
@@ -162,7 +162,7 @@ rango_edad_25 a 29 años,oecd_area_Sin área definida,0.00035915560654231247
 rango_edad_25 a 29 años,acreditada_carr,-0.003292837051053251
 rango_edad_25 a 29 años,acreditada_inst,-0.05905073716046793
 rango_edad_25 a 29 años,anio_en_carr_actual,0.0009590985732850082
-rango_edad_25 a 29 años,class,-0.017309807302096858
+rango_edad_25 a 29 años,Class,-0.017309807302096858
 rango_edad_30 a 34 años,GEN_ALU,-0.006292434294623632
 rango_edad_30 a 34 años,rango_edad_15 a 19 años,-0.11793545830659108
 rango_edad_30 a 34 años,rango_edad_20 a 24 años,-0.3016773714009334
@@ -203,7 +203,7 @@ rango_edad_30 a 34 años,oecd_area_Sin área definida,0.005717753675426285
 rango_edad_30 a 34 años,acreditada_carr,-0.09462210667668673
 rango_edad_30 a 34 años,acreditada_inst,-0.14198464470109926
 rango_edad_30 a 34 años,anio_en_carr_actual,0.008755938520671844
-rango_edad_30 a 34 años,class,0.003909717921020067
+rango_edad_30 a 34 años,Class,0.003909717921020067
 rango_edad_35 a 39 años,GEN_ALU,-0.006908824056728086
 rango_edad_35 a 39 años,rango_edad_15 a 19 años,-0.08177643618719621
 rango_edad_35 a 39 años,rango_edad_20 a 24 años,-0.20918306220820557
@@ -244,7 +244,7 @@ rango_edad_35 a 39 años,oecd_area_Sin área definida,-0.0013530798078192194
 rango_edad_35 a 39 años,acreditada_carr,-0.09529674169341162
 rango_edad_35 a 39 años,acreditada_inst,-0.131091631496143
 rango_edad_35 a 39 años,anio_en_carr_actual,-0.001157345779054713
-rango_edad_35 a 39 años,class,0.00820024650001061
+rango_edad_35 a 39 años,Class,0.00820024650001061
 rango_edad_40 y más años,GEN_ALU,-0.003082919996065714
 rango_edad_40 y más años,rango_edad_15 a 19 años,-0.08468691487136105
 rango_edad_40 y más años,rango_edad_20 a 24 años,-0.21662802889998073
@@ -285,7 +285,7 @@ rango_edad_40 y más años,oecd_area_Sin área definida,0.00878523217885956
 rango_edad_40 y más años,acreditada_carr,-0.12232094124177752
 rango_edad_40 y más años,acreditada_inst,-0.16894417757791166
 rango_edad_40 y más años,anio_en_carr_actual,0.01774990471072416
-rango_edad_40 y más años,class,-0.004638180420532879
+rango_edad_40 y más años,Class,-0.004638180420532879
 tipo_inst_3_Centros de Formación Técnica,GEN_ALU,0.030247834305615146
 tipo_inst_3_Centros de Formación Técnica,rango_edad_15 a 19 años,0.020050658804984318
 tipo_inst_3_Centros de Formación Técnica,rango_edad_20 a 24 años,-0.003514174805777252
@@ -326,7 +326,7 @@ tipo_inst_3_Centros de Formación Técnica,oecd_area_Sin área definida,-0.00203
 tipo_inst_3_Centros de Formación Técnica,acreditada_carr,-0.1238786388426203
 tipo_inst_3_Centros de Formación Técnica,acreditada_inst,-0.06665444985268264
 tipo_inst_3_Centros de Formación Técnica,anio_en_carr_actual,-0.006926494973589808
-tipo_inst_3_Centros de Formación Técnica,class,0.03605988107065968
+tipo_inst_3_Centros de Formación Técnica,Class,0.03605988107065968
 tipo_inst_3_Institutos Profesionales,GEN_ALU,0.012504709741761136
 tipo_inst_3_Institutos Profesionales,rango_edad_15 a 19 años,-0.0770596351470807
 tipo_inst_3_Institutos Profesionales,rango_edad_20 a 24 años,-0.07106846385935899
@@ -367,7 +367,7 @@ tipo_inst_3_Institutos Profesionales,oecd_area_Sin área definida,-0.00357379787
 tipo_inst_3_Institutos Profesionales,acreditada_carr,-0.07933001799681208
 tipo_inst_3_Institutos Profesionales,acreditada_inst,0.06048971026521713
 tipo_inst_3_Institutos Profesionales,anio_en_carr_actual,-0.01280930814192809
-tipo_inst_3_Institutos Profesionales,class,0.0602857578468338
+tipo_inst_3_Institutos Profesionales,Class,0.0602857578468338
 tipo_inst_3_Universidades Estatales CRUCH,GEN_ALU,-0.06571396579028858
 tipo_inst_3_Universidades Estatales CRUCH,rango_edad_15 a 19 años,0.1690531252008564
 tipo_inst_3_Universidades Estatales CRUCH,rango_edad_20 a 24 años,0.09689701224284643
@@ -408,7 +408,7 @@ tipo_inst_3_Universidades Estatales CRUCH,oecd_area_Sin área definida,-0.003970
 tipo_inst_3_Universidades Estatales CRUCH,acreditada_carr,0.13609586588473765
 tipo_inst_3_Universidades Estatales CRUCH,acreditada_inst,0.3505559854864923
 tipo_inst_3_Universidades Estatales CRUCH,anio_en_carr_actual,-0.01749791892540976
-tipo_inst_3_Universidades Estatales CRUCH,class,-0.11062799086420073
+tipo_inst_3_Universidades Estatales CRUCH,Class,-0.11062799086420073
 tipo_inst_3_Universidades Privadas,GEN_ALU,0.04831926659225831
 tipo_inst_3_Universidades Privadas,rango_edad_15 a 19 años,-0.13410504457251232
 tipo_inst_3_Universidades Privadas,rango_edad_20 a 24 años,-0.0712691107329125
@@ -449,7 +449,7 @@ tipo_inst_3_Universidades Privadas,oecd_area_Sin área definida,0.01047946374082
 tipo_inst_3_Universidades Privadas,acreditada_carr,-0.052738674689395894
 tipo_inst_3_Universidades Privadas,acreditada_inst,-0.49159205058835354
 tipo_inst_3_Universidades Privadas,anio_en_carr_actual,0.041986299742544426
-tipo_inst_3_Universidades Privadas,class,0.07452989203773153
+tipo_inst_3_Universidades Privadas,Class,0.07452989203773153
 tipo_inst_3_Universidades Privadas CRUCH,GEN_ALU,-0.019183330794386003
 tipo_inst_3_Universidades Privadas CRUCH,rango_edad_15 a 19 años,0.02834197786043102
 tipo_inst_3_Universidades Privadas CRUCH,rango_edad_20 a 24 años,0.06659722370943683
@@ -490,7 +490,7 @@ tipo_inst_3_Universidades Privadas CRUCH,oecd_area_Sin área definida,-0.0018200
 tipo_inst_3_Universidades Privadas CRUCH,acreditada_carr,0.11789158364601475
 tipo_inst_3_Universidades Privadas CRUCH,acreditada_inst,0.16069248408953432
 tipo_inst_3_Universidades Privadas CRUCH,anio_en_carr_actual,-0.008408149461031026
-tipo_inst_3_Universidades Privadas CRUCH,class,-0.06752604393298765
+tipo_inst_3_Universidades Privadas CRUCH,Class,-0.06752604393298765
 jornada_A Distancia,GEN_ALU,-0.0065672076576183775
 jornada_A Distancia,rango_edad_15 a 19 años,-0.05420751721385138
 jornada_A Distancia,rango_edad_20 a 24 años,-0.13219543123957334
@@ -531,7 +531,7 @@ jornada_A Distancia,oecd_area_Sin área definida,0.039490384781890236
 jornada_A Distancia,acreditada_carr,-0.12270129863257496
 jornada_A Distancia,acreditada_inst,-0.24026021542369377
 jornada_A Distancia,anio_en_carr_actual,-0.0035449394178679408
-jornada_A Distancia,class,-0.040457296886091114
+jornada_A Distancia,Class,-0.040457296886091114
 jornada_Diurno,GEN_ALU,0.04709636759698037
 jornada_Diurno,rango_edad_15 a 19 años,0.19083250289001777
 jornada_Diurno,rango_edad_20 a 24 años,0.2836078032018183
@@ -572,7 +572,7 @@ jornada_Diurno,oecd_area_Sin área definida,-0.007632830560180171
 jornada_Diurno,acreditada_carr,0.22522839312570803
 jornada_Diurno,acreditada_inst,0.24173810378860547
 jornada_Diurno,anio_en_carr_actual,-0.00563903000118944
-jornada_Diurno,class,-0.06947896370745787
+jornada_Diurno,Class,-0.06947896370745787
 jornada_Otro,GEN_ALU,0.032399352346867964
 jornada_Otro,rango_edad_15 a 19 años,-0.03786151142312245
 jornada_Otro,rango_edad_20 a 24 años,-0.05813250836341163
@@ -613,7 +613,7 @@ jornada_Otro,oecd_area_Sin área definida,-0.0006882103378834345
 jornada_Otro,acreditada_carr,-0.09256291544738134
 jornada_Otro,acreditada_inst,-0.2155358017556328
 jornada_Otro,anio_en_carr_actual,-0.0030186102993763207
-jornada_Otro,class,-0.03820631492362402
+jornada_Otro,Class,-0.03820631492362402
 jornada_Semipresencial,GEN_ALU,0.04121747299262642
 jornada_Semipresencial,rango_edad_15 a 19 años,-0.024250146079334456
 jornada_Semipresencial,rango_edad_20 a 24 años,-0.0574399626285261
@@ -654,7 +654,7 @@ jornada_Semipresencial,oecd_area_Sin área definida,-0.00040471549500301556
 jornada_Semipresencial,acreditada_carr,-0.049890951497410505
 jornada_Semipresencial,acreditada_inst,-0.08650246853441268
 jornada_Semipresencial,anio_en_carr_actual,-0.0014712340005281338
-jornada_Semipresencial,class,-0.01711607252145435
+jornada_Semipresencial,Class,-0.01711607252145435
 jornada_Vespertino,GEN_ALU,-0.059720815091400564
 jornada_Vespertino,rango_edad_15 a 19 años,-0.16601340087825425
 jornada_Vespertino,rango_edad_20 a 24 años,-0.2270741665611406
@@ -695,7 +695,7 @@ jornada_Vespertino,oecd_area_Sin área definida,-0.0043362775660537355
 jornada_Vespertino,acreditada_carr,-0.1631217259920405
 jornada_Vespertino,acreditada_inst,-0.1087200966775622
 jornada_Vespertino,anio_en_carr_actual,0.00781333315567225
-jornada_Vespertino,class,0.09535829585221295
+jornada_Vespertino,Class,0.09535829585221295
 tipo_plan_carr_Plan Especial,GEN_ALU,-0.0451492821225027
 tipo_plan_carr_Plan Especial,rango_edad_15 a 19 años,-0.09133444090872747
 tipo_plan_carr_Plan Especial,rango_edad_20 a 24 años,-0.17728899427948644
@@ -736,7 +736,7 @@ tipo_plan_carr_Plan Especial,oecd_area_Sin área definida,0.023437489735585463
 tipo_plan_carr_Plan Especial,acreditada_carr,-0.1453436172712714
 tipo_plan_carr_Plan Especial,acreditada_inst,-0.06822954673508395
 tipo_plan_carr_Plan Especial,anio_en_carr_actual,-0.005688886424926474
-tipo_plan_carr_Plan Especial,class,0.04525122254980493
+tipo_plan_carr_Plan Especial,Class,0.04525122254980493
 tipo_plan_carr_Plan Regular,GEN_ALU,0.06597815465702322
 tipo_plan_carr_Plan Regular,rango_edad_15 a 19 años,0.10057858042724373
 tipo_plan_carr_Plan Regular,rango_edad_20 a 24 años,0.13434987956465028
@@ -777,7 +777,7 @@ tipo_plan_carr_Plan Regular,oecd_area_Sin área definida,-0.021141222067121025
 tipo_plan_carr_Plan Regular,acreditada_carr,0.0930826433869704
 tipo_plan_carr_Plan Regular,acreditada_inst,0.03605184701115345
 tipo_plan_carr_Plan Regular,anio_en_carr_actual,0.006413528165146677
-tipo_plan_carr_Plan Regular,class,-0.060000827240446926
+tipo_plan_carr_Plan Regular,Class,-0.060000827240446926
 tipo_plan_carr_Plan Regular de Continuidad,GEN_ALU,-0.05714026627935761
 tipo_plan_carr_Plan Regular de Continuidad,rango_edad_15 a 19 años,-0.0394308801031624
 tipo_plan_carr_Plan Regular de Continuidad,rango_edad_20 a 24 años,0.06443589855809338
@@ -818,7 +818,7 @@ tipo_plan_carr_Plan Regular de Continuidad,oecd_area_Sin área definida,-0.00069
 tipo_plan_carr_Plan Regular de Continuidad,acreditada_carr,0.09232558499627753
 tipo_plan_carr_Plan Regular de Continuidad,acreditada_inst,0.0610419212086193
 tipo_plan_carr_Plan Regular de Continuidad,anio_en_carr_actual,-0.00280068766864358
-tipo_plan_carr_Plan Regular de Continuidad,class,0.04308376731124047
+tipo_plan_carr_Plan Regular de Continuidad,Class,0.04308376731124047
 dur_estudio_carr,GEN_ALU,-0.0281284784945994
 dur_estudio_carr,rango_edad_15 a 19 años,0.04225790681017338
 dur_estudio_carr,rango_edad_20 a 24 años,0.14777434479868565
@@ -859,7 +859,7 @@ dur_estudio_carr,oecd_area_Sin área definida,-0.014386377217088025
 dur_estudio_carr,acreditada_carr,0.32292543675453245
 dur_estudio_carr,acreditada_inst,0.12331048199977422
 dur_estudio_carr,anio_en_carr_actual,-0.0040469202114594965
-dur_estudio_carr,class,-0.07447076337795318
+dur_estudio_carr,Class,-0.07447076337795318
 "nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",GEN_ALU,-0.005278246893034112
 "nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",rango_edad_15 a 19 años,0.10860355432058616
 "nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",rango_edad_20 a 24 años,-0.011495956569795658
@@ -900,7 +900,7 @@ dur_estudio_carr,class,-0.07447076337795318
 "nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",acreditada_carr,-0.06178587897367359
 "nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",acreditada_inst,0.03941271358468783
 "nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",anio_en_carr_actual,-0.0014313607336157734
-"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",class,-0.009225313090755747
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",Class,-0.009225313090755747
 nivel_carrera_1_Licenciatura No Conducente a Título,GEN_ALU,-0.01093530789143809
 nivel_carrera_1_Licenciatura No Conducente a Título,rango_edad_15 a 19 años,0.04076146648604812
 nivel_carrera_1_Licenciatura No Conducente a Título,rango_edad_20 a 24 años,0.026114654749334006
@@ -941,7 +941,7 @@ nivel_carrera_1_Licenciatura No Conducente a Título,oecd_area_Sin área definid
 nivel_carrera_1_Licenciatura No Conducente a Título,acreditada_carr,-0.05457987920987633
 nivel_carrera_1_Licenciatura No Conducente a Título,acreditada_inst,0.05600751802474922
 nivel_carrera_1_Licenciatura No Conducente a Título,anio_en_carr_actual,0.002628042960504243
-nivel_carrera_1_Licenciatura No Conducente a Título,class,-0.027128679393939526
+nivel_carrera_1_Licenciatura No Conducente a Título,Class,-0.027128679393939526
 nivel_carrera_1_Profesional Con Licenciatura,GEN_ALU,0.015484895876890614
 nivel_carrera_1_Profesional Con Licenciatura,rango_edad_15 a 19 años,0.06060804284691222
 nivel_carrera_1_Profesional Con Licenciatura,rango_edad_20 a 24 años,0.09699300320584006
@@ -982,7 +982,7 @@ nivel_carrera_1_Profesional Con Licenciatura,oecd_area_Sin área definida,-0.005
 nivel_carrera_1_Profesional Con Licenciatura,acreditada_carr,0.1828892882691969
 nivel_carrera_1_Profesional Con Licenciatura,acreditada_inst,-0.030421807542868103
 nivel_carrera_1_Profesional Con Licenciatura,anio_en_carr_actual,0.02077083726251866
-nivel_carrera_1_Profesional Con Licenciatura,class,-0.10713478822496651
+nivel_carrera_1_Profesional Con Licenciatura,Class,-0.10713478822496651
 nivel_carrera_1_Profesional Sin Licenciatura,GEN_ALU,-0.05124329949400353
 nivel_carrera_1_Profesional Sin Licenciatura,rango_edad_15 a 19 años,-0.1282007224284825
 nivel_carrera_1_Profesional Sin Licenciatura,rango_edad_20 a 24 años,-0.07612664101157174
@@ -1023,7 +1023,7 @@ nivel_carrera_1_Profesional Sin Licenciatura,oecd_area_Sin área definida,-0.003
 nivel_carrera_1_Profesional Sin Licenciatura,acreditada_carr,0.08778814232416399
 nivel_carrera_1_Profesional Sin Licenciatura,acreditada_inst,0.07794781646240669
 nivel_carrera_1_Profesional Sin Licenciatura,anio_en_carr_actual,-0.014117277138035799
-nivel_carrera_1_Profesional Sin Licenciatura,class,0.15304264975097764
+nivel_carrera_1_Profesional Sin Licenciatura,Class,0.15304264975097764
 nivel_carrera_1_Técnico de Nivel Superior,GEN_ALU,0.04066195264560414
 nivel_carrera_1_Técnico de Nivel Superior,rango_edad_15 a 19 años,0.03505959096072766
 nivel_carrera_1_Técnico de Nivel Superior,rango_edad_20 a 24 años,-0.039951532489310965
@@ -1064,7 +1064,7 @@ nivel_carrera_1_Técnico de Nivel Superior,oecd_area_Sin área definida,-0.00313
 nivel_carrera_1_Técnico de Nivel Superior,acreditada_carr,-0.2930506214993864
 nivel_carrera_1_Técnico de Nivel Superior,acreditada_inst,-0.0693756161609282
 nivel_carrera_1_Técnico de Nivel Superior,anio_en_carr_actual,-0.01036546100289936
-nivel_carrera_1_Técnico de Nivel Superior,class,-0.027282587296534683
+nivel_carrera_1_Técnico de Nivel Superior,Class,-0.027282587296534683
 valor_matricula,GEN_ALU,-0.11172645787514027
 valor_matricula,rango_edad_15 a 19 años,-0.046449710667517165
 valor_matricula,rango_edad_20 a 24 años,0.10060901964166319
@@ -1105,7 +1105,7 @@ valor_matricula,oecd_area_Sin área definida,-0.009893648653189098
 valor_matricula,acreditada_carr,0.11412377327791016
 valor_matricula,acreditada_inst,0.08137852129163967
 valor_matricula,anio_en_carr_actual,0.014314031527112683
-valor_matricula,class,0.18960731829556807
+valor_matricula,Class,0.18960731829556807
 valor_arancel,GEN_ALU,-0.09549941044035148
 valor_arancel,rango_edad_15 a 19 años,0.11547910516346976
 valor_arancel,rango_edad_20 a 24 años,0.17687984205260499
@@ -1146,7 +1146,7 @@ valor_arancel,oecd_area_Sin área definida,0.0016074845733116462
 valor_arancel,acreditada_carr,0.21328159768536728
 valor_arancel,acreditada_inst,0.21875549159489655
 valor_arancel,anio_en_carr_actual,0.002143702217441869
-valor_arancel,class,-0.07066024580152097
+valor_arancel,Class,-0.07066024580152097
 oecd_area_Agricultura,GEN_ALU,-0.0023880531458013933
 oecd_area_Agricultura,rango_edad_15 a 19 años,0.007288413419198947
 oecd_area_Agricultura,rango_edad_20 a 24 años,0.009634993040380034
@@ -1187,7 +1187,7 @@ oecd_area_Agricultura,oecd_area_Sin área definida,-0.0009192536301746422
 oecd_area_Agricultura,acreditada_carr,0.04090280566487831
 oecd_area_Agricultura,acreditada_inst,-0.006618706948652253
 oecd_area_Agricultura,anio_en_carr_actual,-0.0042052601620544946
-oecd_area_Agricultura,class,-0.013491901126249347
+oecd_area_Agricultura,Class,-0.013491901126249347
 oecd_area_Ciencias,GEN_ALU,-0.1170968831274392
 oecd_area_Ciencias,rango_edad_15 a 19 años,0.0421985779982756
 oecd_area_Ciencias,rango_edad_20 a 24 años,0.006084784093582848
@@ -1228,7 +1228,7 @@ oecd_area_Ciencias,oecd_area_Sin área definida,-0.0014604777606263676
 oecd_area_Ciencias,acreditada_carr,0.040239728545510695
 oecd_area_Ciencias,acreditada_inst,0.08103171955432659
 oecd_area_Ciencias,anio_en_carr_actual,-0.006178713803926085
-oecd_area_Ciencias,class,-0.014935047440862673
+oecd_area_Ciencias,Class,-0.014935047440862673
 "oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",GEN_ALU,0.03607846572329041
 "oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",rango_edad_15 a 19 años,-0.04844386119826991
 "oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",rango_edad_20 a 24 años,-0.05429388299651662
@@ -1269,7 +1269,7 @@ oecd_area_Ciencias,class,-0.014935047440862673
 "oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",acreditada_carr,-0.03713294302167889
 "oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",acreditada_inst,-0.01018232014089964
 "oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",anio_en_carr_actual,0.014405668418600111
-"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",class,0.01639534592954376
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",Class,0.01639534592954376
 oecd_area_Educación,GEN_ALU,0.233296362790046
 oecd_area_Educación,rango_edad_15 a 19 años,-0.025573090497413634
 oecd_area_Educación,rango_edad_20 a 24 años,-0.011118538435929675
@@ -1310,7 +1310,7 @@ oecd_area_Educación,oecd_area_Sin área definida,-0.002113168024727177
 oecd_area_Educación,acreditada_carr,0.2058222749958712
 oecd_area_Educación,acreditada_inst,-0.0555555395143182
 oecd_area_Educación,anio_en_carr_actual,0.005838077924360381
-oecd_area_Educación,class,-0.01707224062318593
+oecd_area_Educación,Class,-0.01707224062318593
 oecd_area_Humanidades y Artes,GEN_ALU,0.0036244606927286756
 oecd_area_Humanidades y Artes,rango_edad_15 a 19 años,0.039609500042311604
 oecd_area_Humanidades y Artes,rango_edad_20 a 24 años,0.05508780435942917
@@ -1351,7 +1351,7 @@ oecd_area_Humanidades y Artes,oecd_area_Sin área definida,-0.001313876379852682
 oecd_area_Humanidades y Artes,acreditada_carr,-0.062252472299227764
 oecd_area_Humanidades y Artes,acreditada_inst,0.0167214058293522
 oecd_area_Humanidades y Artes,anio_en_carr_actual,-0.0001867503619536391
-oecd_area_Humanidades y Artes,class,-0.040126098067557514
+oecd_area_Humanidades y Artes,Class,-0.040126098067557514
 "oecd_area_Ingeniería, Industria y Construcción",GEN_ALU,-0.32829768794246006
 "oecd_area_Ingeniería, Industria y Construcción",rango_edad_15 a 19 años,0.032448769539677805
 "oecd_area_Ingeniería, Industria y Construcción",rango_edad_20 a 24 años,0.03055924678909979
@@ -1392,7 +1392,7 @@ oecd_area_Humanidades y Artes,class,-0.040126098067557514
 "oecd_area_Ingeniería, Industria y Construcción",acreditada_carr,-0.045597764541313535
 "oecd_area_Ingeniería, Industria y Construcción",acreditada_inst,0.15039776931358995
 "oecd_area_Ingeniería, Industria y Construcción",anio_en_carr_actual,-0.013671561889859539
-"oecd_area_Ingeniería, Industria y Construcción",class,0.04229412894711257
+"oecd_area_Ingeniería, Industria y Construcción",Class,0.04229412894711257
 oecd_area_Salud y Servicios Sociales,GEN_ALU,0.22606040984093537
 oecd_area_Salud y Servicios Sociales,rango_edad_15 a 19 años,-0.0024655474495274385
 oecd_area_Salud y Servicios Sociales,rango_edad_20 a 24 años,0.003830330311096093
@@ -1433,7 +1433,7 @@ oecd_area_Salud y Servicios Sociales,oecd_area_Sin área definida,-0.00277037512
 oecd_area_Salud y Servicios Sociales,acreditada_carr,-0.06326071329511987
 oecd_area_Salud y Servicios Sociales,acreditada_inst,-0.15435034860499397
 oecd_area_Salud y Servicios Sociales,anio_en_carr_actual,0.004927097456410253
-oecd_area_Salud y Servicios Sociales,class,-0.07003187499585037
+oecd_area_Salud y Servicios Sociales,Class,-0.07003187499585037
 oecd_area_Servicios,GEN_ALU,-0.029315168337157974
 oecd_area_Servicios,rango_edad_15 a 19 años,-0.009241674241739613
 oecd_area_Servicios,rango_edad_20 a 24 años,-0.005382406853680467
@@ -1474,7 +1474,7 @@ oecd_area_Servicios,oecd_area_Sin área definida,-0.002005139118161089
 oecd_area_Servicios,acreditada_carr,-0.02387391732831173
 oecd_area_Servicios,acreditada_inst,-0.014577635803162986
 oecd_area_Servicios,anio_en_carr_actual,-0.006928464334373037
-oecd_area_Servicios,class,0.06896356335653586
+oecd_area_Servicios,Class,0.06896356335653586
 oecd_area_Sin área definida,GEN_ALU,-0.0014690476280811726
 oecd_area_Sin área definida,rango_edad_15 a 19 años,-0.002181761933134101
 oecd_area_Sin área definida,rango_edad_20 a 24 años,-0.005580918703035571
@@ -1515,7 +1515,7 @@ oecd_area_Sin área definida,oecd_area_Sin área definida,1.0
 oecd_area_Sin área definida,acreditada_carr,-0.00485532634742602
 oecd_area_Sin área definida,acreditada_inst,-0.011326015192985532
 oecd_area_Sin área definida,anio_en_carr_actual,-0.0001271068894358876
-oecd_area_Sin área definida,class,-0.0020720120210005397
+oecd_area_Sin área definida,Class,-0.0020720120210005397
 acreditada_carr,GEN_ALU,0.03695427257446169
 acreditada_carr,rango_edad_15 a 19 años,0.008158605687872423
 acreditada_carr,rango_edad_20 a 24 años,0.14845944275503642
@@ -1556,7 +1556,7 @@ acreditada_carr,oecd_area_Sin área definida,-0.00485532634742602
 acreditada_carr,acreditada_carr,1.0
 acreditada_carr,acreditada_inst,0.31881329588572344
 acreditada_carr,anio_en_carr_actual,-0.011924396927975875
-acreditada_carr,class,0.023227155459853762
+acreditada_carr,Class,0.023227155459853762
 acreditada_inst,GEN_ALU,-0.0906397359410955
 acreditada_inst,rango_edad_15 a 19 años,0.11568120989420169
 acreditada_inst,rango_edad_20 a 24 años,0.18996568530495128
@@ -1597,7 +1597,7 @@ acreditada_inst,oecd_area_Sin área definida,-0.011326015192985532
 acreditada_inst,acreditada_carr,0.31881329588572344
 acreditada_inst,acreditada_inst,1.0
 acreditada_inst,anio_en_carr_actual,0.012810165868142095
-acreditada_inst,class,0.05672500978866867
+acreditada_inst,Class,0.05672500978866867
 anio_en_carr_actual,GEN_ALU,0.009154446978689149
 anio_en_carr_actual,rango_edad_15 a 19 años,-0.006162910250047235
 anio_en_carr_actual,rango_edad_20 a 24 años,-0.009371141383479883
@@ -1638,45 +1638,45 @@ anio_en_carr_actual,oecd_area_Sin área definida,-0.0001271068894358876
 anio_en_carr_actual,acreditada_carr,-0.011924396927975875
 anio_en_carr_actual,acreditada_inst,0.012810165868142095
 anio_en_carr_actual,anio_en_carr_actual,1.0
-anio_en_carr_actual,class,-0.005304678741596746
-class,GEN_ALU,-0.05284498791222959
-class,rango_edad_15 a 19 años,-0.021864323145508006
-class,rango_edad_20 a 24 años,0.024808802692457308
-class,rango_edad_25 a 29 años,-0.017309807302096858
-class,rango_edad_30 a 34 años,0.003909717921020067
-class,rango_edad_35 a 39 años,0.00820024650001061
-class,rango_edad_40 y más años,-0.004638180420532879
-class,tipo_inst_3_Centros de Formación Técnica,0.03605988107065968
-class,tipo_inst_3_Institutos Profesionales,0.0602857578468338
-class,tipo_inst_3_Universidades Estatales CRUCH,-0.11062799086420073
-class,tipo_inst_3_Universidades Privadas,0.07452989203773153
-class,tipo_inst_3_Universidades Privadas CRUCH,-0.06752604393298765
-class,jornada_A Distancia,-0.040457296886091114
-class,jornada_Diurno,-0.06947896370745787
-class,jornada_Otro,-0.03820631492362402
-class,jornada_Semipresencial,-0.01711607252145435
-class,jornada_Vespertino,0.09535829585221295
-class,tipo_plan_carr_Plan Especial,0.04525122254980493
-class,tipo_plan_carr_Plan Regular,-0.060000827240446926
-class,tipo_plan_carr_Plan Regular de Continuidad,0.04308376731124047
-class,dur_estudio_carr,-0.07447076337795318
-class,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.009225313090755747
-class,nivel_carrera_1_Licenciatura No Conducente a Título,-0.027128679393939526
-class,nivel_carrera_1_Profesional Con Licenciatura,-0.10713478822496651
-class,nivel_carrera_1_Profesional Sin Licenciatura,0.15304264975097764
-class,nivel_carrera_1_Técnico de Nivel Superior,-0.027282587296534683
-class,valor_matricula,0.18960731829556807
-class,valor_arancel,-0.07066024580152097
-class,oecd_area_Agricultura,-0.013491901126249347
-class,oecd_area_Ciencias,-0.014935047440862673
-class,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.01639534592954376
-class,oecd_area_Educación,-0.01707224062318593
-class,oecd_area_Humanidades y Artes,-0.040126098067557514
-class,"oecd_area_Ingeniería, Industria y Construcción",0.04229412894711257
-class,oecd_area_Salud y Servicios Sociales,-0.07003187499585037
-class,oecd_area_Servicios,0.06896356335653586
-class,oecd_area_Sin área definida,-0.0020720120210005397
-class,acreditada_carr,0.023227155459853762
-class,acreditada_inst,0.05672500978866867
-class,anio_en_carr_actual,-0.005304678741596746
-class,class,1.0
+anio_en_carr_actual,Class,-0.005304678741596746
+Class,GEN_ALU,-0.05284498791222959
+Class,rango_edad_15 a 19 años,-0.021864323145508006
+Class,rango_edad_20 a 24 años,0.024808802692457308
+Class,rango_edad_25 a 29 años,-0.017309807302096858
+Class,rango_edad_30 a 34 años,0.003909717921020067
+Class,rango_edad_35 a 39 años,0.00820024650001061
+Class,rango_edad_40 y más años,-0.004638180420532879
+Class,tipo_inst_3_Centros de Formación Técnica,0.03605988107065968
+Class,tipo_inst_3_Institutos Profesionales,0.0602857578468338
+Class,tipo_inst_3_Universidades Estatales CRUCH,-0.11062799086420073
+Class,tipo_inst_3_Universidades Privadas,0.07452989203773153
+Class,tipo_inst_3_Universidades Privadas CRUCH,-0.06752604393298765
+Class,jornada_A Distancia,-0.040457296886091114
+Class,jornada_Diurno,-0.06947896370745787
+Class,jornada_Otro,-0.03820631492362402
+Class,jornada_Semipresencial,-0.01711607252145435
+Class,jornada_Vespertino,0.09535829585221295
+Class,tipo_plan_carr_Plan Especial,0.04525122254980493
+Class,tipo_plan_carr_Plan Regular,-0.060000827240446926
+Class,tipo_plan_carr_Plan Regular de Continuidad,0.04308376731124047
+Class,dur_estudio_carr,-0.07447076337795318
+Class,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.009225313090755747
+Class,nivel_carrera_1_Licenciatura No Conducente a Título,-0.027128679393939526
+Class,nivel_carrera_1_Profesional Con Licenciatura,-0.10713478822496651
+Class,nivel_carrera_1_Profesional Sin Licenciatura,0.15304264975097764
+Class,nivel_carrera_1_Técnico de Nivel Superior,-0.027282587296534683
+Class,valor_matricula,0.18960731829556807
+Class,valor_arancel,-0.07066024580152097
+Class,oecd_area_Agricultura,-0.013491901126249347
+Class,oecd_area_Ciencias,-0.014935047440862673
+Class,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.01639534592954376
+Class,oecd_area_Educación,-0.01707224062318593
+Class,oecd_area_Humanidades y Artes,-0.040126098067557514
+Class,"oecd_area_Ingeniería, Industria y Construcción",0.04229412894711257
+Class,oecd_area_Salud y Servicios Sociales,-0.07003187499585037
+Class,oecd_area_Servicios,0.06896356335653586
+Class,oecd_area_Sin área definida,-0.0020720120210005397
+Class,acreditada_carr,0.023227155459853762
+Class,acreditada_inst,0.05672500978866867
+Class,anio_en_carr_actual,-0.005304678741596746
+Class,Class,1.0
