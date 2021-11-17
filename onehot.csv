@@ -25,8 +25,6 @@ GEN_ALU,nivel_carrera_1_Licenciatura No Conducente a Título,0.00196843321270391
 GEN_ALU,nivel_carrera_1_Profesional Con Licenciatura,0.00461170769905265
 GEN_ALU,nivel_carrera_1_Profesional Sin Licenciatura,-0.05094815439591754
 GEN_ALU,nivel_carrera_1_Técnico de Nivel Superior,0.04627136928561996
-GEN_ALU,valor_matricula,-0.08408538049238576
-GEN_ALU,valor_arancel,-0.08535562472034139
 GEN_ALU,oecd_area_Agricultura,-0.010672967215100644
 GEN_ALU,oecd_area_Ciencias,-0.12830728774521424
 GEN_ALU,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.038385734058670434
@@ -67,8 +65,6 @@ rango_edad_15 a 19 años,nivel_carrera_1_Licenciatura No Conducente a Título,0.
 rango_edad_15 a 19 años,nivel_carrera_1_Profesional Con Licenciatura,0.0830182463002855
 rango_edad_15 a 19 años,nivel_carrera_1_Profesional Sin Licenciatura,-0.13325712312313953
 rango_edad_15 a 19 años,nivel_carrera_1_Técnico de Nivel Superior,0.016787619468273323
-rango_edad_15 a 19 años,valor_matricula,-0.03397107007667555
-rango_edad_15 a 19 años,valor_arancel,0.0859709191378824
 rango_edad_15 a 19 años,oecd_area_Agricultura,0.004929076566182399
 rango_edad_15 a 19 años,oecd_area_Ciencias,0.013493801873852893
 rango_edad_15 a 19 años,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.05030233182304183
@@ -109,8 +105,6 @@ rango_edad_20 a 24 años,nivel_carrera_1_Licenciatura No Conducente a Título,0.
 rango_edad_20 a 24 años,nivel_carrera_1_Profesional Con Licenciatura,0.09662541461543488
 rango_edad_20 a 24 años,nivel_carrera_1_Profesional Sin Licenciatura,-0.05688940113510663
 rango_edad_20 a 24 años,nivel_carrera_1_Técnico de Nivel Superior,-0.052950211164492
-rango_edad_20 a 24 años,valor_matricula,0.07146950249400959
-rango_edad_20 a 24 años,valor_arancel,0.1350623416734813
 rango_edad_20 a 24 años,oecd_area_Agricultura,0.014743112985633317
 rango_edad_20 a 24 años,oecd_area_Ciencias,-0.0017128637580789707
 rango_edad_20 a 24 años,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.05990276560877944
@@ -151,8 +145,6 @@ rango_edad_25 a 29 años,nivel_carrera_1_Licenciatura No Conducente a Título,-0
 rango_edad_25 a 29 años,nivel_carrera_1_Profesional Con Licenciatura,-0.050641525013130614
 rango_edad_25 a 29 años,nivel_carrera_1_Profesional Sin Licenciatura,0.0683555313888746
 rango_edad_25 a 29 años,nivel_carrera_1_Técnico de Nivel Superior,-0.0015731940188314277
-rango_edad_25 a 29 años,valor_matricula,0.0036623817731949834
-rango_edad_25 a 29 años,valor_arancel,-0.05547037704609426
 rango_edad_25 a 29 años,oecd_area_Agricultura,0.008278128144331957
 rango_edad_25 a 29 años,oecd_area_Ciencias,0.007898671480898992
 rango_edad_25 a 29 años,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.009312751190151786
@@ -193,8 +185,6 @@ rango_edad_30 a 34 años,nivel_carrera_1_Licenciatura No Conducente a Título,-0
 rango_edad_30 a 34 años,nivel_carrera_1_Profesional Con Licenciatura,-0.10136934965442752
 rango_edad_30 a 34 años,nivel_carrera_1_Profesional Sin Licenciatura,0.08574578730334133
 rango_edad_30 a 34 años,nivel_carrera_1_Técnico de Nivel Superior,0.03711623701442433
-rango_edad_30 a 34 años,valor_matricula,-0.03800948530667768
-rango_edad_30 a 34 años,valor_arancel,-0.1259073698334617
 rango_edad_30 a 34 años,oecd_area_Agricultura,-0.01753723113244095
 rango_edad_30 a 34 años,oecd_area_Ciencias,-0.002710488014180847
 rango_edad_30 a 34 años,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.05769595518551255
@@ -235,8 +225,6 @@ rango_edad_35 a 39 años,nivel_carrera_1_Licenciatura No Conducente a Título,-0
 rango_edad_35 a 39 años,nivel_carrera_1_Profesional Con Licenciatura,-0.07820368491565552
 rango_edad_35 a 39 años,nivel_carrera_1_Profesional Sin Licenciatura,0.06447290942705666
 rango_edad_35 a 39 años,nivel_carrera_1_Técnico de Nivel Superior,0.029884185542822142
-rango_edad_35 a 39 años,valor_matricula,-0.03555247023936659
-rango_edad_35 a 39 años,valor_arancel,-0.10320451880302921
 rango_edad_35 a 39 años,oecd_area_Agricultura,-0.019241333684341777
 rango_edad_35 a 39 años,oecd_area_Ciencias,-0.009941542675038375
 rango_edad_35 a 39 años,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.05898294394912293
@@ -277,8 +265,6 @@ rango_edad_40 y más años,nivel_carrera_1_Licenciatura No Conducente a Título,
 rango_edad_40 y más años,nivel_carrera_1_Profesional Con Licenciatura,-0.07243859007061934
 rango_edad_40 y más años,nivel_carrera_1_Profesional Sin Licenciatura,0.05793093453419964
 rango_edad_40 y más años,nivel_carrera_1_Técnico de Nivel Superior,0.028467567396608245
-rango_edad_40 y más años,valor_matricula,-0.04415290683687111
-rango_edad_40 y más años,valor_arancel,-0.10946703863030825
 rango_edad_40 y más años,oecd_area_Agricultura,-0.020407041667577144
 rango_edad_40 y más años,oecd_area_Ciencias,-0.022424820824503627
 rango_edad_40 y más años,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.08583844349352286
@@ -319,8 +305,6 @@ tipo_inst_3_Centros de Formación Técnica,nivel_carrera_1_Licenciatura No Condu
 tipo_inst_3_Centros de Formación Técnica,nivel_carrera_1_Profesional Con Licenciatura,-0.3088036205199515
 tipo_inst_3_Centros de Formación Técnica,nivel_carrera_1_Profesional Sin Licenciatura,-0.18171913722896357
 tipo_inst_3_Centros de Formación Técnica,nivel_carrera_1_Técnico de Nivel Superior,0.5456598418666458
-tipo_inst_3_Centros de Formación Técnica,valor_matricula,-0.07634298600079047
-tipo_inst_3_Centros de Formación Técnica,valor_arancel,-0.2694725824117771
 tipo_inst_3_Centros de Formación Técnica,oecd_area_Agricultura,0.022879105553071606
 tipo_inst_3_Centros de Formación Técnica,oecd_area_Ciencias,0.0016747794388147002
 tipo_inst_3_Centros de Formación Técnica,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.025861762479093595
@@ -361,8 +345,6 @@ tipo_inst_3_Institutos Profesionales,nivel_carrera_1_Licenciatura No Conducente 
 tipo_inst_3_Institutos Profesionales,nivel_carrera_1_Profesional Con Licenciatura,-0.6805554569234779
 tipo_inst_3_Institutos Profesionales,nivel_carrera_1_Profesional Sin Licenciatura,0.5542540046944512
 tipo_inst_3_Institutos Profesionales,nivel_carrera_1_Técnico de Nivel Superior,0.25746501588776016
-tipo_inst_3_Institutos Profesionales,valor_matricula,-0.2120235531988661
-tipo_inst_3_Institutos Profesionales,valor_arancel,-0.5201052429502051
 tipo_inst_3_Institutos Profesionales,oecd_area_Agricultura,-0.05886829547314511
 tipo_inst_3_Institutos Profesionales,oecd_area_Ciencias,-0.025821059648660404
 tipo_inst_3_Institutos Profesionales,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.020465279160605563
@@ -403,8 +385,6 @@ tipo_inst_3_Universidades Estatales CRUCH,nivel_carrera_1_Licenciatura No Conduc
 tipo_inst_3_Universidades Estatales CRUCH,nivel_carrera_1_Profesional Con Licenciatura,0.3815658763240352
 tipo_inst_3_Universidades Estatales CRUCH,nivel_carrera_1_Profesional Sin Licenciatura,-0.20889395966720326
 tipo_inst_3_Universidades Estatales CRUCH,nivel_carrera_1_Técnico de Nivel Superior,-0.27054976489664534
-tipo_inst_3_Universidades Estatales CRUCH,valor_matricula,-0.07909357206184794
-tipo_inst_3_Universidades Estatales CRUCH,valor_arancel,0.4331723964593546
 tipo_inst_3_Universidades Estatales CRUCH,oecd_area_Agricultura,0.026173407643103882
 tipo_inst_3_Universidades Estatales CRUCH,oecd_area_Ciencias,0.053687673392248746
 tipo_inst_3_Universidades Estatales CRUCH,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.02698415638158582
@@ -445,8 +425,6 @@ tipo_inst_3_Universidades Privadas,nivel_carrera_1_Licenciatura No Conducente a 
 tipo_inst_3_Universidades Privadas,nivel_carrera_1_Profesional Con Licenciatura,0.35040067223941973
 tipo_inst_3_Universidades Privadas,nivel_carrera_1_Profesional Sin Licenciatura,-0.14568812108950197
 tipo_inst_3_Universidades Privadas,nivel_carrera_1_Técnico de Nivel Superior,-0.24827685084105341
-tipo_inst_3_Universidades Privadas,valor_matricula,0.41516466704218263
-tipo_inst_3_Universidades Privadas,valor_arancel,0.15088871163757064
 tipo_inst_3_Universidades Privadas,oecd_area_Agricultura,-0.022661874134235725
 tipo_inst_3_Universidades Privadas,oecd_area_Ciencias,-0.052379324047750565
 tipo_inst_3_Universidades Privadas,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.06390570336016307
@@ -487,8 +465,6 @@ tipo_inst_3_Universidades Privadas CRUCH,nivel_carrera_1_Licenciatura No Conduce
 tipo_inst_3_Universidades Privadas CRUCH,nivel_carrera_1_Profesional Con Licenciatura,0.31153895566580175
 tipo_inst_3_Universidades Privadas CRUCH,nivel_carrera_1_Profesional Sin Licenciatura,-0.18151735098549898
 tipo_inst_3_Universidades Privadas CRUCH,nivel_carrera_1_Técnico de Nivel Superior,-0.18628032777481068
-tipo_inst_3_Universidades Privadas CRUCH,valor_matricula,-0.03949713259015427
-tipo_inst_3_Universidades Privadas CRUCH,valor_arancel,0.2402153204135517
 tipo_inst_3_Universidades Privadas CRUCH,oecd_area_Agricultura,0.06030362636060446
 tipo_inst_3_Universidades Privadas CRUCH,oecd_area_Ciencias,0.03507403289092318
 tipo_inst_3_Universidades Privadas CRUCH,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.05483230337056851
@@ -529,8 +505,6 @@ jornada_A Distancia,nivel_carrera_1_Licenciatura No Conducente a Título,0.06861
 jornada_A Distancia,nivel_carrera_1_Profesional Con Licenciatura,-0.07822167656305913
 jornada_A Distancia,nivel_carrera_1_Profesional Sin Licenciatura,0.09928918947147096
 jornada_A Distancia,nivel_carrera_1_Técnico de Nivel Superior,-0.02287678876917361
-jornada_A Distancia,valor_matricula,-0.05076131100689745
-jornada_A Distancia,valor_arancel,-0.09646831121028454
 jornada_A Distancia,oecd_area_Agricultura,-0.016373385306433834
 jornada_A Distancia,oecd_area_Ciencias,-0.014966281650497602
 jornada_A Distancia,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.1277066756177043
@@ -571,8 +545,6 @@ jornada_Diurno,nivel_carrera_1_Licenciatura No Conducente a Título,0.0387560453
 jornada_Diurno,nivel_carrera_1_Profesional Con Licenciatura,0.4340736202393698
 jornada_Diurno,nivel_carrera_1_Profesional Sin Licenciatura,-0.28877697661481716
 jornada_Diurno,nivel_carrera_1_Técnico de Nivel Superior,-0.2299950291419603
-jornada_Diurno,valor_matricula,0.10857132933234924
-jornada_Diurno,valor_arancel,0.44183731565263856
 jornada_Diurno,oecd_area_Agricultura,0.0666931874082498
 jornada_Diurno,oecd_area_Ciencias,0.0028046602401911405
 jornada_Diurno,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.18191893730177808
@@ -613,8 +585,6 @@ jornada_Otro,nivel_carrera_1_Licenciatura No Conducente a Título,-0.00869367078
 jornada_Otro,nivel_carrera_1_Profesional Con Licenciatura,0.02001825905224866
 jornada_Otro,nivel_carrera_1_Profesional Sin Licenciatura,-0.037802314399615726
 jornada_Otro,nivel_carrera_1_Técnico de Nivel Superior,0.017459008641434067
-jornada_Otro,valor_matricula,-0.024146508257759016
-jornada_Otro,valor_arancel,-0.03303821034852046
 jornada_Otro,oecd_area_Agricultura,-0.005247254253481671
 jornada_Otro,oecd_area_Ciencias,-0.005570018702746374
 jornada_Otro,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.003605971739339243
@@ -655,8 +625,6 @@ jornada_Semipresencial,nivel_carrera_1_Licenciatura No Conducente a Título,0.04
 jornada_Semipresencial,nivel_carrera_1_Profesional Con Licenciatura,-0.03948164946850086
 jornada_Semipresencial,nivel_carrera_1_Profesional Sin Licenciatura,0.02207694142633453
 jornada_Semipresencial,nivel_carrera_1_Técnico de Nivel Superior,0.013812134393078528
-jornada_Semipresencial,valor_matricula,0.0033374300531191577
-jornada_Semipresencial,valor_arancel,-0.0475666115056715
 jornada_Semipresencial,oecd_area_Agricultura,-0.010807205042428844
 jornada_Semipresencial,oecd_area_Ciencias,-0.012953338228855681
 jornada_Semipresencial,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.09046423530393526
@@ -697,8 +665,6 @@ jornada_Vespertino,nivel_carrera_1_Licenciatura No Conducente a Título,-0.06135
 jornada_Vespertino,nivel_carrera_1_Profesional Con Licenciatura,-0.4217515091861067
 jornada_Vespertino,nivel_carrera_1_Profesional Sin Licenciatura,0.2746643249058362
 jornada_Vespertino,nivel_carrera_1_Técnico de Nivel Superior,0.23450363929815596
-jornada_Vespertino,valor_matricula,-0.0951702603027365
-jornada_Vespertino,valor_arancel,-0.4145986096212931
 jornada_Vespertino,oecd_area_Agricultura,-0.06148296035632042
 jornada_Vespertino,oecd_area_Ciencias,0.003729200355484219
 jornada_Vespertino,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.14059570941542285
@@ -739,8 +705,6 @@ tipo_plan_carr_Plan Especial,nivel_carrera_1_Licenciatura No Conducente a Títul
 tipo_plan_carr_Plan Especial,nivel_carrera_1_Profesional Con Licenciatura,-0.00651308732009467
 tipo_plan_carr_Plan Especial,nivel_carrera_1_Profesional Sin Licenciatura,0.06455134755825966
 tipo_plan_carr_Plan Especial,nivel_carrera_1_Técnico de Nivel Superior,-0.06480756791895428
-tipo_plan_carr_Plan Especial,valor_matricula,0.004505000145988154
-tipo_plan_carr_Plan Especial,valor_arancel,-0.025875842079429997
 tipo_plan_carr_Plan Especial,oecd_area_Agricultura,-0.021554575216932464
 tipo_plan_carr_Plan Especial,oecd_area_Ciencias,-0.028991211389580548
 tipo_plan_carr_Plan Especial,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.0609680534236252
@@ -781,8 +745,6 @@ tipo_plan_carr_Plan Regular,nivel_carrera_1_Licenciatura No Conducente a Título
 tipo_plan_carr_Plan Regular,nivel_carrera_1_Profesional Con Licenciatura,-0.013790607426223487
 tipo_plan_carr_Plan Regular,nivel_carrera_1_Profesional Sin Licenciatura,-0.05240489146096905
 tipo_plan_carr_Plan Regular,nivel_carrera_1_Técnico de Nivel Superior,0.07581030622965407
-tipo_plan_carr_Plan Regular,valor_matricula,-0.0012033941723130293
-tipo_plan_carr_Plan Regular,valor_arancel,-0.030647947620023465
 tipo_plan_carr_Plan Regular,oecd_area_Agricultura,0.023645091876024024
 tipo_plan_carr_Plan Regular,oecd_area_Ciencias,0.007919538866525633
 tipo_plan_carr_Plan Regular,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.045283591115912646
@@ -823,8 +785,6 @@ tipo_plan_carr_Plan Regular de Continuidad,nivel_carrera_1_Licenciatura No Condu
 tipo_plan_carr_Plan Regular de Continuidad,nivel_carrera_1_Profesional Con Licenciatura,0.05566059061428118
 tipo_plan_carr_Plan Regular de Continuidad,nivel_carrera_1_Profesional Sin Licenciatura,-0.022932315604955296
 tipo_plan_carr_Plan Regular de Continuidad,nivel_carrera_1_Técnico de Nivel Superior,-0.041841812866159185
-tipo_plan_carr_Plan Regular de Continuidad,valor_matricula,-0.007936580963404525
-tipo_plan_carr_Plan Regular de Continuidad,valor_arancel,0.150820421096029
 tipo_plan_carr_Plan Regular de Continuidad,oecd_area_Agricultura,-0.009529255410116864
 tipo_plan_carr_Plan Regular de Continuidad,oecd_area_Ciencias,0.05396649125936271
 tipo_plan_carr_Plan Regular de Continuidad,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.033437763704225555
@@ -865,8 +825,6 @@ dur_estudio_carr,nivel_carrera_1_Licenciatura No Conducente a Título,-0.0180936
 dur_estudio_carr,nivel_carrera_1_Profesional Con Licenciatura,0.7294873619478662
 dur_estudio_carr,nivel_carrera_1_Profesional Sin Licenciatura,-0.03777732556409618
 dur_estudio_carr,nivel_carrera_1_Técnico de Nivel Superior,-0.7785478341274242
-dur_estudio_carr,valor_matricula,0.21277020033065625
-dur_estudio_carr,valor_arancel,0.699757984886661
 dur_estudio_carr,oecd_area_Agricultura,0.03530517127500553
 dur_estudio_carr,oecd_area_Ciencias,0.008062456430492929
 dur_estudio_carr,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.03155980490867144
@@ -907,8 +865,6 @@ dur_estudio_carr,Class,-0.06281037266605634
 "nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",nivel_carrera_1_Profesional Con Licenciatura,-0.07078540053900476
 "nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",nivel_carrera_1_Profesional Sin Licenciatura,-0.041654504869120035
 "nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",nivel_carrera_1_Técnico de Nivel Superior,-0.0425089145918918
-"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",valor_matricula,-0.0014122912228430005
-"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",valor_arancel,0.06061646448017544
 "nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",oecd_area_Agricultura,-0.0021010441304631896
 "nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",oecd_area_Ciencias,0.1559731794554305
 "nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común","oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.037536706437106125
@@ -949,8 +905,6 @@ nivel_carrera_1_Licenciatura No Conducente a Título,nivel_carrera_1_Licenciatur
 nivel_carrera_1_Licenciatura No Conducente a Título,nivel_carrera_1_Profesional Con Licenciatura,-0.09682989838469616
 nivel_carrera_1_Licenciatura No Conducente a Título,nivel_carrera_1_Profesional Sin Licenciatura,-0.05698069719053865
 nivel_carrera_1_Licenciatura No Conducente a Título,nivel_carrera_1_Técnico de Nivel Superior,-0.05814947501917171
-nivel_carrera_1_Licenciatura No Conducente a Título,valor_matricula,-0.020290045989976087
-nivel_carrera_1_Licenciatura No Conducente a Título,valor_arancel,0.020979935112841994
 nivel_carrera_1_Licenciatura No Conducente a Título,oecd_area_Agricultura,-0.014741125897555624
 nivel_carrera_1_Licenciatura No Conducente a Título,oecd_area_Ciencias,0.05735469158880469
 nivel_carrera_1_Licenciatura No Conducente a Título,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.04681328861581181
@@ -991,8 +945,6 @@ nivel_carrera_1_Profesional Con Licenciatura,nivel_carrera_1_Licenciatura No Con
 nivel_carrera_1_Profesional Con Licenciatura,nivel_carrera_1_Profesional Con Licenciatura,1.0
 nivel_carrera_1_Profesional Con Licenciatura,nivel_carrera_1_Profesional Sin Licenciatura,-0.5545520962092197
 nivel_carrera_1_Profesional Con Licenciatura,nivel_carrera_1_Técnico de Nivel Superior,-0.5659269692295175
-nivel_carrera_1_Profesional Con Licenciatura,valor_matricula,0.19906272453628726
-nivel_carrera_1_Profesional Con Licenciatura,valor_arancel,0.7129818361167817
 nivel_carrera_1_Profesional Con Licenciatura,oecd_area_Agricultura,0.061698046395863786
 nivel_carrera_1_Profesional Con Licenciatura,oecd_area_Ciencias,-0.03362868002771277
 nivel_carrera_1_Profesional Con Licenciatura,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.01021866079316345
@@ -1033,8 +985,6 @@ nivel_carrera_1_Profesional Sin Licenciatura,nivel_carrera_1_Licenciatura No Con
 nivel_carrera_1_Profesional Sin Licenciatura,nivel_carrera_1_Profesional Con Licenciatura,-0.5545520962092197
 nivel_carrera_1_Profesional Sin Licenciatura,nivel_carrera_1_Profesional Sin Licenciatura,1.0
 nivel_carrera_1_Profesional Sin Licenciatura,nivel_carrera_1_Técnico de Nivel Superior,-0.33302640819438784
-nivel_carrera_1_Profesional Sin Licenciatura,valor_matricula,0.01758763124011125
-nivel_carrera_1_Profesional Sin Licenciatura,valor_arancel,-0.34808015007760496
 nivel_carrera_1_Profesional Sin Licenciatura,oecd_area_Agricultura,-0.05019105632129327
 nivel_carrera_1_Profesional Sin Licenciatura,oecd_area_Ciencias,0.004975547015438765
 nivel_carrera_1_Profesional Sin Licenciatura,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.05403863625201004
@@ -1075,8 +1025,6 @@ nivel_carrera_1_Técnico de Nivel Superior,nivel_carrera_1_Licenciatura No Condu
 nivel_carrera_1_Técnico de Nivel Superior,nivel_carrera_1_Profesional Con Licenciatura,-0.5659269692295175
 nivel_carrera_1_Técnico de Nivel Superior,nivel_carrera_1_Profesional Sin Licenciatura,-0.33302640819438784
 nivel_carrera_1_Técnico de Nivel Superior,nivel_carrera_1_Técnico de Nivel Superior,1.0
-nivel_carrera_1_Técnico de Nivel Superior,valor_matricula,-0.24134090967295405
-nivel_carrera_1_Técnico de Nivel Superior,valor_arancel,-0.48844760157258166
 nivel_carrera_1_Técnico de Nivel Superior,oecd_area_Agricultura,-0.017489576787747294
 nivel_carrera_1_Técnico de Nivel Superior,oecd_area_Ciencias,-0.0053174638343603834
 nivel_carrera_1_Técnico de Nivel Superior,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.024871145340260713
@@ -1091,90 +1039,6 @@ nivel_carrera_1_Técnico de Nivel Superior,acreditada_carr_True,-0.1969216651327
 nivel_carrera_1_Técnico de Nivel Superior,acreditada_inst,-0.10968832943548154
 nivel_carrera_1_Técnico de Nivel Superior,anio_en_carr_actual,0.0407619679554702
 nivel_carrera_1_Técnico de Nivel Superior,Class,-0.046416843237732715
-valor_matricula,GEN_ALU,-0.08408538049238576
-valor_matricula,rango_edad_15 a 19 años,-0.03397107007667555
-valor_matricula,rango_edad_20 a 24 años,0.07146950249400959
-valor_matricula,rango_edad_25 a 29 años,0.0036623817731949834
-valor_matricula,rango_edad_30 a 34 años,-0.03800948530667768
-valor_matricula,rango_edad_35 a 39 años,-0.03555247023936659
-valor_matricula,rango_edad_40 y más años,-0.04415290683687111
-valor_matricula,tipo_inst_3_Centros de Formación Técnica,-0.07634298600079047
-valor_matricula,tipo_inst_3_Institutos Profesionales,-0.2120235531988661
-valor_matricula,tipo_inst_3_Universidades Estatales CRUCH,-0.07909357206184794
-valor_matricula,tipo_inst_3_Universidades Privadas,0.41516466704218263
-valor_matricula,tipo_inst_3_Universidades Privadas CRUCH,-0.03949713259015427
-valor_matricula,jornada_A Distancia,-0.05076131100689745
-valor_matricula,jornada_Diurno,0.10857132933234924
-valor_matricula,jornada_Otro,-0.024146508257759016
-valor_matricula,jornada_Semipresencial,0.0033374300531191577
-valor_matricula,jornada_Vespertino,-0.0951702603027365
-valor_matricula,tipo_plan_carr_Plan Especial,0.004505000145988154
-valor_matricula,tipo_plan_carr_Plan Regular,-0.0012033941723130293
-valor_matricula,tipo_plan_carr_Plan Regular de Continuidad,-0.007936580963404525
-valor_matricula,dur_estudio_carr,0.21277020033065625
-valor_matricula,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.0014122912228430005
-valor_matricula,nivel_carrera_1_Licenciatura No Conducente a Título,-0.020290045989976087
-valor_matricula,nivel_carrera_1_Profesional Con Licenciatura,0.19906272453628726
-valor_matricula,nivel_carrera_1_Profesional Sin Licenciatura,0.01758763124011125
-valor_matricula,nivel_carrera_1_Técnico de Nivel Superior,-0.24134090967295405
-valor_matricula,valor_matricula,1.0
-valor_matricula,valor_arancel,0.370671490280703
-valor_matricula,oecd_area_Agricultura,0.007173447327575637
-valor_matricula,oecd_area_Ciencias,0.00038845796506542724
-valor_matricula,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.02940254108877847
-valor_matricula,oecd_area_Educación,-0.10058757146184155
-valor_matricula,oecd_area_Humanidades y Artes,0.04206553014425291
-valor_matricula,"oecd_area_Ingeniería, Industria y Construcción",0.08764476308200224
-valor_matricula,oecd_area_Salud y Servicios Sociales,-0.011629051064852469
-valor_matricula,oecd_area_Servicios,-0.02155496222447663
-valor_matricula,oecd_area_Sin área definida,-0.0019718270719641076
-valor_matricula,acreditada_carr_False,-0.11981496952806256
-valor_matricula,acreditada_carr_True,0.11983595353147165
-valor_matricula,acreditada_inst,0.09934638657706042
-valor_matricula,anio_en_carr_actual,-0.01148339838827931
-valor_matricula,Class,0.15050234885882863
-valor_arancel,GEN_ALU,-0.08535562472034139
-valor_arancel,rango_edad_15 a 19 años,0.0859709191378824
-valor_arancel,rango_edad_20 a 24 años,0.1350623416734813
-valor_arancel,rango_edad_25 a 29 años,-0.05547037704609426
-valor_arancel,rango_edad_30 a 34 años,-0.1259073698334617
-valor_arancel,rango_edad_35 a 39 años,-0.10320451880302921
-valor_arancel,rango_edad_40 y más años,-0.10946703863030825
-valor_arancel,tipo_inst_3_Centros de Formación Técnica,-0.2694725824117771
-valor_arancel,tipo_inst_3_Institutos Profesionales,-0.5201052429502051
-valor_arancel,tipo_inst_3_Universidades Estatales CRUCH,0.4331723964593546
-valor_arancel,tipo_inst_3_Universidades Privadas,0.15088871163757064
-valor_arancel,tipo_inst_3_Universidades Privadas CRUCH,0.2402153204135517
-valor_arancel,jornada_A Distancia,-0.09646831121028454
-valor_arancel,jornada_Diurno,0.44183731565263856
-valor_arancel,jornada_Otro,-0.03303821034852046
-valor_arancel,jornada_Semipresencial,-0.0475666115056715
-valor_arancel,jornada_Vespertino,-0.4145986096212931
-valor_arancel,tipo_plan_carr_Plan Especial,-0.025875842079429997
-valor_arancel,tipo_plan_carr_Plan Regular,-0.030647947620023465
-valor_arancel,tipo_plan_carr_Plan Regular de Continuidad,0.150820421096029
-valor_arancel,dur_estudio_carr,0.699757984886661
-valor_arancel,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",0.06061646448017544
-valor_arancel,nivel_carrera_1_Licenciatura No Conducente a Título,0.020979935112841994
-valor_arancel,nivel_carrera_1_Profesional Con Licenciatura,0.7129818361167817
-valor_arancel,nivel_carrera_1_Profesional Sin Licenciatura,-0.34808015007760496
-valor_arancel,nivel_carrera_1_Técnico de Nivel Superior,-0.48844760157258166
-valor_arancel,valor_matricula,0.370671490280703
-valor_arancel,valor_arancel,1.0
-valor_arancel,oecd_area_Agricultura,0.08045030172818934
-valor_arancel,oecd_area_Ciencias,0.022628918504214442
-valor_arancel,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.005423304826490341
-valor_arancel,oecd_area_Educación,-0.17462940578964145
-valor_arancel,oecd_area_Humanidades y Artes,0.019784691688356722
-valor_arancel,"oecd_area_Ingeniería, Industria y Construcción",0.14580439085890115
-valor_arancel,oecd_area_Salud y Servicios Sociales,0.09996949010716666
-valor_arancel,oecd_area_Servicios,-0.1861152599329634
-valor_arancel,oecd_area_Sin área definida,-0.0087964550345635
-valor_arancel,acreditada_carr_False,-0.2169348924531172
-valor_arancel,acreditada_carr_True,0.2170100159939758
-valor_arancel,acreditada_inst,0.2029180187924444
-valor_arancel,anio_en_carr_actual,-0.0787499752015166
-valor_arancel,Class,-0.04877983398180839
 oecd_area_Agricultura,GEN_ALU,-0.010672967215100644
 oecd_area_Agricultura,rango_edad_15 a 19 años,0.004929076566182399
 oecd_area_Agricultura,rango_edad_20 a 24 años,0.014743112985633317
@@ -1201,8 +1065,6 @@ oecd_area_Agricultura,nivel_carrera_1_Licenciatura No Conducente a Título,-0.01
 oecd_area_Agricultura,nivel_carrera_1_Profesional Con Licenciatura,0.061698046395863786
 oecd_area_Agricultura,nivel_carrera_1_Profesional Sin Licenciatura,-0.05019105632129327
 oecd_area_Agricultura,nivel_carrera_1_Técnico de Nivel Superior,-0.017489576787747294
-oecd_area_Agricultura,valor_matricula,0.007173447327575637
-oecd_area_Agricultura,valor_arancel,0.08045030172818934
 oecd_area_Agricultura,oecd_area_Agricultura,1.0
 oecd_area_Agricultura,oecd_area_Ciencias,-0.03420584304310001
 oecd_area_Agricultura,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.07887411780902108
@@ -1243,8 +1105,6 @@ oecd_area_Ciencias,nivel_carrera_1_Licenciatura No Conducente a Título,0.057354
 oecd_area_Ciencias,nivel_carrera_1_Profesional Con Licenciatura,-0.03362868002771277
 oecd_area_Ciencias,nivel_carrera_1_Profesional Sin Licenciatura,0.004975547015438765
 oecd_area_Ciencias,nivel_carrera_1_Técnico de Nivel Superior,-0.0053174638343603834
-oecd_area_Ciencias,valor_matricula,0.00038845796506542724
-oecd_area_Ciencias,valor_arancel,0.022628918504214442
 oecd_area_Ciencias,oecd_area_Agricultura,-0.03420584304310001
 oecd_area_Ciencias,oecd_area_Ciencias,1.0
 oecd_area_Ciencias,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.12352884659416476
@@ -1285,8 +1145,6 @@ oecd_area_Ciencias,Class,0.003212240549223054
 "oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",nivel_carrera_1_Profesional Con Licenciatura,-0.01021866079316345
 "oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",nivel_carrera_1_Profesional Sin Licenciatura,0.05403863625201004
 "oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",nivel_carrera_1_Técnico de Nivel Superior,-0.024871145340260713
-"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",valor_matricula,0.02940254108877847
-"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",valor_arancel,-0.005423304826490341
 "oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",oecd_area_Agricultura,-0.07887411780902108
 "oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",oecd_area_Ciencias,-0.12352884659416476
 "oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho","oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",1.0
@@ -1327,8 +1185,6 @@ oecd_area_Educación,nivel_carrera_1_Licenciatura No Conducente a Título,-0.019
 oecd_area_Educación,nivel_carrera_1_Profesional Con Licenciatura,0.037260226225924516
 oecd_area_Educación,nivel_carrera_1_Profesional Sin Licenciatura,0.05640843547380885
 oecd_area_Educación,nivel_carrera_1_Técnico de Nivel Superior,-0.09027297460400813
-oecd_area_Educación,valor_matricula,-0.10058757146184155
-oecd_area_Educación,valor_arancel,-0.17462940578964145
 oecd_area_Educación,oecd_area_Agricultura,-0.04992022645798712
 oecd_area_Educación,oecd_area_Ciencias,-0.07818265569508077
 oecd_area_Educación,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.18027879002915279
@@ -1369,8 +1225,6 @@ oecd_area_Humanidades y Artes,nivel_carrera_1_Licenciatura No Conducente a Títu
 oecd_area_Humanidades y Artes,nivel_carrera_1_Profesional Con Licenciatura,-0.04979786887111716
 oecd_area_Humanidades y Artes,nivel_carrera_1_Profesional Sin Licenciatura,0.044878000427973595
 oecd_area_Humanidades y Artes,nivel_carrera_1_Técnico de Nivel Superior,-0.04223623940233874
-oecd_area_Humanidades y Artes,valor_matricula,0.04206553014425291
-oecd_area_Humanidades y Artes,valor_arancel,0.019784691688356722
 oecd_area_Humanidades y Artes,oecd_area_Agricultura,-0.028831087131394692
 oecd_area_Humanidades y Artes,oecd_area_Ciencias,-0.04515386083901448
 oecd_area_Humanidades y Artes,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.10411878856112144
@@ -1411,8 +1265,6 @@ oecd_area_Humanidades y Artes,Class,-0.029543027411913298
 "oecd_area_Ingeniería, Industria y Construcción",nivel_carrera_1_Profesional Con Licenciatura,0.01771149134347192
 "oecd_area_Ingeniería, Industria y Construcción",nivel_carrera_1_Profesional Sin Licenciatura,0.03514845730536961
 "oecd_area_Ingeniería, Industria y Construcción",nivel_carrera_1_Técnico de Nivel Superior,-0.04399090133127231
-"oecd_area_Ingeniería, Industria y Construcción",valor_matricula,0.08764476308200224
-"oecd_area_Ingeniería, Industria y Construcción",valor_arancel,0.14580439085890115
 "oecd_area_Ingeniería, Industria y Construcción",oecd_area_Agricultura,-0.06820849139070316
 "oecd_area_Ingeniería, Industria y Construcción",oecd_area_Ciencias,-0.10682485590340927
 "oecd_area_Ingeniería, Industria y Construcción","oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.24632388854027942
@@ -1453,8 +1305,6 @@ oecd_area_Salud y Servicios Sociales,nivel_carrera_1_Licenciatura No Conducente 
 oecd_area_Salud y Servicios Sociales,nivel_carrera_1_Profesional Con Licenciatura,0.06469817338341467
 oecd_area_Salud y Servicios Sociales,nivel_carrera_1_Profesional Sin Licenciatura,-0.15259556239575234
 oecd_area_Salud y Servicios Sociales,nivel_carrera_1_Técnico de Nivel Superior,0.08949912456214867
-oecd_area_Salud y Servicios Sociales,valor_matricula,-0.011629051064852469
-oecd_area_Salud y Servicios Sociales,valor_arancel,0.09996949010716666
 oecd_area_Salud y Servicios Sociales,oecd_area_Agricultura,-0.06541509059514608
 oecd_area_Salud y Servicios Sociales,oecd_area_Ciencias,-0.10244996603384417
 oecd_area_Salud y Servicios Sociales,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.23623597525219633
@@ -1495,8 +1345,6 @@ oecd_area_Servicios,nivel_carrera_1_Licenciatura No Conducente a Título,-0.0198
 oecd_area_Servicios,nivel_carrera_1_Profesional Con Licenciatura,-0.25755043849691917
 oecd_area_Servicios,nivel_carrera_1_Profesional Sin Licenciatura,0.10015263711664567
 oecd_area_Servicios,nivel_carrera_1_Técnico de Nivel Superior,0.20485466236392955
-oecd_area_Servicios,valor_matricula,-0.02155496222447663
-oecd_area_Servicios,valor_arancel,-0.1861152599329634
 oecd_area_Servicios,oecd_area_Agricultura,-0.044300270969782805
 oecd_area_Servicios,oecd_area_Ciencias,-0.06938095193287899
 oecd_area_Servicios,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.15998323354922378
@@ -1537,8 +1385,6 @@ oecd_area_Sin área definida,nivel_carrera_1_Licenciatura No Conducente a Títul
 oecd_area_Sin área definida,nivel_carrera_1_Profesional Con Licenciatura,-0.01558803357227463
 oecd_area_Sin área definida,nivel_carrera_1_Profesional Sin Licenciatura,-0.00921398053025508
 oecd_area_Sin área definida,nivel_carrera_1_Técnico de Nivel Superior,0.02614616983430254
-oecd_area_Sin área definida,valor_matricula,-0.0019718270719641076
-oecd_area_Sin área definida,valor_arancel,-0.0087964550345635
 oecd_area_Sin área definida,oecd_area_Agricultura,-0.002383692262549819
 oecd_area_Sin área definida,oecd_area_Ciencias,-0.0037332240789425563
 oecd_area_Sin área definida,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.008608317457663054
@@ -1579,8 +1425,6 @@ acreditada_carr_False,nivel_carrera_1_Licenciatura No Conducente a Título,0.057
 acreditada_carr_False,nivel_carrera_1_Profesional Con Licenciatura,-0.17110309973938587
 acreditada_carr_False,nivel_carrera_1_Profesional Sin Licenciatura,-0.022521193025700357
 acreditada_carr_False,nivel_carrera_1_Técnico de Nivel Superior,0.19674514196270484
-acreditada_carr_False,valor_matricula,-0.11981496952806256
-acreditada_carr_False,valor_arancel,-0.2169348924531172
 acreditada_carr_False,oecd_area_Agricultura,-0.02812311524903918
 acreditada_carr_False,oecd_area_Ciencias,-0.011016077504219868
 acreditada_carr_False,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.04030329309442209
@@ -1621,8 +1465,6 @@ acreditada_carr_True,nivel_carrera_1_Licenciatura No Conducente a Título,-0.057
 acreditada_carr_True,nivel_carrera_1_Profesional Con Licenciatura,0.17081516930937657
 acreditada_carr_True,nivel_carrera_1_Profesional Sin Licenciatura,0.02300715437519005
 acreditada_carr_True,nivel_carrera_1_Técnico de Nivel Superior,-0.19692166513275092
-acreditada_carr_True,valor_matricula,0.11983595353147165
-acreditada_carr_True,valor_arancel,0.2170100159939758
 acreditada_carr_True,oecd_area_Agricultura,0.028255990551152715
 acreditada_carr_True,oecd_area_Ciencias,0.01122345825939853
 acreditada_carr_True,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.04016208861118432
@@ -1663,8 +1505,6 @@ acreditada_inst,nivel_carrera_1_Licenciatura No Conducente a Título,0.024305614
 acreditada_inst,nivel_carrera_1_Profesional Con Licenciatura,0.03668062999808595
 acreditada_inst,nivel_carrera_1_Profesional Sin Licenciatura,0.057815329581917436
 acreditada_inst,nivel_carrera_1_Técnico de Nivel Superior,-0.10968832943548154
-acreditada_inst,valor_matricula,0.09934638657706042
-acreditada_inst,valor_arancel,0.2029180187924444
 acreditada_inst,oecd_area_Agricultura,0.034939701658294575
 acreditada_inst,oecd_area_Ciencias,0.0583456490034734
 acreditada_inst,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.015318324241696301
@@ -1705,8 +1545,6 @@ anio_en_carr_actual,nivel_carrera_1_Licenciatura No Conducente a Título,-0.0108
 anio_en_carr_actual,nivel_carrera_1_Profesional Con Licenciatura,-0.06927478613586525
 anio_en_carr_actual,nivel_carrera_1_Profesional Sin Licenciatura,0.04258708439262497
 anio_en_carr_actual,nivel_carrera_1_Técnico de Nivel Superior,0.0407619679554702
-anio_en_carr_actual,valor_matricula,-0.01148339838827931
-anio_en_carr_actual,valor_arancel,-0.0787499752015166
 anio_en_carr_actual,oecd_area_Agricultura,-0.03729120428442697
 anio_en_carr_actual,oecd_area_Ciencias,-0.01012865270603766
 anio_en_carr_actual,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.005753528752754446
@@ -1747,8 +1585,6 @@ Class,nivel_carrera_1_Licenciatura No Conducente a Título,-0.006674924785286658
 Class,nivel_carrera_1_Profesional Con Licenciatura,-0.12942900499240362
 Class,nivel_carrera_1_Profesional Sin Licenciatura,0.20087812270908179
 Class,nivel_carrera_1_Técnico de Nivel Superior,-0.046416843237732715
-Class,valor_matricula,0.15050234885882863
-Class,valor_arancel,-0.04877983398180839
 Class,oecd_area_Agricultura,-0.008617484213291766
 Class,oecd_area_Ciencias,0.003212240549223054
 Class,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.03813025997235777
