@@ -20380,7 +20380,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   <div style="display: grid; place-items: center;">
     <div class="grilla">
       <!-- Create a div where the graph will take place -->
-      <div id="my_dataviz"></div>
+      <div id="my_dataviz2"></div>
       <div style="display: grid; place-items: center; padding-bottom: 242px;">
         <img src="https://raw.githubusercontent.com/perick1/Proyecto_Mineria_de_Datos/main/graficos/a.png">
       </div>
@@ -20399,7 +20399,7 @@ all of MD as it is not optimized for dense, information rich UIs.
       height = 1250 - margin.top - margin.bottom;
 
     // append the svg object to the body of the page
-    var svg = d3.select("#my_dataviz")
+    var svg = d3.select("#my_dataviz2")
       .append("svg")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
@@ -20452,7 +20452,7 @@ all of MD as it is not optimized for dense, information rich UIs.
         // ---------------------------//
 
         // -1- Create a tooltip div that is hidden by default:
-        var tooltip = d3.select("#my_dataviz")
+        var tooltip = d3.select("#my_dataviz2")
           .append("div")
           .style("opacity", 0)
           .attr("class", "tooltip")
