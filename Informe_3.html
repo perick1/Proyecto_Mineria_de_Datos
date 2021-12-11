@@ -20726,23 +20726,41 @@ all of MD as it is not optimized for dense, information rich UIs.
         &#191;Existe una relaci&#243;n entre costo de carrera y otras variables?<a class="anchor-link"
           href="#Pregunta-4:-%C2%BFExiste-una-relaci%C3%B3n-entre-costo-de-carrera-y-otras-variables?">&#182;</a></h2>
       <p><strong>Esta pregunta está mayormente respondida y diseñada por Adriana Concha</strong></p>
-      <h3 id="Metodolog%C3%ADa">Metodolog&#237;a<a class="anchor-link" href="#Metodolog%C3%ADa">&#182;</a></h3>
-      <p>Propuesta experimental:</p>
-      <ul>
-        <li>Dado que esta pregunta es de carácter descriptivo, se propone utilizar técnicas de clustering para encontrar
-          automáticamente si hay relaciones de forma natural entre la variable valor del arancel y otras variables
-          numéricas, como la duración de la carrera y los años de acreditación. </li>
-        <li>También se propone buscar relaciones del valor del arancel con variables categóricas como la modalidad
-          (presencial, semi-presencial o no presencial) y el tipo de jornada (diurno, vespertino), realizando
-          codificaciones numéricas a estas categorías para poder aplicar clustering.</li>
-        <li>Se probarán técnicas de clustering particionales (K-Means) y jerárquicos.</li>
-        <li>Se estimará el k en K-Means utilizando la métrica SSE.</li>
-        <li>Se validará la calidad de los clustering usando la medida SSE, Matriz de similitud y el coeficiente de
-          Silhouette. Se seleccionarán aquellos clustering que entreguen resultados más significativos.</li>
-        <li>A partir de los resultados obtenidos, se generarán visualizaciones del clustering y dendrogramas para
-          identificar posibles outliers y realizar un post- procesamiento de los datos en caso de ser necesario, con el
-          objetivo de reducir el SSE.</li>
-      </ul>
+      <h3 id="Metodolog%C3%ADa">Metodolog&#237;a<a class="anchor-link" href="#Metodolog%C3%ADa">&#182;</a></h3><p>Siguiendo la sugerencia del cuerpo docente para el Hito 2 y aplicando las nuevas técnicas de minería de datos aprendidas en el curso desde entonces, se decidió responder esta esta pregunta utilizando <strong>Reglas de asociación</strong>. En la iteración anterior se propuso utilizar clustering, sin embargo, la búsqueda de reglas de asociación se adapta mejor a la búsqueda de relaciones entre variables. 
+        El objetivo de esta pregunta es extraer reglas y relaciones entre la variable valor del arancel 
+        Y otras variables de las matrículas de educación superior , para poder realizar un análisis sobre éstas.</p>
+        <p>Propuesta experimental:</p>
+        <ul>
+        <li><p>Se toma una muestra de los datos: Se escoge una muestra random del 30% del total de registros por año.</p>
+        </li>
+        <li><p>Se seleccionan los atributos: <code>jornada</code>, <code>rango_edad</code>,<code>dur_total_carr</code>,<code>tipo_inst_3</code>,<code>area_conocimiento</code>,
+        <code>region_sede</code>, <code>acreditada_inst</code>, <code>valor_arancel</code>, <code>valor_matricula</code>.</p>
+        </li>
+        <li><p>Se categoriza el valor de arancel en tres parámetros (por año):</p>
+        <ul>
+        <li>Percentil 0 al 32: Arancel bajo (AB)</li>
+        <li>Percentil 33 al 66: Arancel medio (AM)</li>
+        <li>Percentil 67 al 100: Arancel alto (AA)</li>
+        </ul>
+        </li>
+        <li><p>Se categoriza el valor de la matrícula en tres parámetros (por año):</p>
+        <ul>
+        <li>Percentil 0 al 32: Matrícula baja (MB)</li>
+        <li>Percentil 33 al 66: Matrícula media (MM)</li>
+        <li>Percentil 67 al 100: Matrícula alta (MA)</li>
+        </ul>
+        </li>
+        <li><p>Se utiliza el <strong>algoritmo apriori</strong> para generar reglas de asociación sobre los itemsets más frecuentes. Específicamente, se buscan reglas de asociación con cada categoría de Arancel en el consecuente. Se utiliza el parámetro minlen igual a 4, para encontrar itemset de al menos 4 elementos.</p>
+        </li>
+        <li><p>Se utiliza como validación las métricas <strong>support</strong> sobre 4% y <strong>confidence</strong> sobre 30%. Además, se ordenan las reglas generadas de acuerdo a su <strong>lift</strong>, para conocer la efectividad de las predicciones. Para esta pregunta, nos interesan aquellas reglas con lift superior a 1.</p>
+        </li>
+        <li><p>A partir de los resultados obtenidos, se generan las siguientes visualizaciones:</p>
+        <ul>
+        <li>Scatterplots para comparar confidence, support y lift para las reglas generadas.</li>
+        <li>Grafos para visualizar los principales items que llevan a cada categoría de arancel. </li>
+        </ul>
+        </li>
+        </ul>
       <h3 id="Implementaci%C3%B3n">Implementaci&#243;n<a class="anchor-link" href="#Implementaci%C3%B3n">&#182;</a></h3>
     </div>
   </div>
