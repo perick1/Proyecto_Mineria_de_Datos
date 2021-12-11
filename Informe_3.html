@@ -20361,10 +20361,10 @@ all of MD as it is not optimized for dense, information rich UIs.
       pointer-events: none;
     }
 
-    .grilla {
+    .grilla2 {
       display: grid;
       grid-template-columns: auto 64px;
-      height: 1300px;
+      height: 920px;
       position: relative;
       text-align: left;
     }
@@ -20378,11 +20378,11 @@ all of MD as it is not optimized for dense, information rich UIs.
     }
   </style>
   <div style="display: grid; place-items: center;">
-    <div class="grilla">
+    <div class="grilla2">
       <!-- Create a div where the graph will take place -->
       <div id="my_dataviz2"></div>
-      <div style="display: grid; place-items: center; padding-bottom: 242px;">
-        <img src="https://raw.githubusercontent.com/perick1/Proyecto_Mineria_de_Datos/main/graficos/a.png">
+      <div style="display: grid; place-items: center; padding-bottom: 290px;">
+        <img src="https://raw.githubusercontent.com/perick1/Proyecto_Mineria_de_Datos/main/graficos/a.png" height="550">
       </div>
     </div>
   </div>
@@ -20390,13 +20390,13 @@ all of MD as it is not optimized for dense, information rich UIs.
   <script>
     // set the dimensions and margins of the graph
     var margin = {
-        top: 80,
+        top: 50,
         right: 15,
-        bottom: 270,
-        left: 270
+        bottom: 290,
+        left: 290
       },
-      width = 1200 - margin.left - margin.right,
-      height = 1250 - margin.top - margin.bottom;
+      width = 850 - margin.left - margin.right,
+      height = 900 - margin.top - margin.bottom;
 
     // append the svg object to the body of the page
     var svg = d3.select("#my_dataviz2")
@@ -20409,7 +20409,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 
     //Read the data
     d3.csv(
-      "https://raw.githubusercontent.com/perick1/Proyecto_Mineria_de_Datos/main/corr/corr_2011-2019_filtrado_D3.csv",
+      "https://raw.githubusercontent.com/perick1/Proyecto_Mineria_de_Datos/main/corr/corr_p2_d3.csv",
       function (data) {
 
         // Labels of row and columns -> unique identifier of the column called 'group' and 'variable'
@@ -20522,7 +20522,7 @@ all of MD as it is not optimized for dense, information rich UIs.
       .attr("y", -20)
       .attr("text-anchor", "left")
       .style("font-size", "22px")
-      .text("Correlación entre variables de datos de Matriculas en Educación Superior");
+      .text("Correlación entre parámetros seleccionados");
   </script>
 </body>
 
