@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>pregunta_2</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>P4</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14512,510 +14512,47 @@ a.anchor-link {
     </script>
     <!-- End of mathjax configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_sub_one_hot</span> <span class="o">=</span> <span class="n">df_sub_one_hot</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="s2">&quot;cat_periodo==2014&quot;</span><span class="p">)</span>
-</pre></div>
 
-     </div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Pregunta-4:-%C2%BFExiste-una-relaci%C3%B3n-entre-costo-de-carrera-y-otras-variables?">Pregunta 4: &#191;Existe una relaci&#243;n entre costo de carrera y otras variables?<a class="anchor-link" href="#Pregunta-4:-%C2%BFExiste-una-relaci%C3%B3n-entre-costo-de-carrera-y-otras-variables?">&#182;</a></h2><p><strong>Esta pregunta está mayormente respondida y diseñada por Adriana Concha</strong></p>
+<h3 id="Metodolog%C3%ADa">Metodolog&#237;a<a class="anchor-link" href="#Metodolog%C3%ADa">&#182;</a></h3><p>Siguiendo la sugerencia del cuerpo docente para el Hito 2 y aplicando las nuevas técnicas de minería de datos aprendidas en el curso desde entonces, se decidió responder esta esta pregunta utilizando <strong>Reglas de asociación</strong>. En la iteración anterior se propuso utilizar clustering, sin embargo, la búsqueda de reglas de asociación se adapta mejor a la búsqueda de relaciones entre variables. 
+El objetivo de esta pregunta es extraer reglas y relaciones entre la variable valor del arancel 
+Y otras variables de las matrículas de educación superior , para poder realizar un análisis sobre éstas.</p>
+<p>Propuesta experimental:</p>
+<ul>
+<li><p>Se toma una muestra de los datos: Se escoge una muestra random del 30% del total de registros por año.</p>
+</li>
+<li><p>Se seleccionan los atributos: <code>jornada</code>, <code>rango_edad</code>,<code>dur_total_carr</code>,<code>tipo_inst_3</code>,<code>area_conocimiento</code>,
+<code>region_sede</code>, <code>acreditada_inst</code>, <code>valor_arancel</code>, <code>valor_matricula</code>.</p>
+</li>
+<li><p>Se categoriza el valor de arancel en tres parámetros (por año):</p>
+<ul>
+<li>Percentil 0 al 32: Arancel bajo (AB)</li>
+<li>Percentil 33 al 66: Arancel medio (AM)</li>
+<li>Percentil 67 al 100: Arancel alto (AA)</li>
+</ul>
+</li>
+<li><p>Se categoriza el valor de la matrícula en tres parámetros (por año):</p>
+<ul>
+<li>Percentil 0 al 32: Matrícula baja (MB)</li>
+<li>Percentil 33 al 66: Matrícula media (MM)</li>
+<li>Percentil 67 al 100: Matrícula alta (MA)</li>
+</ul>
+</li>
+<li><p>Se utiliza el <strong>algoritmo apriori</strong> para generar reglas de asociación sobre los itemsets más frecuentes. Específicamente, se buscan reglas de asociación con cada categoría de Arancel en el consecuente. Se utiliza el parámetro minlen igual a 4, para encontrar itemset de al menos 4 elementos.</p>
+</li>
+<li><p>Se utiliza como validación las métricas <strong>support</strong> sobre 4% y <strong>confidence</strong> sobre 30%. Además, se ordenan las reglas generadas de acuerdo a su <strong>lift</strong>, para conocer la efectividad de las predicciones. Para esta pregunta, nos interesan aquellas reglas con lift superior a 1.</p>
+</li>
+<li><p>A partir de los resultados obtenidos, se generan las siguientes visualizaciones:</p>
+<ul>
+<li>Scatterplots para comparar confidence, support y lift para las reglas generadas.</li>
+<li>Grafos para visualizar los principales items que llevan a cada categoría de arancel. </li>
+</ul>
+</li>
+</ul>
+<h3 id="Implementaci%C3%B3n">Implementaci&#243;n<a class="anchor-link" href="#Implementaci%C3%B3n">&#182;</a></h3>
 </div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">f1_score</span><span class="p">,</span> <span class="n">recall_score</span><span class="p">,</span> <span class="n">precision_score</span>
-<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-
-<span class="n">data_train</span><span class="p">,</span> <span class="n">data_test</span><span class="p">,</span> <span class="n">ytrain</span><span class="p">,</span> <span class="n">ytest</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">df_sub_one_hot</span><span class="p">,</span> <span class="n">df_sub_one_hot</span><span class="p">[</span><span class="s1">&#39;Class&#39;</span><span class="p">],</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">stratify</span><span class="o">=</span><span class="n">df_sub_one_hot</span><span class="p">[</span><span class="s1">&#39;Class&#39;</span><span class="p">])</span>
-<span class="n">diferencia</span> <span class="o">=</span> <span class="n">ytrain</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()[</span><span class="kc">False</span><span class="p">]</span><span class="o">-</span><span class="n">ytrain</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()[</span><span class="kc">True</span><span class="p">]</span>
-<span class="n">data_train</span> <span class="o">=</span> <span class="n">data_train</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-
-<span class="c1"># oversampling sobre la clase True</span>
-<span class="n">idx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">data_train</span><span class="p">[</span><span class="n">data_train</span><span class="p">[</span><span class="s1">&#39;Class&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="kc">True</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="n">diferencia</span><span class="p">)</span>
-<span class="n">data_oversampled</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">data_train</span><span class="p">,</span> <span class="n">data_train</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">idx</span><span class="p">]])</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Data oversampled on class &#39;True&#39;&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">data_oversampled</span><span class="p">[</span><span class="s1">&#39;Class&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">())</span>
-
-<span class="c1"># subsampling sobre la clase False</span>
-<span class="n">idx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">data_train</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">data_train</span><span class="o">.</span><span class="n">Class</span> <span class="o">==</span> <span class="kc">False</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="n">diferencia</span><span class="p">,</span> <span class="n">replace</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-<span class="n">data_subsampled</span> <span class="o">=</span> <span class="n">data_train</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">data_train</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Data subsampled on class &#39;False&#39;&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">data_subsampled</span><span class="p">[</span><span class="s1">&#39;Class&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">())</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Data oversampled on class &#39;True&#39;
-True     138643
-False    138643
-Name: Class, dtype: int64
-Data subsampled on class &#39;False&#39;
-True     16488
-False    16488
-Name: Class, dtype: int64
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">classification_report</span>
-
-<span class="c1"># datos test (mismo para todos los conjuntos de entrenamiento)</span>
-<span class="n">X_test</span> <span class="o">=</span> <span class="n">data_test</span><span class="p">[</span><span class="n">data_train</span><span class="o">.</span><span class="n">columns</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span>
-<span class="n">y_test</span> <span class="o">=</span> <span class="n">data_test</span><span class="p">[</span><span class="n">data_train</span><span class="o">.</span><span class="n">columns</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span>
-
-<span class="c1"># datos entrenamiento &quot;originales&quot;</span>
-<span class="n">X_orig</span> <span class="o">=</span> <span class="n">data_train</span><span class="p">[</span><span class="n">data_train</span><span class="o">.</span><span class="n">columns</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span> 
-<span class="n">y_orig</span> <span class="o">=</span> <span class="n">data_train</span><span class="p">[</span><span class="n">data_train</span><span class="o">.</span><span class="n">columns</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span> 
-
-<span class="c1"># datos entrenamiento &quot;oversampleados&quot; </span>
-<span class="n">X_over</span> <span class="o">=</span> <span class="n">data_oversampled</span><span class="p">[</span><span class="n">data_train</span><span class="o">.</span><span class="n">columns</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span>
-<span class="n">y_over</span> <span class="o">=</span> <span class="n">data_oversampled</span><span class="p">[</span><span class="n">data_train</span><span class="o">.</span><span class="n">columns</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span>
-
-<span class="c1"># datos entrenamiento &quot;subsampleados&quot;</span>
-<span class="n">X_subs</span> <span class="o">=</span> <span class="n">data_subsampled</span><span class="p">[</span><span class="n">data_train</span><span class="o">.</span><span class="n">columns</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span>
-<span class="n">y_subs</span> <span class="o">=</span> <span class="n">data_subsampled</span><span class="p">[</span><span class="n">data_train</span><span class="o">.</span><span class="n">columns</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.tree</span> <span class="kn">import</span> <span class="n">DecisionTreeClassifier</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;ORIGINAL::::::::::&quot;</span><span class="p">)</span>
-<span class="n">clf_orig</span> <span class="o">=</span> <span class="n">DecisionTreeClassifier</span><span class="p">()</span>
-<span class="n">clf_orig</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_orig</span><span class="p">,</span> <span class="n">y_orig</span><span class="p">)</span>
-<span class="n">pred_orig</span> <span class="o">=</span> <span class="n">clf_orig</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">pred_orig</span><span class="p">))</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;OVERSAMPLING::::::::::&quot;</span><span class="p">)</span>
-<span class="n">clf_over</span> <span class="o">=</span> <span class="n">DecisionTreeClassifier</span><span class="p">()</span>
-<span class="n">clf_over</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_over</span><span class="p">,</span> <span class="n">y_over</span><span class="p">)</span>
-<span class="n">pred_over</span> <span class="o">=</span> <span class="n">clf_over</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">pred_over</span><span class="p">))</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;SUBSAMPLING::::::::::&quot;</span><span class="p">)</span>
-<span class="n">clf_subs</span> <span class="o">=</span> <span class="n">DecisionTreeClassifier</span><span class="p">()</span>
-<span class="n">clf_subs</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_subs</span><span class="p">,</span> <span class="n">y_subs</span><span class="p">)</span>
-<span class="n">pred_subs</span> <span class="o">=</span> <span class="n">clf_subs</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">pred_subs</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>ORIGINAL::::::::::
-              precision    recall  f1-score   support
-
-       False       0.98      0.99      0.99     59419
-        True       0.95      0.86      0.91      7067
-
-    accuracy                           0.98     66486
-   macro avg       0.97      0.93      0.95     66486
-weighted avg       0.98      0.98      0.98     66486
-
-OVERSAMPLING::::::::::
-              precision    recall  f1-score   support
-
-       False       1.00      0.96      0.98     59419
-        True       0.73      0.96      0.83      7067
-
-    accuracy                           0.96     66486
-   macro avg       0.86      0.96      0.90     66486
-weighted avg       0.97      0.96      0.96     66486
-
-SUBSAMPLING::::::::::
-              precision    recall  f1-score   support
-
-       False       0.99      0.96      0.98     59419
-        True       0.73      0.96      0.83      7067
-
-    accuracy                           0.96     66486
-   macro avg       0.86      0.96      0.90     66486
-weighted avg       0.97      0.96      0.96     66486
-
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.naive_bayes</span> <span class="kn">import</span> <span class="n">GaussianNB</span>  <span class="c1"># Naive bayes</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;ORIGINAL::::::::::&quot;</span><span class="p">)</span>
-<span class="n">clf_orig</span> <span class="o">=</span> <span class="n">GaussianNB</span><span class="p">()</span>
-<span class="n">clf_orig</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_orig</span><span class="p">,</span> <span class="n">y_orig</span><span class="p">)</span>
-<span class="n">pred_orig</span> <span class="o">=</span> <span class="n">clf_orig</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">pred_orig</span><span class="p">))</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;OVERSAMPLING::::::::::&quot;</span><span class="p">)</span>
-<span class="n">clf_over</span> <span class="o">=</span> <span class="n">GaussianNB</span><span class="p">()</span>
-<span class="n">clf_over</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_over</span><span class="p">,</span> <span class="n">y_over</span><span class="p">)</span>
-<span class="n">pred_over</span> <span class="o">=</span> <span class="n">clf_over</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">pred_over</span><span class="p">))</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;SUBSAMPLING::::::::::&quot;</span><span class="p">)</span>
-<span class="n">clf_subs</span> <span class="o">=</span> <span class="n">GaussianNB</span><span class="p">()</span>
-<span class="n">clf_subs</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_subs</span><span class="p">,</span> <span class="n">y_subs</span><span class="p">)</span>
-<span class="n">pred_subs</span> <span class="o">=</span> <span class="n">clf_subs</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">pred_subs</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>ORIGINAL::::::::::
-              precision    recall  f1-score   support
-
-       False       1.00      0.81      0.89     59419
-        True       0.38      0.97      0.55      7067
-
-    accuracy                           0.83     66486
-   macro avg       0.69      0.89      0.72     66486
-weighted avg       0.93      0.83      0.86     66486
-
-OVERSAMPLING::::::::::
-              precision    recall  f1-score   support
-
-       False       1.00      0.80      0.89     59419
-        True       0.37      0.98      0.54      7067
-
-    accuracy                           0.82     66486
-   macro avg       0.69      0.89      0.72     66486
-weighted avg       0.93      0.82      0.85     66486
-
-SUBSAMPLING::::::::::
-              precision    recall  f1-score   support
-
-       False       1.00      0.80      0.89     59419
-        True       0.37      0.98      0.54      7067
-
-    accuracy                           0.82     66486
-   macro avg       0.69      0.89      0.72     66486
-weighted avg       0.93      0.82      0.85     66486
-
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.neighbors</span> <span class="kn">import</span> <span class="n">KNeighborsClassifier</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;ORIGINAL::::::::::&quot;</span><span class="p">)</span>
-<span class="n">clf_orig</span> <span class="o">=</span> <span class="n">KNeighborsClassifier</span><span class="p">()</span>
-<span class="n">clf_orig</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_orig</span><span class="p">,</span> <span class="n">y_orig</span><span class="p">)</span>
-<span class="n">pred_orig</span> <span class="o">=</span> <span class="n">clf_orig</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">pred_orig</span><span class="p">))</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;OVERSAMPLING::::::::::&quot;</span><span class="p">)</span>
-<span class="n">clf_over</span> <span class="o">=</span> <span class="n">KNeighborsClassifier</span><span class="p">()</span>
-<span class="n">clf_over</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_over</span><span class="p">,</span> <span class="n">y_over</span><span class="p">)</span>
-<span class="n">pred_over</span> <span class="o">=</span> <span class="n">clf_over</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">pred_over</span><span class="p">))</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;SUBSAMPLING::::::::::&quot;</span><span class="p">)</span>
-<span class="n">clf_subs</span> <span class="o">=</span> <span class="n">KNeighborsClassifier</span><span class="p">()</span>
-<span class="n">clf_subs</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_subs</span><span class="p">,</span> <span class="n">y_subs</span><span class="p">)</span>
-<span class="n">pred_subs</span> <span class="o">=</span> <span class="n">clf_subs</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">pred_subs</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>ORIGINAL::::::::::
-              precision    recall  f1-score   support
-
-       False       0.98      0.99      0.99     59419
-        True       0.93      0.84      0.88      7067
-
-    accuracy                           0.98     66486
-   macro avg       0.95      0.92      0.93     66486
-weighted avg       0.98      0.98      0.98     66486
-
-OVERSAMPLING::::::::::
-              precision    recall  f1-score   support
-
-       False       0.99      0.95      0.97     59419
-        True       0.69      0.95      0.80      7067
-
-    accuracy                           0.95     66486
-   macro avg       0.84      0.95      0.89     66486
-weighted avg       0.96      0.95      0.95     66486
-
-SUBSAMPLING::::::::::
-              precision    recall  f1-score   support
-
-       False       0.99      0.92      0.96     59419
-        True       0.59      0.95      0.73      7067
-
-    accuracy                           0.93     66486
-   macro avg       0.79      0.94      0.84     66486
-weighted avg       0.95      0.93      0.93     66486
-
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.svm</span> <span class="kn">import</span> <span class="n">SVC</span>  <span class="c1"># Support Vector Machine classifier</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;ORIGINAL::::::::::&quot;</span><span class="p">)</span>
-<span class="n">clf_orig</span> <span class="o">=</span> <span class="n">SVC</span><span class="p">()</span>
-<span class="n">clf_orig</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_orig</span><span class="p">,</span> <span class="n">y_orig</span><span class="p">)</span>
-<span class="n">pred_orig</span> <span class="o">=</span> <span class="n">clf_orig</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">pred_orig</span><span class="p">))</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;OVERSAMPLING::::::::::&quot;</span><span class="p">)</span>
-<span class="n">clf_over</span> <span class="o">=</span> <span class="n">SVC</span><span class="p">()</span>
-<span class="n">clf_over</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_over</span><span class="p">,</span> <span class="n">y_over</span><span class="p">)</span>
-<span class="n">pred_over</span> <span class="o">=</span> <span class="n">clf_over</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">pred_over</span><span class="p">))</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;SUBSAMPLING::::::::::&quot;</span><span class="p">)</span>
-<span class="n">clf_subs</span> <span class="o">=</span> <span class="n">SVC</span><span class="p">()</span>
-<span class="n">clf_subs</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_subs</span><span class="p">,</span> <span class="n">y_subs</span><span class="p">)</span>
-<span class="n">pred_subs</span> <span class="o">=</span> <span class="n">clf_subs</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">pred_subs</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>ORIGINAL::::::::::
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>C:\Users\Javi\AppData\Roaming\Python\Python38\site-packages\sklearn\metrics\_classification.py:1245: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
-  _warn_prf(average, modifier, msg_start, len(result))
-C:\Users\Javi\AppData\Roaming\Python\Python38\site-packages\sklearn\metrics\_classification.py:1245: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
-  _warn_prf(average, modifier, msg_start, len(result))
-C:\Users\Javi\AppData\Roaming\Python\Python38\site-packages\sklearn\metrics\_classification.py:1245: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
-  _warn_prf(average, modifier, msg_start, len(result))
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>              precision    recall  f1-score   support
-
-       False       0.89      1.00      0.94     59419
-        True       0.00      0.00      0.00      7067
-
-    accuracy                           0.89     66486
-   macro avg       0.45      0.50      0.47     66486
-weighted avg       0.80      0.89      0.84     66486
-
-OVERSAMPLING::::::::::
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">KeyboardInterrupt</span>                         Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-11-77b924166d4f&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">      9</span> print<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#34;OVERSAMPLING::::::::::&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     10</span> clf_over <span class="ansi-yellow-intense-fg ansi-bold">=</span> SVC<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 11</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>clf_over<span class="ansi-yellow-intense-fg ansi-bold">.</span>fit<span class="ansi-yellow-intense-fg ansi-bold">(</span>X_over<span class="ansi-yellow-intense-fg ansi-bold">,</span> y_over<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     12</span> pred_over <span class="ansi-yellow-intense-fg ansi-bold">=</span> clf_over<span class="ansi-yellow-intense-fg ansi-bold">.</span>predict<span class="ansi-yellow-intense-fg ansi-bold">(</span>X_test<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     13</span> print<span class="ansi-yellow-intense-fg ansi-bold">(</span>classification_report<span class="ansi-yellow-intense-fg ansi-bold">(</span>y_test<span class="ansi-yellow-intense-fg ansi-bold">,</span> pred_over<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Roaming\Python\Python38\site-packages\sklearn\svm\_base.py</span> in <span class="ansi-cyan-fg">fit</span><span class="ansi-blue-intense-fg ansi-bold">(self, X, y, sample_weight)</span>
-<span class="ansi-green-fg">    224</span> 
-<span class="ansi-green-fg">    225</span>         seed <span class="ansi-yellow-intense-fg ansi-bold">=</span> rnd<span class="ansi-yellow-intense-fg ansi-bold">.</span>randint<span class="ansi-yellow-intense-fg ansi-bold">(</span>np<span class="ansi-yellow-intense-fg ansi-bold">.</span>iinfo<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;i&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>max<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 226</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>fit<span class="ansi-yellow-intense-fg ansi-bold">(</span>X<span class="ansi-yellow-intense-fg ansi-bold">,</span> y<span class="ansi-yellow-intense-fg ansi-bold">,</span> sample_weight<span class="ansi-yellow-intense-fg ansi-bold">,</span> solver_type<span class="ansi-yellow-intense-fg ansi-bold">,</span> kernel<span class="ansi-yellow-intense-fg ansi-bold">,</span> random_seed<span class="ansi-yellow-intense-fg ansi-bold">=</span>seed<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    227</span>         <span class="ansi-red-intense-fg ansi-bold"># see comment on the other call to np.iinfo in this file</span>
-<span class="ansi-green-fg">    228</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Roaming\Python\Python38\site-packages\sklearn\svm\_base.py</span> in <span class="ansi-cyan-fg">_dense_fit</span><span class="ansi-blue-intense-fg ansi-bold">(self, X, y, sample_weight, solver_type, kernel, random_seed)</span>
-<span class="ansi-green-fg">    275</span>         self<span class="ansi-yellow-intense-fg ansi-bold">.</span>support_<span class="ansi-yellow-intense-fg ansi-bold">,</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>support_vectors_<span class="ansi-yellow-intense-fg ansi-bold">,</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_n_support<span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-red-fg"> </span><span class="ansi-red-fg">\</span>
-<span class="ansi-green-fg">    276</span>             self<span class="ansi-yellow-intense-fg ansi-bold">.</span>dual_coef_<span class="ansi-yellow-intense-fg ansi-bold">,</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>intercept_<span class="ansi-yellow-intense-fg ansi-bold">,</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_probA<span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-red-fg"> </span><span class="ansi-red-fg">\</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 277</span><span class="ansi-yellow-intense-fg ansi-bold">             self._probB, self.fit_status_ = libsvm.fit(
-</span><span class="ansi-green-fg">    278</span>                 X<span class="ansi-yellow-intense-fg ansi-bold">,</span> y<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-fg">    279</span>                 svm_type<span class="ansi-yellow-intense-fg ansi-bold">=</span>solver_type<span class="ansi-yellow-intense-fg ansi-bold">,</span> sample_weight<span class="ansi-yellow-intense-fg ansi-bold">=</span>sample_weight<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-
-<span class="ansi-red-intense-fg ansi-bold">KeyboardInterrupt</span>: </pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 </body>
 

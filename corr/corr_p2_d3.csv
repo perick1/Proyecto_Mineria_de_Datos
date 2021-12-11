@@ -1,0 +1,1601 @@
+group,variable,value
+GEN_ALU,GEN_ALU,1.0
+GEN_ALU,rango_edad_15 a 19 años,0.04029369713744209
+GEN_ALU,rango_edad_20 a 24 años,0.013213450792870705
+GEN_ALU,rango_edad_25 a 29 años,-0.03358660887666855
+GEN_ALU,rango_edad_30 a 34 años,-0.013932906377455295
+GEN_ALU,rango_edad_35 a 39 años,-0.011066907640025374
+GEN_ALU,rango_edad_40 y más años,-0.004224804794691936
+GEN_ALU,tipo_inst_3_Centros de Formación Técnica,0.0065264313567004965
+GEN_ALU,tipo_inst_3_Institutos Profesionales,0.026129449103613388
+GEN_ALU,tipo_inst_3_Universidades Estatales CRUCH,-0.058299319752724135
+GEN_ALU,tipo_inst_3_Universidades Privadas,0.04787694654074055
+GEN_ALU,tipo_inst_3_Universidades Privadas CRUCH,-0.03018325017643092
+GEN_ALU,jornada_A Distancia,0.006136897609958855
+GEN_ALU,jornada_Diurno,0.05927805021044653
+GEN_ALU,jornada_Otro,-0.00035983831363918745
+GEN_ALU,jornada_Semipresencial,0.025973105962242886
+GEN_ALU,jornada_Vespertino,-0.06624477728736422
+GEN_ALU,tipo_plan_carr_Plan Especial,-0.039099876977529965
+GEN_ALU,tipo_plan_carr_Plan Regular,0.048299040076404655
+GEN_ALU,tipo_plan_carr_Plan Regular de Continuidad,-0.029377323739222232
+GEN_ALU,dur_estudio_carr,-0.049196951056923
+GEN_ALU,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.013680356188493269
+GEN_ALU,nivel_carrera_1_Licenciatura No Conducente a Título,0.0032120287090643194
+GEN_ALU,nivel_carrera_1_Profesional Con Licenciatura,0.007715416070896325
+GEN_ALU,nivel_carrera_1_Profesional Sin Licenciatura,-0.05340666801082805
+GEN_ALU,nivel_carrera_1_Técnico de Nivel Superior,0.046557769992116485
+GEN_ALU,oecd_area_Agricultura,-0.00905671656396353
+GEN_ALU,oecd_area_Ciencias,-0.12894840202596478
+GEN_ALU,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.041014164297416056
+GEN_ALU,oecd_area_Educación,0.19170223427226904
+GEN_ALU,oecd_area_Humanidades y Artes,-0.003183971000294589
+GEN_ALU,"oecd_area_Ingeniería, Industria y Construcción",-0.2974445968285883
+GEN_ALU,oecd_area_Salud y Servicios Sociales,0.21528486246191947
+GEN_ALU,oecd_area_Servicios,-0.026751874705462992
+GEN_ALU,oecd_area_Sin área definida,-0.006348451213355957
+GEN_ALU,acreditada_carr_False,-0.01444702003684892
+GEN_ALU,acreditada_carr_True,0.014480609521251206
+GEN_ALU,acreditada_inst,-0.07078990622103701
+GEN_ALU,anio_en_carr_actual,-0.0032950791468177713
+GEN_ALU,Class,-0.05277068954117228
+rango_edad_15 a 19 años,GEN_ALU,0.04029369713744209
+rango_edad_15 a 19 años,rango_edad_15 a 19 años,1.0
+rango_edad_15 a 19 años,rango_edad_20 a 24 años,-0.39324994673796776
+rango_edad_15 a 19 años,rango_edad_25 a 29 años,-0.2045620324279437
+rango_edad_15 a 19 años,rango_edad_30 a 34 años,-0.11742272565419187
+rango_edad_15 a 19 años,rango_edad_35 a 39 años,-0.0813327434594801
+rango_edad_15 a 19 años,rango_edad_40 y más años,-0.08073606672308427
+rango_edad_15 a 19 años,tipo_inst_3_Centros de Formación Técnica,-0.003471272754368421
+rango_edad_15 a 19 años,tipo_inst_3_Institutos Profesionales,-0.08127747118823292
+rango_edad_15 a 19 años,tipo_inst_3_Universidades Estatales CRUCH,0.10700764665252108
+rango_edad_15 a 19 años,tipo_inst_3_Universidades Privadas,-0.07668539577208261
+rango_edad_15 a 19 años,tipo_inst_3_Universidades Privadas CRUCH,0.08159480596399334
+rango_edad_15 a 19 años,jornada_A Distancia,-0.045170895220027416
+rango_edad_15 a 19 años,jornada_Diurno,0.19975868831006915
+rango_edad_15 a 19 años,jornada_Otro,-0.03134408092573583
+rango_edad_15 a 19 años,jornada_Semipresencial,-0.027764791985793808
+rango_edad_15 a 19 años,jornada_Vespertino,-0.1823430904786704
+rango_edad_15 a 19 años,tipo_plan_carr_Plan Especial,-0.0755575759840152
+rango_edad_15 a 19 años,tipo_plan_carr_Plan Regular,0.08333811908410857
+rango_edad_15 a 19 años,tipo_plan_carr_Plan Regular de Continuidad,-0.03383133755060705
+rango_edad_15 a 19 años,dur_estudio_carr,0.05183364929530912
+rango_edad_15 a 19 años,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",0.10759298518515907
+rango_edad_15 a 19 años,nivel_carrera_1_Licenciatura No Conducente a Título,0.016424762757590822
+rango_edad_15 a 19 años,nivel_carrera_1_Profesional Con Licenciatura,0.08393803159686478
+rango_edad_15 a 19 años,nivel_carrera_1_Profesional Sin Licenciatura,-0.1344954776841798
+rango_edad_15 a 19 años,nivel_carrera_1_Técnico de Nivel Superior,0.013246425927735776
+rango_edad_15 a 19 años,oecd_area_Agricultura,0.006414116385565907
+rango_edad_15 a 19 años,oecd_area_Ciencias,0.01606183278951288
+rango_edad_15 a 19 años,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.050406217960135065
+rango_edad_15 a 19 años,oecd_area_Educación,-0.014175973859437191
+rango_edad_15 a 19 años,oecd_area_Humanidades y Artes,0.018136448262298717
+rango_edad_15 a 19 años,"oecd_area_Ingeniería, Industria y Construcción",0.0009641728539271373
+rango_edad_15 a 19 años,oecd_area_Salud y Servicios Sociales,0.029419529105478355
+rango_edad_15 a 19 años,oecd_area_Servicios,-0.020501493113247605
+rango_edad_15 a 19 años,oecd_area_Sin área definida,0.006431191375638642
+rango_edad_15 a 19 años,acreditada_carr_False,-0.0010713664253504242
+rango_edad_15 a 19 años,acreditada_carr_True,0.0012050710918864696
+rango_edad_15 a 19 años,acreditada_inst,0.07891182570032088
+rango_edad_15 a 19 años,anio_en_carr_actual,0.023712514421904456
+rango_edad_15 a 19 años,Class,-0.06468193165951339
+rango_edad_20 a 24 años,GEN_ALU,0.013213450792870705
+rango_edad_20 a 24 años,rango_edad_15 a 19 años,-0.39324994673796776
+rango_edad_20 a 24 años,rango_edad_20 a 24 años,1.0
+rango_edad_20 a 24 años,rango_edad_25 a 29 años,-0.5083803466957646
+rango_edad_20 a 24 años,rango_edad_30 a 34 años,-0.2918205556944722
+rango_edad_20 a 24 años,rango_edad_35 a 39 años,-0.2021292408258505
+rango_edad_20 a 24 años,rango_edad_40 y más años,-0.20064637168446187
+rango_edad_20 a 24 años,tipo_inst_3_Centros de Formación Técnica,-0.03222246892935999
+rango_edad_20 a 24 años,tipo_inst_3_Institutos Profesionales,-0.062453283917299277
+rango_edad_20 a 24 años,tipo_inst_3_Universidades Estatales CRUCH,0.062401350777538826
+rango_edad_20 a 24 años,tipo_inst_3_Universidades Privadas,-0.02780403053916391
+rango_edad_20 a 24 años,tipo_inst_3_Universidades Privadas CRUCH,0.0735347040348061
+rango_edad_20 a 24 años,jornada_A Distancia,-0.10340905099771593
+rango_edad_20 a 24 años,jornada_Diurno,0.2681032896377895
+rango_edad_20 a 24 años,jornada_Otro,-0.06031671521625676
+rango_edad_20 a 24 años,jornada_Semipresencial,-0.05420931438900957
+rango_edad_20 a 24 años,jornada_Vespertino,-0.22776980796577476
+rango_edad_20 a 24 años,tipo_plan_carr_Plan Especial,-0.14310148867693992
+rango_edad_20 a 24 años,tipo_plan_carr_Plan Regular,0.12669255055243758
+rango_edad_20 a 24 años,tipo_plan_carr_Plan Regular de Continuidad,0.007393412923863915
+rango_edad_20 a 24 años,dur_estudio_carr,0.12675966486427376
+rango_edad_20 a 24 años,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.01872965319715536
+rango_edad_20 a 24 años,nivel_carrera_1_Licenciatura No Conducente a Título,0.007920765674512595
+rango_edad_20 a 24 años,nivel_carrera_1_Profesional Con Licenciatura,0.09829151457710927
+rango_edad_20 a 24 años,nivel_carrera_1_Profesional Sin Licenciatura,-0.05751114835481797
+rango_edad_20 a 24 años,nivel_carrera_1_Técnico de Nivel Superior,-0.05458751458280228
+rango_edad_20 a 24 años,oecd_area_Agricultura,0.015863587493019214
+rango_edad_20 a 24 años,oecd_area_Ciencias,-0.0017567795470550807
+rango_edad_20 a 24 años,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.05770932440835987
+rango_edad_20 a 24 años,oecd_area_Educación,0.006222579457372097
+rango_edad_20 a 24 años,oecd_area_Humanidades y Artes,0.03840762576710969
+rango_edad_20 a 24 años,"oecd_area_Ingeniería, Industria y Construcción",0.011293819300539814
+rango_edad_20 a 24 años,oecd_area_Salud y Servicios Sociales,0.009426801728364454
+rango_edad_20 a 24 años,oecd_area_Servicios,-0.006448777170756407
+rango_edad_20 a 24 años,oecd_area_Sin área definida,0.004053304150740993
+rango_edad_20 a 24 años,acreditada_carr_False,-0.10395193737777728
+rango_edad_20 a 24 años,acreditada_carr_True,0.1043509518299125
+rango_edad_20 a 24 años,acreditada_inst,0.14298105012230358
+rango_edad_20 a 24 años,anio_en_carr_actual,0.01527812410366439
+rango_edad_20 a 24 años,Class,0.021911013790293768
+rango_edad_25 a 29 años,GEN_ALU,-0.03358660887666855
+rango_edad_25 a 29 años,rango_edad_15 a 19 años,-0.2045620324279437
+rango_edad_25 a 29 años,rango_edad_20 a 24 años,-0.5083803466957646
+rango_edad_25 a 29 años,rango_edad_25 a 29 años,1.0
+rango_edad_25 a 29 años,rango_edad_30 a 34 años,-0.15180016290496226
+rango_edad_25 a 29 años,rango_edad_35 a 39 años,-0.10514424390697448
+rango_edad_25 a 29 años,rango_edad_40 y más años,-0.1043728802260562
+rango_edad_25 a 29 años,tipo_inst_3_Centros de Formación Técnica,0.002370114295190213
+rango_edad_25 a 29 años,tipo_inst_3_Institutos Profesionales,0.04876150882364052
+rango_edad_25 a 29 años,tipo_inst_3_Universidades Estatales CRUCH,-0.06611030588272628
+rango_edad_25 a 29 años,tipo_inst_3_Universidades Privadas,0.051765039358115404
+rango_edad_25 a 29 años,tipo_inst_3_Universidades Privadas CRUCH,-0.054177615719766516
+rango_edad_25 a 29 años,jornada_A Distancia,-0.0035990497940601687
+rango_edad_25 a 29 años,jornada_Diurno,-0.13867059067007748
+rango_edad_25 a 29 años,jornada_Otro,0.009419142114418128
+rango_edad_25 a 29 años,jornada_Semipresencial,0.006785330312954157
+rango_edad_25 a 29 años,jornada_Vespertino,0.1397312956230375
+rango_edad_25 a 29 años,tipo_plan_carr_Plan Especial,0.028804504365193863
+rango_edad_25 a 29 años,tipo_plan_carr_Plan Regular,-0.030344555046959838
+rango_edad_25 a 29 años,tipo_plan_carr_Plan Regular de Continuidad,0.009624928413092456
+rango_edad_25 a 29 años,dur_estudio_carr,-0.032652835830713885
+rango_edad_25 a 29 años,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.03684032029331933
+rango_edad_25 a 29 años,nivel_carrera_1_Licenciatura No Conducente a Título,-0.012437390026098592
+rango_edad_25 a 29 años,nivel_carrera_1_Profesional Con Licenciatura,-0.049199441379650134
+rango_edad_25 a 29 años,nivel_carrera_1_Profesional Sin Licenciatura,0.06683522650190127
+rango_edad_25 a 29 años,nivel_carrera_1_Técnico de Nivel Superior,-7.795663603113905e-05
+rango_edad_25 a 29 años,oecd_area_Agricultura,0.00682478457867072
+rango_edad_25 a 29 años,oecd_area_Ciencias,0.0073434712790759965
+rango_edad_25 a 29 años,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.006983213921299645
+rango_edad_25 a 29 años,oecd_area_Educación,0.011407416186963974
+rango_edad_25 a 29 años,oecd_area_Humanidades y Artes,-0.013138266083508364
+rango_edad_25 a 29 años,"oecd_area_Ingeniería, Industria y Construcción",0.00621165648769015
+rango_edad_25 a 29 años,oecd_area_Salud y Servicios Sociales,-0.011900667867069342
+rango_edad_25 a 29 años,oecd_area_Servicios,0.008970567594765853
+rango_edad_25 a 29 años,oecd_area_Sin área definida,-0.00583878803932696
+rango_edad_25 a 29 años,acreditada_carr_False,0.006663845644185972
+rango_edad_25 a 29 años,acreditada_carr_True,-0.006738885090102997
+rango_edad_25 a 29 años,acreditada_inst,-0.043440581767885886
+rango_edad_25 a 29 años,anio_en_carr_actual,-0.011788965468379226
+rango_edad_25 a 29 años,Class,0.0046756768321553005
+rango_edad_30 a 34 años,GEN_ALU,-0.013932906377455295
+rango_edad_30 a 34 años,rango_edad_15 a 19 años,-0.11742272565419187
+rango_edad_30 a 34 años,rango_edad_20 a 24 años,-0.2918205556944722
+rango_edad_30 a 34 años,rango_edad_25 a 29 años,-0.15180016290496226
+rango_edad_30 a 34 años,rango_edad_30 a 34 años,1.0
+rango_edad_30 a 34 años,rango_edad_35 a 39 años,-0.06035491317640745
+rango_edad_30 a 34 años,rango_edad_40 y más años,-0.05991213489310149
+rango_edad_30 a 34 años,tipo_inst_3_Centros de Formación Técnica,0.02407863891534452
+rango_edad_30 a 34 años,tipo_inst_3_Institutos Profesionales,0.076631688226778
+rango_edad_30 a 34 años,tipo_inst_3_Universidades Estatales CRUCH,-0.0769289461371656
+rango_edad_30 a 34 años,tipo_inst_3_Universidades Privadas,0.03326828781669898
+rango_edad_30 a 34 años,tipo_inst_3_Universidades Privadas CRUCH,-0.07530918691431847
+rango_edad_30 a 34 años,jornada_A Distancia,0.0721237186655986
+rango_edad_30 a 34 años,jornada_Diurno,-0.24247445555608446
+rango_edad_30 a 34 años,jornada_Otro,0.05327055110489173
+rango_edad_30 a 34 años,jornada_Semipresencial,0.04273301937263456
+rango_edad_30 a 34 años,jornada_Vespertino,0.21263986022343487
+rango_edad_30 a 34 años,tipo_plan_carr_Plan Especial,0.11048125174865524
+rango_edad_30 a 34 años,tipo_plan_carr_Plan Regular,-0.10121698881152252
+rango_edad_30 a 34 años,tipo_plan_carr_Plan Regular de Continuidad,0.0021036028095954514
+rango_edad_30 a 34 años,dur_estudio_carr,-0.10757362450694924
+rango_edad_30 a 34 años,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.02312945498092552
+rango_edad_30 a 34 años,nivel_carrera_1_Licenciatura No Conducente a Título,-0.009955040703422771
+rango_edad_30 a 34 años,nivel_carrera_1_Profesional Con Licenciatura,-0.10175193168380683
+rango_edad_30 a 34 años,nivel_carrera_1_Profesional Sin Licenciatura,0.08650789253562803
+rango_edad_30 a 34 años,nivel_carrera_1_Técnico de Nivel Superior,0.03796293476722955
+rango_edad_30 a 34 años,oecd_area_Agricultura,-0.018200028285795703
+rango_edad_30 a 34 años,oecd_area_Ciencias,-0.0033854035715929387
+rango_edad_30 a 34 años,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.056447460693488265
+rango_edad_30 a 34 años,oecd_area_Educación,0.0011321475667467698
+rango_edad_30 a 34 años,oecd_area_Humanidades y Artes,-0.031823125106613545
+rango_edad_30 a 34 años,"oecd_area_Ingeniería, Industria y Construcción",-0.010362187336193594
+rango_edad_30 a 34 años,oecd_area_Salud y Servicios Sociales,-0.017508096769193716
+rango_edad_30 a 34 años,oecd_area_Servicios,0.017502494896416424
+rango_edad_30 a 34 años,oecd_area_Sin área definida,-0.003495405091394606
+rango_edad_30 a 34 años,acreditada_carr_False,0.0684020046817842
+rango_edad_30 a 34 años,acreditada_carr_True,-0.06859321434425579
+rango_edad_30 a 34 años,acreditada_inst,-0.10790012870808943
+rango_edad_30 a 34 años,anio_en_carr_actual,-0.01829689642003272
+rango_edad_30 a 34 años,Class,0.020310202341876145
+rango_edad_35 a 39 años,GEN_ALU,-0.011066907640025374
+rango_edad_35 a 39 años,rango_edad_15 a 19 años,-0.0813327434594801
+rango_edad_35 a 39 años,rango_edad_20 a 24 años,-0.2021292408258505
+rango_edad_35 a 39 años,rango_edad_25 a 29 años,-0.10514424390697448
+rango_edad_35 a 39 años,rango_edad_30 a 34 años,-0.06035491317640745
+rango_edad_35 a 39 años,rango_edad_35 a 39 años,1.0
+rango_edad_35 a 39 años,rango_edad_40 y más años,-0.04149808540203431
+rango_edad_35 a 39 años,tipo_inst_3_Centros de Formación Técnica,0.02172582610797916
+rango_edad_35 a 39 años,tipo_inst_3_Institutos Profesionales,0.05153322659625575
+rango_edad_35 a 39 años,tipo_inst_3_Universidades Estatales CRUCH,-0.05212835780764466
+rango_edad_35 a 39 años,tipo_inst_3_Universidades Privadas,0.02351569051579882
+rango_edad_35 a 39 años,tipo_inst_3_Universidades Privadas CRUCH,-0.0563947477403748
+rango_edad_35 a 39 años,jornada_A Distancia,0.09290198133575946
+rango_edad_35 a 39 años,jornada_Diurno,-0.2023628045135416
+rango_edad_35 a 39 años,jornada_Otro,0.063786920034931
+rango_edad_35 a 39 años,jornada_Semipresencial,0.04488239101609902
+rango_edad_35 a 39 años,jornada_Vespertino,0.16408165669733427
+rango_edad_35 a 39 años,tipo_plan_carr_Plan Especial,0.12392023942041352
+rango_edad_35 a 39 años,tipo_plan_carr_Plan Regular,-0.11559643448178075
+rango_edad_35 a 39 años,tipo_plan_carr_Plan Regular de Continuidad,0.007103467166331918
+rango_edad_35 a 39 años,dur_estudio_carr,-0.09608331620975732
+rango_edad_35 a 39 años,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.016326045167292167
+rango_edad_35 a 39 años,nivel_carrera_1_Licenciatura No Conducente a Título,-0.006900429025344078
+rango_edad_35 a 39 años,nivel_carrera_1_Profesional Con Licenciatura,-0.08012790843890638
+rango_edad_35 a 39 años,nivel_carrera_1_Profesional Sin Licenciatura,0.06608662924625816
+rango_edad_35 a 39 años,nivel_carrera_1_Técnico de Nivel Superior,0.03136129822447059
+rango_edad_35 a 39 años,oecd_area_Agricultura,-0.01959219678614092
+rango_edad_35 a 39 años,oecd_area_Ciencias,-0.01095786627774079
+rango_edad_35 a 39 años,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.05887138737854476
+rango_edad_35 a 39 años,oecd_area_Educación,-0.008170649137885675
+rango_edad_35 a 39 años,oecd_area_Humanidades y Artes,-0.029472322892002363
+rango_edad_35 a 39 años,"oecd_area_Ingeniería, Industria y Construcción",-0.00773199893917477
+rango_edad_35 a 39 años,oecd_area_Salud y Servicios Sociales,-0.016936945444011208
+rango_edad_35 a 39 años,oecd_area_Servicios,0.011234837033082416
+rango_edad_35 a 39 años,oecd_area_Sin área definida,-0.0024219376450460963
+rango_edad_35 a 39 años,acreditada_carr_False,0.07156980159552279
+rango_edad_35 a 39 años,acreditada_carr_True,-0.07188800663626747
+rango_edad_35 a 39 años,acreditada_inst,-0.11076256081175606
+rango_edad_35 a 39 años,anio_en_carr_actual,-0.014098170675416587
+rango_edad_35 a 39 años,Class,0.013600816682721265
+rango_edad_40 y más años,GEN_ALU,-0.004224804794691936
+rango_edad_40 y más años,rango_edad_15 a 19 años,-0.08073606672308427
+rango_edad_40 y más años,rango_edad_20 a 24 años,-0.20064637168446187
+rango_edad_40 y más años,rango_edad_25 a 29 años,-0.1043728802260562
+rango_edad_40 y más años,rango_edad_30 a 34 años,-0.05991213489310149
+rango_edad_40 y más años,rango_edad_35 a 39 años,-0.04149808540203431
+rango_edad_40 y más años,rango_edad_40 y más años,1.0
+rango_edad_40 y más años,tipo_inst_3_Centros de Formación Técnica,0.02842633201877275
+rango_edad_40 y más años,tipo_inst_3_Institutos Profesionales,0.04340056149184536
+rango_edad_40 y más años,tipo_inst_3_Universidades Estatales CRUCH,-0.05126515175195357
+rango_edad_40 y más años,tipo_inst_3_Universidades Privadas,0.02850549733666889
+rango_edad_40 y más años,tipo_inst_3_Universidades Privadas CRUCH,-0.0580211453578081
+rango_edad_40 y más años,jornada_A Distancia,0.1581865296197519
+rango_edad_40 y más años,jornada_Diurno,-0.2085221842074093
+rango_edad_40 y más años,jornada_Otro,0.05191142801922164
+rango_edad_40 y más años,jornada_Semipresencial,0.06910421020771307
+rango_edad_40 y más años,jornada_Vespertino,0.15229038677855047
+rango_edad_40 y más años,tipo_plan_carr_Plan Especial,0.16040739143735916
+rango_edad_40 y más años,tipo_plan_carr_Plan Regular,-0.15020788129179305
+rango_edad_40 y más años,tipo_plan_carr_Plan Regular de Continuidad,0.010514836935674864
+rango_edad_40 y más años,dur_estudio_carr,-0.10180276928233377
+rango_edad_40 y más años,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.015952190805504845
+rango_edad_40 y más años,nivel_carrera_1_Licenciatura No Conducente a Título,-0.002421469688948893
+rango_edad_40 y más años,nivel_carrera_1_Profesional Con Licenciatura,-0.0753263070096734
+rango_edad_40 y más años,nivel_carrera_1_Profesional Sin Licenciatura,0.058250532114097524
+rango_edad_40 y más años,nivel_carrera_1_Técnico de Nivel Superior,0.032545005999765536
+rango_edad_40 y más años,oecd_area_Agricultura,-0.021100414517798646
+rango_edad_40 y más años,oecd_area_Ciencias,-0.023251797169388938
+rango_edad_40 y más años,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.08456238979561494
+rango_edad_40 y más años,oecd_area_Educación,-0.00814881618651573
+rango_edad_40 y más años,oecd_area_Humanidades y Artes,-0.029461407344388332
+rango_edad_40 y más años,"oecd_area_Ingeniería, Industria y Construcción",-0.021316283921249474
+rango_edad_40 y más años,oecd_area_Salud y Servicios Sociales,-0.009580084506067756
+rango_edad_40 y más años,oecd_area_Servicios,-0.00165427075258381
+rango_edad_40 y más años,oecd_area_Sin área definida,-0.002227520917862731
+rango_edad_40 y más años,acreditada_carr_False,0.08706454995904515
+rango_edad_40 y más años,acreditada_carr_True,-0.08757042734868156
+rango_edad_40 y más años,acreditada_inst,-0.15310649556990286
+rango_edad_40 y más años,anio_en_carr_actual,-0.017200734456867994
+rango_edad_40 y más años,Class,0.006200573229111195
+tipo_inst_3_Centros de Formación Técnica,GEN_ALU,0.0065264313567004965
+tipo_inst_3_Centros de Formación Técnica,rango_edad_15 a 19 años,-0.003471272754368421
+tipo_inst_3_Centros de Formación Técnica,rango_edad_20 a 24 años,-0.03222246892935999
+tipo_inst_3_Centros de Formación Técnica,rango_edad_25 a 29 años,0.002370114295190213
+tipo_inst_3_Centros de Formación Técnica,rango_edad_30 a 34 años,0.02407863891534452
+tipo_inst_3_Centros de Formación Técnica,rango_edad_35 a 39 años,0.02172582610797916
+tipo_inst_3_Centros de Formación Técnica,rango_edad_40 y más años,0.02842633201877275
+tipo_inst_3_Centros de Formación Técnica,tipo_inst_3_Centros de Formación Técnica,1.0
+tipo_inst_3_Centros de Formación Técnica,tipo_inst_3_Institutos Profesionales,-0.2177551427129052
+tipo_inst_3_Centros de Formación Técnica,tipo_inst_3_Universidades Estatales CRUCH,-0.16833298727453402
+tipo_inst_3_Centros de Formación Técnica,tipo_inst_3_Universidades Privadas,-0.16981791893250267
+tipo_inst_3_Centros de Formación Técnica,tipo_inst_3_Universidades Privadas CRUCH,-0.11506981093212493
+tipo_inst_3_Centros de Formación Técnica,jornada_A Distancia,-0.010092653786012604
+tipo_inst_3_Centros de Formación Técnica,jornada_Diurno,-0.1208222264624317
+tipo_inst_3_Centros de Formación Técnica,jornada_Otro,-0.00877747317370607
+tipo_inst_3_Centros de Formación Técnica,jornada_Semipresencial,-0.014246178096217834
+tipo_inst_3_Centros de Formación Técnica,jornada_Vespertino,0.12997047948244794
+tipo_inst_3_Centros de Formación Técnica,tipo_plan_carr_Plan Especial,-0.012947987327990162
+tipo_inst_3_Centros de Formación Técnica,tipo_plan_carr_Plan Regular,0.024044435158247036
+tipo_inst_3_Centros de Formación Técnica,tipo_plan_carr_Plan Regular de Continuidad,-0.0282009591152222
+tipo_inst_3_Centros de Formación Técnica,dur_estudio_carr,-0.4336160240862091
+tipo_inst_3_Centros de Formación Técnica,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.025672759995886446
+tipo_inst_3_Centros de Formación Técnica,nivel_carrera_1_Licenciatura No Conducente a Título,-0.03131158146823701
+tipo_inst_3_Centros de Formación Técnica,nivel_carrera_1_Profesional Con Licenciatura,-0.3020495464225187
+tipo_inst_3_Centros de Formación Técnica,nivel_carrera_1_Profesional Sin Licenciatura,-0.17823591387261986
+tipo_inst_3_Centros de Formación Técnica,nivel_carrera_1_Técnico de Nivel Superior,0.5418337185020543
+tipo_inst_3_Centros de Formación Técnica,oecd_area_Agricultura,0.027179144682426732
+tipo_inst_3_Centros de Formación Técnica,oecd_area_Ciencias,0.0003472813972432505
+tipo_inst_3_Centros de Formación Técnica,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.03093445212961901
+tipo_inst_3_Centros de Formación Técnica,oecd_area_Educación,-0.04959400270136749
+tipo_inst_3_Centros de Formación Técnica,oecd_area_Humanidades y Artes,-0.028072929318979853
+tipo_inst_3_Centros de Formación Técnica,"oecd_area_Ingeniería, Industria y Construcción",0.003381632545817523
+tipo_inst_3_Centros de Formación Técnica,oecd_area_Salud y Servicios Sociales,0.005704857322321092
+tipo_inst_3_Centros de Formación Técnica,oecd_area_Servicios,0.10839114891167304
+tipo_inst_3_Centros de Formación Técnica,oecd_area_Sin área definida,-0.004670654867101408
+tipo_inst_3_Centros de Formación Técnica,acreditada_carr_False,0.1633193168976768
+tipo_inst_3_Centros de Formación Técnica,acreditada_carr_True,-0.1631074312688147
+tipo_inst_3_Centros de Formación Técnica,acreditada_inst,-0.18376636791338632
+tipo_inst_3_Centros de Formación Técnica,anio_en_carr_actual,-0.02252163395415715
+tipo_inst_3_Centros de Formación Técnica,Class,0.012919909622475918
+tipo_inst_3_Institutos Profesionales,GEN_ALU,0.026129449103613388
+tipo_inst_3_Institutos Profesionales,rango_edad_15 a 19 años,-0.08127747118823292
+tipo_inst_3_Institutos Profesionales,rango_edad_20 a 24 años,-0.062453283917299277
+tipo_inst_3_Institutos Profesionales,rango_edad_25 a 29 años,0.04876150882364052
+tipo_inst_3_Institutos Profesionales,rango_edad_30 a 34 años,0.076631688226778
+tipo_inst_3_Institutos Profesionales,rango_edad_35 a 39 años,0.05153322659625575
+tipo_inst_3_Institutos Profesionales,rango_edad_40 y más años,0.04340056149184536
+tipo_inst_3_Institutos Profesionales,tipo_inst_3_Centros de Formación Técnica,-0.2177551427129052
+tipo_inst_3_Institutos Profesionales,tipo_inst_3_Institutos Profesionales,1.0
+tipo_inst_3_Institutos Profesionales,tipo_inst_3_Universidades Estatales CRUCH,-0.382888480350476
+tipo_inst_3_Institutos Profesionales,tipo_inst_3_Universidades Privadas,-0.38626609060685824
+tipo_inst_3_Institutos Profesionales,tipo_inst_3_Universidades Privadas CRUCH,-0.2617366076236709
+tipo_inst_3_Institutos Profesionales,jornada_A Distancia,0.1096703209823288
+tipo_inst_3_Institutos Profesionales,jornada_Diurno,-0.3178166621654334
+tipo_inst_3_Institutos Profesionales,jornada_Otro,-0.0554571128327938
+tipo_inst_3_Institutos Profesionales,jornada_Semipresencial,0.06026694312736016
+tipo_inst_3_Institutos Profesionales,jornada_Vespertino,0.2979632442192306
+tipo_inst_3_Institutos Profesionales,tipo_plan_carr_Plan Especial,-0.0815620123179545
+tipo_inst_3_Institutos Profesionales,tipo_plan_carr_Plan Regular,0.09397091661590597
+tipo_inst_3_Institutos Profesionales,tipo_plan_carr_Plan Regular de Continuidad,-0.04572171848275113
+tipo_inst_3_Institutos Profesionales,dur_estudio_carr,-0.38305140726157694
+tipo_inst_3_Institutos Profesionales,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.05839499565806039
+tipo_inst_3_Institutos Profesionales,nivel_carrera_1_Licenciatura No Conducente a Título,-0.07122100094260538
+tipo_inst_3_Institutos Profesionales,nivel_carrera_1_Profesional Con Licenciatura,-0.6870387895410642
+tipo_inst_3_Institutos Profesionales,nivel_carrera_1_Profesional Sin Licenciatura,0.5607134973028592
+tipo_inst_3_Institutos Profesionales,nivel_carrera_1_Técnico de Nivel Superior,0.262048986809545
+tipo_inst_3_Institutos Profesionales,oecd_area_Agricultura,-0.0599903122114142
+tipo_inst_3_Institutos Profesionales,oecd_area_Ciencias,-0.026340035357231263
+tipo_inst_3_Institutos Profesionales,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.010364632279726041
+tipo_inst_3_Institutos Profesionales,oecd_area_Educación,0.031550564872231575
+tipo_inst_3_Institutos Profesionales,oecd_area_Humanidades y Artes,0.04427627117261245
+tipo_inst_3_Institutos Profesionales,"oecd_area_Ingeniería, Industria y Construcción",-0.0465769590799577
+tipo_inst_3_Institutos Profesionales,oecd_area_Salud y Servicios Sociales,-0.0067814303766432155
+tipo_inst_3_Institutos Profesionales,oecd_area_Servicios,0.2075595562344344
+tipo_inst_3_Institutos Profesionales,oecd_area_Sin área definida,-0.010623823489980738
+tipo_inst_3_Institutos Profesionales,acreditada_carr_False,0.05350180872903205
+tipo_inst_3_Institutos Profesionales,acreditada_carr_True,-0.05295828891352748
+tipo_inst_3_Institutos Profesionales,acreditada_inst,0.04151230475083035
+tipo_inst_3_Institutos Profesionales,anio_en_carr_actual,-0.050323317587004604
+tipo_inst_3_Institutos Profesionales,Class,0.08923902678098818
+tipo_inst_3_Universidades Estatales CRUCH,GEN_ALU,-0.058299319752724135
+tipo_inst_3_Universidades Estatales CRUCH,rango_edad_15 a 19 años,0.10700764665252108
+tipo_inst_3_Universidades Estatales CRUCH,rango_edad_20 a 24 años,0.062401350777538826
+tipo_inst_3_Universidades Estatales CRUCH,rango_edad_25 a 29 años,-0.06611030588272628
+tipo_inst_3_Universidades Estatales CRUCH,rango_edad_30 a 34 años,-0.0769289461371656
+tipo_inst_3_Universidades Estatales CRUCH,rango_edad_35 a 39 años,-0.05212835780764466
+tipo_inst_3_Universidades Estatales CRUCH,rango_edad_40 y más años,-0.05126515175195357
+tipo_inst_3_Universidades Estatales CRUCH,tipo_inst_3_Centros de Formación Técnica,-0.16833298727453402
+tipo_inst_3_Universidades Estatales CRUCH,tipo_inst_3_Institutos Profesionales,-0.382888480350476
+tipo_inst_3_Universidades Estatales CRUCH,tipo_inst_3_Universidades Estatales CRUCH,1.0
+tipo_inst_3_Universidades Estatales CRUCH,tipo_inst_3_Universidades Privadas,-0.2985983435569521
+tipo_inst_3_Universidades Estatales CRUCH,tipo_inst_3_Universidades Privadas CRUCH,-0.20233232837363396
+tipo_inst_3_Universidades Estatales CRUCH,jornada_A Distancia,-0.0625043424328726
+tipo_inst_3_Universidades Estatales CRUCH,jornada_Diurno,0.25067807516370505
+tipo_inst_3_Universidades Estatales CRUCH,jornada_Otro,-0.04710805539979503
+tipo_inst_3_Universidades Estatales CRUCH,jornada_Semipresencial,-0.040908455195024236
+tipo_inst_3_Universidades Estatales CRUCH,jornada_Vespertino,-0.2249060655634352
+tipo_inst_3_Universidades Estatales CRUCH,tipo_plan_carr_Plan Especial,0.13206528530059874
+tipo_inst_3_Universidades Estatales CRUCH,tipo_plan_carr_Plan Regular,-0.15865353643417468
+tipo_inst_3_Universidades Estatales CRUCH,tipo_plan_carr_Plan Regular de Continuidad,0.08893840922238473
+tipo_inst_3_Universidades Estatales CRUCH,dur_estudio_carr,0.3536125021114842
+tipo_inst_3_Universidades Estatales CRUCH,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",0.11129131563939446
+tipo_inst_3_Universidades Estatales CRUCH,nivel_carrera_1_Licenciatura No Conducente a Título,0.10630180105744064
+tipo_inst_3_Universidades Estatales CRUCH,nivel_carrera_1_Profesional Con Licenciatura,0.3843685128978666
+tipo_inst_3_Universidades Estatales CRUCH,nivel_carrera_1_Profesional Sin Licenciatura,-0.2179958943821103
+tipo_inst_3_Universidades Estatales CRUCH,nivel_carrera_1_Técnico de Nivel Superior,-0.2732323883506003
+tipo_inst_3_Universidades Estatales CRUCH,oecd_area_Agricultura,0.028288801948359206
+tipo_inst_3_Universidades Estatales CRUCH,oecd_area_Ciencias,0.05489868656076904
+tipo_inst_3_Universidades Estatales CRUCH,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.021186236310130103
+tipo_inst_3_Universidades Estatales CRUCH,oecd_area_Educación,-0.0901536243036059
+tipo_inst_3_Universidades Estatales CRUCH,oecd_area_Humanidades y Artes,0.02550793416436985
+tipo_inst_3_Universidades Estatales CRUCH,"oecd_area_Ingeniería, Industria y Construcción",0.12624237669124028
+tipo_inst_3_Universidades Estatales CRUCH,oecd_area_Salud y Servicios Sociales,-0.05236117916127291
+tipo_inst_3_Universidades Estatales CRUCH,oecd_area_Servicios,-0.12148834101235907
+tipo_inst_3_Universidades Estatales CRUCH,oecd_area_Sin área definida,0.02627087653307477
+tipo_inst_3_Universidades Estatales CRUCH,acreditada_carr_False,-0.12893060441413104
+tipo_inst_3_Universidades Estatales CRUCH,acreditada_carr_True,0.12913963454546445
+tipo_inst_3_Universidades Estatales CRUCH,acreditada_inst,0.21818139131783684
+tipo_inst_3_Universidades Estatales CRUCH,anio_en_carr_actual,-0.033597412235125745
+tipo_inst_3_Universidades Estatales CRUCH,Class,-0.09226211193173894
+tipo_inst_3_Universidades Privadas,GEN_ALU,0.04787694654074055
+tipo_inst_3_Universidades Privadas,rango_edad_15 a 19 años,-0.07668539577208261
+tipo_inst_3_Universidades Privadas,rango_edad_20 a 24 años,-0.02780403053916391
+tipo_inst_3_Universidades Privadas,rango_edad_25 a 29 años,0.051765039358115404
+tipo_inst_3_Universidades Privadas,rango_edad_30 a 34 años,0.03326828781669898
+tipo_inst_3_Universidades Privadas,rango_edad_35 a 39 años,0.02351569051579882
+tipo_inst_3_Universidades Privadas,rango_edad_40 y más años,0.02850549733666889
+tipo_inst_3_Universidades Privadas,tipo_inst_3_Centros de Formación Técnica,-0.16981791893250267
+tipo_inst_3_Universidades Privadas,tipo_inst_3_Institutos Profesionales,-0.38626609060685824
+tipo_inst_3_Universidades Privadas,tipo_inst_3_Universidades Estatales CRUCH,-0.2985983435569521
+tipo_inst_3_Universidades Privadas,tipo_inst_3_Universidades Privadas,1.0
+tipo_inst_3_Universidades Privadas,tipo_inst_3_Universidades Privadas CRUCH,-0.20411718163239495
+tipo_inst_3_Universidades Privadas,jornada_A Distancia,-0.03817319132902671
+tipo_inst_3_Universidades Privadas,jornada_Diurno,0.004116942855169461
+tipo_inst_3_Universidades Privadas,jornada_Otro,0.14013180112958515
+tipo_inst_3_Universidades Privadas,jornada_Semipresencial,0.004523184140454367
+tipo_inst_3_Universidades Privadas,jornada_Vespertino,-0.021894627419788117
+tipo_inst_3_Universidades Privadas,tipo_plan_carr_Plan Especial,-0.01439925691688386
+tipo_inst_3_Universidades Privadas,tipo_plan_carr_Plan Regular,0.016110461693673802
+tipo_inst_3_Universidades Privadas,tipo_plan_carr_Plan Regular de Continuidad,-0.0069715526312163975
+tipo_inst_3_Universidades Privadas,dur_estudio_carr,0.16790693588931765
+tipo_inst_3_Universidades Privadas,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.03286974319790461
+tipo_inst_3_Universidades Privadas,nivel_carrera_1_Licenciatura No Conducente a Título,-0.020418668947071915
+tipo_inst_3_Universidades Privadas,nivel_carrera_1_Profesional Con Licenciatura,0.34660742750811685
+tipo_inst_3_Universidades Privadas,nivel_carrera_1_Profesional Sin Licenciatura,-0.1486563555603289
+tipo_inst_3_Universidades Privadas,nivel_carrera_1_Técnico de Nivel Superior,-0.24198068993855595
+tipo_inst_3_Universidades Privadas,oecd_area_Agricultura,-0.022800419196208583
+tipo_inst_3_Universidades Privadas,oecd_area_Ciencias,-0.05201300547866392
+tipo_inst_3_Universidades Privadas,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.07335844022676401
+tipo_inst_3_Universidades Privadas,oecd_area_Educación,0.059960914596654376
+tipo_inst_3_Universidades Privadas,oecd_area_Humanidades y Artes,-0.03198295621622655
+tipo_inst_3_Universidades Privadas,"oecd_area_Ingeniería, Industria y Construcción",-0.12285917307112405
+tipo_inst_3_Universidades Privadas,oecd_area_Salud y Servicios Sociales,0.0853276583850096
+tipo_inst_3_Universidades Privadas,oecd_area_Servicios,-0.12763628495770066
+tipo_inst_3_Universidades Privadas,oecd_area_Sin área definida,-0.006893701768289675
+tipo_inst_3_Universidades Privadas,acreditada_carr_False,0.06465937244457852
+tipo_inst_3_Universidades Privadas,acreditada_carr_True,-0.06585962978503461
+tipo_inst_3_Universidades Privadas,acreditada_inst,-0.2587231944833998
+tipo_inst_3_Universidades Privadas,anio_en_carr_actual,-0.04440795848057762
+tipo_inst_3_Universidades Privadas,Class,0.05342529833018398
+tipo_inst_3_Universidades Privadas CRUCH,GEN_ALU,-0.03018325017643092
+tipo_inst_3_Universidades Privadas CRUCH,rango_edad_15 a 19 años,0.08159480596399334
+tipo_inst_3_Universidades Privadas CRUCH,rango_edad_20 a 24 años,0.0735347040348061
+tipo_inst_3_Universidades Privadas CRUCH,rango_edad_25 a 29 años,-0.054177615719766516
+tipo_inst_3_Universidades Privadas CRUCH,rango_edad_30 a 34 años,-0.07530918691431847
+tipo_inst_3_Universidades Privadas CRUCH,rango_edad_35 a 39 años,-0.0563947477403748
+tipo_inst_3_Universidades Privadas CRUCH,rango_edad_40 y más años,-0.0580211453578081
+tipo_inst_3_Universidades Privadas CRUCH,tipo_inst_3_Centros de Formación Técnica,-0.11506981093212493
+tipo_inst_3_Universidades Privadas CRUCH,tipo_inst_3_Institutos Profesionales,-0.2617366076236709
+tipo_inst_3_Universidades Privadas CRUCH,tipo_inst_3_Universidades Estatales CRUCH,-0.20233232837363396
+tipo_inst_3_Universidades Privadas CRUCH,tipo_inst_3_Universidades Privadas,-0.20411718163239495
+tipo_inst_3_Universidades Privadas CRUCH,tipo_inst_3_Universidades Privadas CRUCH,1.0
+tipo_inst_3_Universidades Privadas CRUCH,jornada_A Distancia,-0.019672926522858115
+tipo_inst_3_Universidades Privadas CRUCH,jornada_Diurno,0.2348568758014156
+tipo_inst_3_Universidades Privadas CRUCH,jornada_Otro,-0.032905097609818065
+tipo_inst_3_Universidades Privadas CRUCH,jornada_Semipresencial,-0.02778310044404276
+tipo_inst_3_Universidades Privadas CRUCH,jornada_Vespertino,-0.22432636941310466
+tipo_inst_3_Universidades Privadas CRUCH,tipo_plan_carr_Plan Especial,-0.022412900078049868
+tipo_inst_3_Universidades Privadas CRUCH,tipo_plan_carr_Plan Regular,0.02690024125940697
+tipo_inst_3_Universidades Privadas CRUCH,tipo_plan_carr_Plan Regular de Continuidad,-0.015036503879443688
+tipo_inst_3_Universidades Privadas CRUCH,dur_estudio_carr,0.25549732630395405
+tipo_inst_3_Universidades Privadas CRUCH,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",0.005748872146079243
+tipo_inst_3_Universidades Privadas CRUCH,nivel_carrera_1_Licenciatura No Conducente a Título,0.019435992315925868
+tipo_inst_3_Universidades Privadas CRUCH,nivel_carrera_1_Profesional Con Licenciatura,0.3094499328668417
+tipo_inst_3_Universidades Privadas CRUCH,nivel_carrera_1_Profesional Sin Licenciatura,-0.18168898210929352
+tipo_inst_3_Universidades Privadas CRUCH,nivel_carrera_1_Técnico de Nivel Superior,-0.1823317314272923
+tipo_inst_3_Universidades Privadas CRUCH,oecd_area_Agricultura,0.05601771283251993
+tipo_inst_3_Universidades Privadas CRUCH,oecd_area_Ciencias,0.034254868672038793
+tipo_inst_3_Universidades Privadas CRUCH,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.05567883267675812
+tipo_inst_3_Universidades Privadas CRUCH,oecd_area_Educación,0.035840557243526305
+tipo_inst_3_Universidades Privadas CRUCH,oecd_area_Humanidades y Artes,-0.031005385792355983
+tipo_inst_3_Universidades Privadas CRUCH,"oecd_area_Ingeniería, Industria y Construcción",0.06057888159541841
+tipo_inst_3_Universidades Privadas CRUCH,oecd_area_Salud y Servicios Sociales,-0.038041266533193466
+tipo_inst_3_Universidades Privadas CRUCH,oecd_area_Servicios,-0.07180936405640588
+tipo_inst_3_Universidades Privadas CRUCH,oecd_area_Sin área definida,-0.005514226162937342
+tipo_inst_3_Universidades Privadas CRUCH,acreditada_carr_False,-0.13604242702918504
+tipo_inst_3_Universidades Privadas CRUCH,acreditada_carr_True,0.13635726752883226
+tipo_inst_3_Universidades Privadas CRUCH,acreditada_inst,0.1526983426782977
+tipo_inst_3_Universidades Privadas CRUCH,anio_en_carr_actual,0.19246035495898034
+tipo_inst_3_Universidades Privadas CRUCH,Class,-0.09014802580425726
+jornada_A Distancia,GEN_ALU,0.006136897609958855
+jornada_A Distancia,rango_edad_15 a 19 años,-0.045170895220027416
+jornada_A Distancia,rango_edad_20 a 24 años,-0.10340905099771593
+jornada_A Distancia,rango_edad_25 a 29 años,-0.0035990497940601687
+jornada_A Distancia,rango_edad_30 a 34 años,0.0721237186655986
+jornada_A Distancia,rango_edad_35 a 39 años,0.09290198133575946
+jornada_A Distancia,rango_edad_40 y más años,0.1581865296197519
+jornada_A Distancia,tipo_inst_3_Centros de Formación Técnica,-0.010092653786012604
+jornada_A Distancia,tipo_inst_3_Institutos Profesionales,0.1096703209823288
+jornada_A Distancia,tipo_inst_3_Universidades Estatales CRUCH,-0.0625043424328726
+jornada_A Distancia,tipo_inst_3_Universidades Privadas,-0.03817319132902671
+jornada_A Distancia,tipo_inst_3_Universidades Privadas CRUCH,-0.019672926522858115
+jornada_A Distancia,jornada_A Distancia,1.0
+jornada_A Distancia,jornada_Diurno,-0.16508048398927289
+jornada_A Distancia,jornada_Otro,-0.01045454854642509
+jornada_A Distancia,jornada_Semipresencial,-0.008884793715005869
+jornada_A Distancia,jornada_Vespertino,-0.07949848252132688
+jornada_A Distancia,tipo_plan_carr_Plan Especial,0.13966343100421388
+jornada_A Distancia,tipo_plan_carr_Plan Regular,-0.12560125986761916
+jornada_A Distancia,tipo_plan_carr_Plan Regular de Continuidad,-0.002735302346110611
+jornada_A Distancia,dur_estudio_carr,-0.06320557180906435
+jornada_A Distancia,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.00888186477381148
+jornada_A Distancia,nivel_carrera_1_Licenciatura No Conducente a Título,0.05464189877628768
+jornada_A Distancia,nivel_carrera_1_Profesional Con Licenciatura,-0.090852555175484
+jornada_A Distancia,nivel_carrera_1_Profesional Sin Licenciatura,0.0977354515213843
+jornada_A Distancia,nivel_carrera_1_Técnico de Nivel Superior,-0.003719294158028481
+jornada_A Distancia,oecd_area_Agricultura,-0.017567825694838606
+jornada_A Distancia,oecd_area_Ciencias,-0.015172709805378257
+jornada_A Distancia,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.1273134220143611
+jornada_A Distancia,oecd_area_Educación,-0.022306726577615576
+jornada_A Distancia,oecd_area_Humanidades y Artes,-0.02331170692171771
+jornada_A Distancia,"oecd_area_Ingeniería, Industria y Construcción",-0.05361775047514588
+jornada_A Distancia,oecd_area_Salud y Servicios Sociales,-0.012853873373883872
+jornada_A Distancia,oecd_area_Servicios,-0.0017368997975781408
+jornada_A Distancia,oecd_area_Sin área definida,0.003252343502771929
+jornada_A Distancia,acreditada_carr_False,0.0864373238323049
+jornada_A Distancia,acreditada_carr_True,-0.0863590918575912
+jornada_A Distancia,acreditada_inst,-0.22213138206428493
+jornada_A Distancia,anio_en_carr_actual,-0.008058581602017934
+jornada_A Distancia,Class,-0.003156108542135134
+jornada_Diurno,GEN_ALU,0.05927805021044653
+jornada_Diurno,rango_edad_15 a 19 años,0.19975868831006915
+jornada_Diurno,rango_edad_20 a 24 años,0.2681032896377895
+jornada_Diurno,rango_edad_25 a 29 años,-0.13867059067007748
+jornada_Diurno,rango_edad_30 a 34 años,-0.24247445555608446
+jornada_Diurno,rango_edad_35 a 39 años,-0.2023628045135416
+jornada_Diurno,rango_edad_40 y más años,-0.2085221842074093
+jornada_Diurno,tipo_inst_3_Centros de Formación Técnica,-0.1208222264624317
+jornada_Diurno,tipo_inst_3_Institutos Profesionales,-0.3178166621654334
+jornada_Diurno,tipo_inst_3_Universidades Estatales CRUCH,0.25067807516370505
+jornada_Diurno,tipo_inst_3_Universidades Privadas,0.004116942855169461
+jornada_Diurno,tipo_inst_3_Universidades Privadas CRUCH,0.2348568758014156
+jornada_Diurno,jornada_A Distancia,-0.16508048398927289
+jornada_Diurno,jornada_Diurno,1.0
+jornada_Diurno,jornada_Otro,-0.12361164001671535
+jornada_Diurno,jornada_Semipresencial,-0.10505130062968636
+jornada_Diurno,jornada_Vespertino,-0.9399676857785878
+jornada_Diurno,tipo_plan_carr_Plan Especial,-0.2297842914854436
+jornada_Diurno,tipo_plan_carr_Plan Regular,0.2032647667593423
+jornada_Diurno,tipo_plan_carr_Plan Regular de Continuidad,0.012264268427562572
+jornada_Diurno,dur_estudio_carr,0.4012136884565756
+jornada_Diurno,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",0.05788892173398544
+jornada_Diurno,nivel_carrera_1_Licenciatura No Conducente a Título,0.041091758072617515
+jornada_Diurno,nivel_carrera_1_Profesional Con Licenciatura,0.4310116941825505
+jornada_Diurno,nivel_carrera_1_Profesional Sin Licenciatura,-0.2941709302824778
+jornada_Diurno,nivel_carrera_1_Técnico de Nivel Superior,-0.2254740637643892
+jornada_Diurno,oecd_area_Agricultura,0.0677967956987332
+jornada_Diurno,oecd_area_Ciencias,0.004382741009126158
+jornada_Diurno,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.1780778359761246
+jornada_Diurno,oecd_area_Educación,0.053269874277168255
+jornada_Diurno,oecd_area_Humanidades y Artes,0.08606732642624236
+jornada_Diurno,"oecd_area_Ingeniería, Industria y Construcción",-0.010187594941350995
+jornada_Diurno,oecd_area_Salud y Servicios Sociales,0.11167127853968073
+jornada_Diurno,oecd_area_Servicios,-0.09397036526421187
+jornada_Diurno,oecd_area_Sin área definida,0.00956492450619835
+jornada_Diurno,acreditada_carr_False,-0.1786838467957347
+jornada_Diurno,acreditada_carr_True,0.17887499874276916
+jornada_Diurno,acreditada_inst,0.2105017675170424
+jornada_Diurno,anio_en_carr_actual,0.05272699605517717
+jornada_Diurno,Class,-0.10286019316657452
+jornada_Otro,GEN_ALU,-0.00035983831363918745
+jornada_Otro,rango_edad_15 a 19 años,-0.03134408092573583
+jornada_Otro,rango_edad_20 a 24 años,-0.06031671521625676
+jornada_Otro,rango_edad_25 a 29 años,0.009419142114418128
+jornada_Otro,rango_edad_30 a 34 años,0.05327055110489173
+jornada_Otro,rango_edad_35 a 39 años,0.063786920034931
+jornada_Otro,rango_edad_40 y más años,0.05191142801922164
+jornada_Otro,tipo_inst_3_Centros de Formación Técnica,-0.00877747317370607
+jornada_Otro,tipo_inst_3_Institutos Profesionales,-0.0554571128327938
+jornada_Otro,tipo_inst_3_Universidades Estatales CRUCH,-0.04710805539979503
+jornada_Otro,tipo_inst_3_Universidades Privadas,0.14013180112958515
+jornada_Otro,tipo_inst_3_Universidades Privadas CRUCH,-0.032905097609818065
+jornada_Otro,jornada_A Distancia,-0.01045454854642509
+jornada_Otro,jornada_Diurno,-0.12361164001671535
+jornada_Otro,jornada_Otro,1.0
+jornada_Otro,jornada_Semipresencial,-0.006652899820612169
+jornada_Otro,jornada_Vespertino,-0.05952816205636426
+jornada_Otro,tipo_plan_carr_Plan Especial,0.04225865890593191
+jornada_Otro,tipo_plan_carr_Plan Regular,-0.0348501585811934
+jornada_Otro,tipo_plan_carr_Plan Regular de Continuidad,-0.00806428119431616
+jornada_Otro,dur_estudio_carr,-0.05638287814714658
+jornada_Otro,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.0073413232082378405
+jornada_Otro,nivel_carrera_1_Licenciatura No Conducente a Título,-0.008953787584872742
+jornada_Otro,nivel_carrera_1_Profesional Con Licenciatura,0.026058415853136185
+jornada_Otro,nivel_carrera_1_Profesional Sin Licenciatura,-0.04043276159154242
+jornada_Otro,nivel_carrera_1_Técnico de Nivel Superior,0.013851281782576693
+jornada_Otro,oecd_area_Agricultura,-0.00294399476523283
+jornada_Otro,oecd_area_Ciencias,-0.004127268875538346
+jornada_Otro,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.010565255679348613
+jornada_Otro,oecd_area_Educación,-0.017052275760252655
+jornada_Otro,oecd_area_Humanidades y Artes,-0.017455717688245075
+jornada_Otro,"oecd_area_Ingeniería, Industria y Construcción",-0.007838698276039445
+jornada_Otro,oecd_area_Salud y Servicios Sociales,0.00670778723034555
+jornada_Otro,oecd_area_Servicios,-0.0060164277357428395
+jornada_Otro,oecd_area_Sin área definida,-0.0013356096883301572
+jornada_Otro,acreditada_carr_False,0.058818583371180816
+jornada_Otro,acreditada_carr_True,-0.059573009687054125
+jornada_Otro,acreditada_inst,-0.0976851223717902
+jornada_Otro,anio_en_carr_actual,-0.005778170322978428
+jornada_Otro,Class,0.02912712613011463
+jornada_Semipresencial,GEN_ALU,0.025973105962242886
+jornada_Semipresencial,rango_edad_15 a 19 años,-0.027764791985793808
+jornada_Semipresencial,rango_edad_20 a 24 años,-0.05420931438900957
+jornada_Semipresencial,rango_edad_25 a 29 años,0.006785330312954157
+jornada_Semipresencial,rango_edad_30 a 34 años,0.04273301937263456
+jornada_Semipresencial,rango_edad_35 a 39 años,0.04488239101609902
+jornada_Semipresencial,rango_edad_40 y más años,0.06910421020771307
+jornada_Semipresencial,tipo_inst_3_Centros de Formación Técnica,-0.014246178096217834
+jornada_Semipresencial,tipo_inst_3_Institutos Profesionales,0.06026694312736016
+jornada_Semipresencial,tipo_inst_3_Universidades Estatales CRUCH,-0.040908455195024236
+jornada_Semipresencial,tipo_inst_3_Universidades Privadas,0.004523184140454367
+jornada_Semipresencial,tipo_inst_3_Universidades Privadas CRUCH,-0.02778310044404276
+jornada_Semipresencial,jornada_A Distancia,-0.008884793715005869
+jornada_Semipresencial,jornada_Diurno,-0.10505130062968636
+jornada_Semipresencial,jornada_Otro,-0.006652899820612169
+jornada_Semipresencial,jornada_Semipresencial,1.0
+jornada_Semipresencial,jornada_Vespertino,-0.0505899836569751
+jornada_Semipresencial,tipo_plan_carr_Plan Especial,0.07325970983253588
+jornada_Semipresencial,tipo_plan_carr_Plan Regular,-0.06637746090862441
+jornada_Semipresencial,tipo_plan_carr_Plan Regular de Continuidad,-0.00030123509418339384
+jornada_Semipresencial,dur_estudio_carr,-0.05097356213680456
+jornada_Semipresencial,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.006239020461633164
+jornada_Semipresencial,nivel_carrera_1_Licenciatura No Conducente a Título,0.04534112330097872
+jornada_Semipresencial,nivel_carrera_1_Profesional Con Licenciatura,-0.045427653873442296
+jornada_Semipresencial,nivel_carrera_1_Profesional Sin Licenciatura,0.0248327458001988
+jornada_Semipresencial,nivel_carrera_1_Técnico de Nivel Superior,0.01843542786250636
+jornada_Semipresencial,oecd_area_Agricultura,-0.011179534333582694
+jornada_Semipresencial,oecd_area_Ciencias,-0.013810792627731671
+jornada_Semipresencial,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.08228806040431882
+jornada_Semipresencial,oecd_area_Educación,-0.003148157903026627
+jornada_Semipresencial,oecd_area_Humanidades y Artes,-0.014834734384956772
+jornada_Semipresencial,"oecd_area_Ingeniería, Industria y Construcción",-0.0357083378315715
+jornada_Semipresencial,oecd_area_Salud y Servicios Sociales,0.0021561719841025552
+jornada_Semipresencial,oecd_area_Servicios,-0.01684932529797049
+jornada_Semipresencial,oecd_area_Sin área definida,-0.0011350673355631446
+jornada_Semipresencial,acreditada_carr_False,0.019446783043863082
+jornada_Semipresencial,acreditada_carr_True,-0.01939102085372901
+jornada_Semipresencial,acreditada_inst,-0.07854695242547809
+jornada_Semipresencial,anio_en_carr_actual,-0.005155359632283986
+jornada_Semipresencial,Class,-0.0015854217195686033
+jornada_Vespertino,GEN_ALU,-0.06624477728736422
+jornada_Vespertino,rango_edad_15 a 19 años,-0.1823430904786704
+jornada_Vespertino,rango_edad_20 a 24 años,-0.22776980796577476
+jornada_Vespertino,rango_edad_25 a 29 años,0.1397312956230375
+jornada_Vespertino,rango_edad_30 a 34 años,0.21263986022343487
+jornada_Vespertino,rango_edad_35 a 39 años,0.16408165669733427
+jornada_Vespertino,rango_edad_40 y más años,0.15229038677855047
+jornada_Vespertino,tipo_inst_3_Centros de Formación Técnica,0.12997047948244794
+jornada_Vespertino,tipo_inst_3_Institutos Profesionales,0.2979632442192306
+jornada_Vespertino,tipo_inst_3_Universidades Estatales CRUCH,-0.2249060655634352
+jornada_Vespertino,tipo_inst_3_Universidades Privadas,-0.021894627419788117
+jornada_Vespertino,tipo_inst_3_Universidades Privadas CRUCH,-0.22432636941310466
+jornada_Vespertino,jornada_A Distancia,-0.07949848252132688
+jornada_Vespertino,jornada_Diurno,-0.9399676857785878
+jornada_Vespertino,jornada_Otro,-0.05952816205636426
+jornada_Vespertino,jornada_Semipresencial,-0.0505899836569751
+jornada_Vespertino,jornada_Vespertino,1.0
+jornada_Vespertino,tipo_plan_carr_Plan Especial,0.17983740688264765
+jornada_Vespertino,tipo_plan_carr_Plan Regular,-0.15879079204648097
+jornada_Vespertino,tipo_plan_carr_Plan Regular de Continuidad,-0.01026732748254126
+jornada_Vespertino,dur_estudio_carr,-0.37517850202614345
+jornada_Vespertino,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.05452278019180181
+jornada_Vespertino,nivel_carrera_1_Licenciatura No Conducente a Título,-0.06136236936112305
+jornada_Vespertino,nivel_carrera_1_Profesional Con Licenciatura,-0.4151942983290336
+jornada_Vespertino,nivel_carrera_1_Profesional Sin Licenciatura,0.27967529371088024
+jornada_Vespertino,nivel_carrera_1_Técnico de Nivel Superior,0.22574456159538395
+jornada_Vespertino,oecd_area_Agricultura,-0.06249803411359156
+jornada_Vespertino,oecd_area_Ciencias,0.0023508081890388434
+jornada_Vespertino,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.13465628481605618
+jornada_Vespertino,oecd_area_Educación,-0.04508305383436585
+jornada_Vespertino,oecd_area_Humanidades y Artes,-0.07638256232084181
+jornada_Vespertino,"oecd_area_Ingeniería, Industria y Construcción",0.03115185539001027
+jornada_Vespertino,oecd_area_Salud y Servicios Sociales,-0.11250153706705768
+jornada_Vespertino,oecd_area_Servicios,0.10032524564808776
+jornada_Vespertino,oecd_area_Sin área definida,-0.010156243761905735
+jornada_Vespertino,acreditada_carr_False,0.14655887295625464
+jornada_Vespertino,acreditada_carr_True,-0.1466398939320477
+jornada_Vespertino,acreditada_inst,-0.1280233558336042
+jornada_Vespertino,anio_en_carr_actual,-0.04992622854337996
+jornada_Vespertino,Class,0.1006411366016134
+tipo_plan_carr_Plan Especial,GEN_ALU,-0.039099876977529965
+tipo_plan_carr_Plan Especial,rango_edad_15 a 19 años,-0.0755575759840152
+tipo_plan_carr_Plan Especial,rango_edad_20 a 24 años,-0.14310148867693992
+tipo_plan_carr_Plan Especial,rango_edad_25 a 29 años,0.028804504365193863
+tipo_plan_carr_Plan Especial,rango_edad_30 a 34 años,0.11048125174865524
+tipo_plan_carr_Plan Especial,rango_edad_35 a 39 años,0.12392023942041352
+tipo_plan_carr_Plan Especial,rango_edad_40 y más años,0.16040739143735916
+tipo_plan_carr_Plan Especial,tipo_inst_3_Centros de Formación Técnica,-0.012947987327990162
+tipo_plan_carr_Plan Especial,tipo_inst_3_Institutos Profesionales,-0.0815620123179545
+tipo_plan_carr_Plan Especial,tipo_inst_3_Universidades Estatales CRUCH,0.13206528530059874
+tipo_plan_carr_Plan Especial,tipo_inst_3_Universidades Privadas,-0.01439925691688386
+tipo_plan_carr_Plan Especial,tipo_inst_3_Universidades Privadas CRUCH,-0.022412900078049868
+tipo_plan_carr_Plan Especial,jornada_A Distancia,0.13966343100421388
+tipo_plan_carr_Plan Especial,jornada_Diurno,-0.2297842914854436
+tipo_plan_carr_Plan Especial,jornada_Otro,0.04225865890593191
+tipo_plan_carr_Plan Especial,jornada_Semipresencial,0.07325970983253588
+tipo_plan_carr_Plan Especial,jornada_Vespertino,0.17983740688264765
+tipo_plan_carr_Plan Especial,tipo_plan_carr_Plan Especial,1.0
+tipo_plan_carr_Plan Especial,tipo_plan_carr_Plan Regular,-0.9000831584935532
+tipo_plan_carr_Plan Especial,tipo_plan_carr_Plan Regular de Continuidad,-0.01781966066944215
+tipo_plan_carr_Plan Especial,dur_estudio_carr,-0.192926767421451
+tipo_plan_carr_Plan Especial,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.01260739278914295
+tipo_plan_carr_Plan Especial,nivel_carrera_1_Licenciatura No Conducente a Título,0.04388754014144679
+tipo_plan_carr_Plan Especial,nivel_carrera_1_Profesional Con Licenciatura,-0.01235291424235536
+tipo_plan_carr_Plan Especial,nivel_carrera_1_Profesional Sin Licenciatura,0.05602160260380787
+tipo_plan_carr_Plan Especial,nivel_carrera_1_Técnico de Nivel Superior,-0.04972701370479265
+tipo_plan_carr_Plan Especial,oecd_area_Agricultura,-0.02236777785804708
+tipo_plan_carr_Plan Especial,oecd_area_Ciencias,-0.02956163210674353
+tipo_plan_carr_Plan Especial,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.05971184576485378
+tipo_plan_carr_Plan Especial,oecd_area_Educación,-0.025091556186476845
+tipo_plan_carr_Plan Especial,oecd_area_Humanidades y Artes,-0.0356410945885536
+tipo_plan_carr_Plan Especial,"oecd_area_Ingeniería, Industria y Construcción",0.041261484117635416
+tipo_plan_carr_Plan Especial,oecd_area_Salud y Servicios Sociales,-0.06638412194359987
+tipo_plan_carr_Plan Especial,oecd_area_Servicios,0.01484393815247426
+tipo_plan_carr_Plan Especial,oecd_area_Sin área definida,0.00016514519312589996
+tipo_plan_carr_Plan Especial,acreditada_carr_False,0.106440466240534
+tipo_plan_carr_Plan Especial,acreditada_carr_True,-0.10650797706678213
+tipo_plan_carr_Plan Especial,acreditada_inst,-0.07148174974075769
+tipo_plan_carr_Plan Especial,anio_en_carr_actual,-0.012329313136729338
+tipo_plan_carr_Plan Especial,Class,0.040008677949128005
+tipo_plan_carr_Plan Regular,GEN_ALU,0.048299040076404655
+tipo_plan_carr_Plan Regular,rango_edad_15 a 19 años,0.08333811908410857
+tipo_plan_carr_Plan Regular,rango_edad_20 a 24 años,0.12669255055243758
+tipo_plan_carr_Plan Regular,rango_edad_25 a 29 años,-0.030344555046959838
+tipo_plan_carr_Plan Regular,rango_edad_30 a 34 años,-0.10121698881152252
+tipo_plan_carr_Plan Regular,rango_edad_35 a 39 años,-0.11559643448178075
+tipo_plan_carr_Plan Regular,rango_edad_40 y más años,-0.15020788129179305
+tipo_plan_carr_Plan Regular,tipo_inst_3_Centros de Formación Técnica,0.024044435158247036
+tipo_plan_carr_Plan Regular,tipo_inst_3_Institutos Profesionales,0.09397091661590597
+tipo_plan_carr_Plan Regular,tipo_inst_3_Universidades Estatales CRUCH,-0.15865353643417468
+tipo_plan_carr_Plan Regular,tipo_inst_3_Universidades Privadas,0.016110461693673802
+tipo_plan_carr_Plan Regular,tipo_inst_3_Universidades Privadas CRUCH,0.02690024125940697
+tipo_plan_carr_Plan Regular,jornada_A Distancia,-0.12560125986761916
+tipo_plan_carr_Plan Regular,jornada_Diurno,0.2032647667593423
+tipo_plan_carr_Plan Regular,jornada_Otro,-0.0348501585811934
+tipo_plan_carr_Plan Regular,jornada_Semipresencial,-0.06637746090862441
+tipo_plan_carr_Plan Regular,jornada_Vespertino,-0.15879079204648097
+tipo_plan_carr_Plan Regular,tipo_plan_carr_Plan Especial,-0.9000831584935532
+tipo_plan_carr_Plan Regular,tipo_plan_carr_Plan Regular,1.0
+tipo_plan_carr_Plan Regular,tipo_plan_carr_Plan Regular de Continuidad,-0.41960979071564775
+tipo_plan_carr_Plan Regular,dur_estudio_carr,0.1645639226589955
+tipo_plan_carr_Plan Regular,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",0.014741290750726641
+tipo_plan_carr_Plan Regular,nivel_carrera_1_Licenciatura No Conducente a Título,-0.04136503593527923
+tipo_plan_carr_Plan Regular,nivel_carrera_1_Profesional Con Licenciatura,-0.009593021700416277
+tipo_plan_carr_Plan Regular,nivel_carrera_1_Profesional Sin Licenciatura,-0.04283593896732781
+tipo_plan_carr_Plan Regular,nivel_carrera_1_Técnico de Nivel Superior,0.06096225855183202
+tipo_plan_carr_Plan Regular,oecd_area_Agricultura,0.025364004257869686
+tipo_plan_carr_Plan Regular,oecd_area_Ciencias,0.004654775749441388
+tipo_plan_carr_Plan Regular,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.039485085914538816
+tipo_plan_carr_Plan Regular,oecd_area_Educación,0.025019653899591862
+tipo_plan_carr_Plan Regular,oecd_area_Humanidades y Artes,0.03826924233205449
+tipo_plan_carr_Plan Regular,"oecd_area_Ingeniería, Industria y Construcción",-0.07551653804736294
+tipo_plan_carr_Plan Regular,oecd_area_Salud y Servicios Sociales,0.07442627986710178
+tipo_plan_carr_Plan Regular,oecd_area_Servicios,-0.011160447760055231
+tipo_plan_carr_Plan Regular,oecd_area_Sin área definida,0.0004496583680550745
+tipo_plan_carr_Plan Regular,acreditada_carr_False,-0.08044778836334557
+tipo_plan_carr_Plan Regular,acreditada_carr_True,0.08047517440514945
+tipo_plan_carr_Plan Regular,acreditada_inst,0.0720409210760219
+tipo_plan_carr_Plan Regular,anio_en_carr_actual,0.013748147414468784
+tipo_plan_carr_Plan Regular,Class,-0.05506983010892815
+tipo_plan_carr_Plan Regular de Continuidad,GEN_ALU,-0.029377323739222232
+tipo_plan_carr_Plan Regular de Continuidad,rango_edad_15 a 19 años,-0.03383133755060705
+tipo_plan_carr_Plan Regular de Continuidad,rango_edad_20 a 24 años,0.007393412923863915
+tipo_plan_carr_Plan Regular de Continuidad,rango_edad_25 a 29 años,0.009624928413092456
+tipo_plan_carr_Plan Regular de Continuidad,rango_edad_30 a 34 años,0.0021036028095954514
+tipo_plan_carr_Plan Regular de Continuidad,rango_edad_35 a 39 años,0.007103467166331918
+tipo_plan_carr_Plan Regular de Continuidad,rango_edad_40 y más años,0.010514836935674864
+tipo_plan_carr_Plan Regular de Continuidad,tipo_inst_3_Centros de Formación Técnica,-0.0282009591152222
+tipo_plan_carr_Plan Regular de Continuidad,tipo_inst_3_Institutos Profesionales,-0.04572171848275113
+tipo_plan_carr_Plan Regular de Continuidad,tipo_inst_3_Universidades Estatales CRUCH,0.08893840922238473
+tipo_plan_carr_Plan Regular de Continuidad,tipo_inst_3_Universidades Privadas,-0.0069715526312163975
+tipo_plan_carr_Plan Regular de Continuidad,tipo_inst_3_Universidades Privadas CRUCH,-0.015036503879443688
+tipo_plan_carr_Plan Regular de Continuidad,jornada_A Distancia,-0.002735302346110611
+tipo_plan_carr_Plan Regular de Continuidad,jornada_Diurno,0.012264268427562572
+tipo_plan_carr_Plan Regular de Continuidad,jornada_Otro,-0.00806428119431616
+tipo_plan_carr_Plan Regular de Continuidad,jornada_Semipresencial,-0.00030123509418339384
+tipo_plan_carr_Plan Regular de Continuidad,jornada_Vespertino,-0.01026732748254126
+tipo_plan_carr_Plan Regular de Continuidad,tipo_plan_carr_Plan Especial,-0.01781966066944215
+tipo_plan_carr_Plan Regular de Continuidad,tipo_plan_carr_Plan Regular,-0.41960979071564775
+tipo_plan_carr_Plan Regular de Continuidad,tipo_plan_carr_Plan Regular de Continuidad,1.0
+tipo_plan_carr_Plan Regular de Continuidad,dur_estudio_carr,0.024288107920787342
+tipo_plan_carr_Plan Regular de Continuidad,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.007562599278005495
+tipo_plan_carr_Plan Regular de Continuidad,nivel_carrera_1_Licenciatura No Conducente a Título,0.003492042335098999
+tipo_plan_carr_Plan Regular de Continuidad,nivel_carrera_1_Profesional Con Licenciatura,0.04774713969511137
+tipo_plan_carr_Plan Regular de Continuidad,nivel_carrera_1_Profesional Sin Licenciatura,-0.018410820065804526
+tipo_plan_carr_Plan Regular de Continuidad,nivel_carrera_1_Técnico de Nivel Superior,-0.03629672099948325
+tipo_plan_carr_Plan Regular de Continuidad,oecd_area_Agricultura,-0.011605305476365098
+tipo_plan_carr_Plan Regular de Continuidad,oecd_area_Ciencias,0.05090261313565509
+tipo_plan_carr_Plan Regular de Continuidad,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.033787667746105615
+tipo_plan_carr_Plan Regular de Continuidad,oecd_area_Educación,-0.005140847287509003
+tipo_plan_carr_Plan Regular de Continuidad,oecd_area_Humanidades y Artes,-0.013567441811806552
+tipo_plan_carr_Plan Regular de Continuidad,"oecd_area_Ingeniería, Industria y Construcción",0.0873300977509732
+tipo_plan_carr_Plan Regular de Continuidad,oecd_area_Salud y Servicios Sociales,-0.03249185277465926
+tipo_plan_carr_Plan Regular de Continuidad,oecd_area_Servicios,-0.005313607247250712
+tipo_plan_carr_Plan Regular de Continuidad,oecd_area_Sin área definida,-0.0013758665267322805
+tipo_plan_carr_Plan Regular de Continuidad,acreditada_carr_False,-0.0371375053148134
+tipo_plan_carr_Plan Regular de Continuidad,acreditada_carr_True,0.03721530375977655
+tipo_plan_carr_Plan Regular de Continuidad,acreditada_inst,-0.016398604962097673
+tipo_plan_carr_Plan Regular de Continuidad,anio_en_carr_actual,-0.005862942143517068
+tipo_plan_carr_Plan Regular de Continuidad,Class,0.0430209879107847
+dur_estudio_carr,GEN_ALU,-0.049196951056923
+dur_estudio_carr,rango_edad_15 a 19 años,0.05183364929530912
+dur_estudio_carr,rango_edad_20 a 24 años,0.12675966486427376
+dur_estudio_carr,rango_edad_25 a 29 años,-0.032652835830713885
+dur_estudio_carr,rango_edad_30 a 34 años,-0.10757362450694924
+dur_estudio_carr,rango_edad_35 a 39 años,-0.09608331620975732
+dur_estudio_carr,rango_edad_40 y más años,-0.10180276928233377
+dur_estudio_carr,tipo_inst_3_Centros de Formación Técnica,-0.4336160240862091
+dur_estudio_carr,tipo_inst_3_Institutos Profesionales,-0.38305140726157694
+dur_estudio_carr,tipo_inst_3_Universidades Estatales CRUCH,0.3536125021114842
+dur_estudio_carr,tipo_inst_3_Universidades Privadas,0.16790693588931765
+dur_estudio_carr,tipo_inst_3_Universidades Privadas CRUCH,0.25549732630395405
+dur_estudio_carr,jornada_A Distancia,-0.06320557180906435
+dur_estudio_carr,jornada_Diurno,0.4012136884565756
+dur_estudio_carr,jornada_Otro,-0.05638287814714658
+dur_estudio_carr,jornada_Semipresencial,-0.05097356213680456
+dur_estudio_carr,jornada_Vespertino,-0.37517850202614345
+dur_estudio_carr,tipo_plan_carr_Plan Especial,-0.192926767421451
+dur_estudio_carr,tipo_plan_carr_Plan Regular,0.1645639226589955
+dur_estudio_carr,tipo_plan_carr_Plan Regular de Continuidad,0.024288107920787342
+dur_estudio_carr,dur_estudio_carr,1.0
+dur_estudio_carr,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.08108363860321391
+dur_estudio_carr,nivel_carrera_1_Licenciatura No Conducente a Título,-0.023211130607017526
+dur_estudio_carr,nivel_carrera_1_Profesional Con Licenciatura,0.7219821524565342
+dur_estudio_carr,nivel_carrera_1_Profesional Sin Licenciatura,-0.04379758124403566
+dur_estudio_carr,nivel_carrera_1_Técnico de Nivel Superior,-0.7731309360677534
+dur_estudio_carr,oecd_area_Agricultura,0.034393374503039885
+dur_estudio_carr,oecd_area_Ciencias,0.00353214961669676
+dur_estudio_carr,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.025382378178981986
+dur_estudio_carr,oecd_area_Educación,-0.02894138030169377
+dur_estudio_carr,oecd_area_Humanidades y Artes,0.007006612193020242
+dur_estudio_carr,"oecd_area_Ingeniería, Industria y Construcción",0.08473524104025769
+dur_estudio_carr,oecd_area_Salud y Servicios Sociales,0.05193654088227993
+dur_estudio_carr,oecd_area_Servicios,-0.22646185864611326
+dur_estudio_carr,oecd_area_Sin área definida,-0.01407728021449859
+dur_estudio_carr,acreditada_carr_False,-0.2630005817849964
+dur_estudio_carr,acreditada_carr_True,0.26360356709769245
+dur_estudio_carr,acreditada_inst,0.1859963478444545
+dur_estudio_carr,anio_en_carr_actual,0.059343620585622724
+dur_estudio_carr,Class,-0.061499711206834874
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",GEN_ALU,-0.013680356188493269
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",rango_edad_15 a 19 años,0.10759298518515907
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",rango_edad_20 a 24 años,-0.01872965319715536
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",rango_edad_25 a 29 años,-0.03684032029331933
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",rango_edad_30 a 34 años,-0.02312945498092552
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",rango_edad_35 a 39 años,-0.016326045167292167
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",rango_edad_40 y más años,-0.015952190805504845
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",tipo_inst_3_Centros de Formación Técnica,-0.025672759995886446
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",tipo_inst_3_Institutos Profesionales,-0.05839499565806039
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",tipo_inst_3_Universidades Estatales CRUCH,0.11129131563939446
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",tipo_inst_3_Universidades Privadas,-0.03286974319790461
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",tipo_inst_3_Universidades Privadas CRUCH,0.005748872146079243
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",jornada_A Distancia,-0.00888186477381148
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",jornada_Diurno,0.05788892173398544
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",jornada_Otro,-0.0073413232082378405
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",jornada_Semipresencial,-0.006239020461633164
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",jornada_Vespertino,-0.05452278019180181
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",tipo_plan_carr_Plan Especial,-0.01260739278914295
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",tipo_plan_carr_Plan Regular,0.014741290750726641
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",tipo_plan_carr_Plan Regular de Continuidad,-0.007562599278005495
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",dur_estudio_carr,-0.08108363860321391
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común","nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",1.0
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",nivel_carrera_1_Licenciatura No Conducente a Título,-0.008396769146538394
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",nivel_carrera_1_Profesional Con Licenciatura,-0.0810000706864246
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",nivel_carrera_1_Profesional Sin Licenciatura,-0.047797196826918666
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",nivel_carrera_1_Técnico de Nivel Superior,-0.047381252068557866
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",oecd_area_Agricultura,-0.005686485847746232
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",oecd_area_Ciencias,0.15058273873573494
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común","oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.04320473815568733
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",oecd_area_Educación,-0.027212534300420227
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",oecd_area_Humanidades y Artes,0.004665877350871558
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común","oecd_area_Ingeniería, Industria y Construcción",0.023619927970563642
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",oecd_area_Salud y Servicios Sociales,-0.032781096110768945
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",oecd_area_Servicios,-0.024612402397493703
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",oecd_area_Sin área definida,0.005869060372493257
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",acreditada_carr_False,0.0646097449199275
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",acreditada_carr_True,-0.06455546712489937
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",acreditada_inst,0.03376201180960573
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",anio_en_carr_actual,0.0030021041697054626
+"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",Class,-0.01592798251863131
+nivel_carrera_1_Licenciatura No Conducente a Título,GEN_ALU,0.0032120287090643194
+nivel_carrera_1_Licenciatura No Conducente a Título,rango_edad_15 a 19 años,0.016424762757590822
+nivel_carrera_1_Licenciatura No Conducente a Título,rango_edad_20 a 24 años,0.007920765674512595
+nivel_carrera_1_Licenciatura No Conducente a Título,rango_edad_25 a 29 años,-0.012437390026098592
+nivel_carrera_1_Licenciatura No Conducente a Título,rango_edad_30 a 34 años,-0.009955040703422771
+nivel_carrera_1_Licenciatura No Conducente a Título,rango_edad_35 a 39 años,-0.006900429025344078
+nivel_carrera_1_Licenciatura No Conducente a Título,rango_edad_40 y más años,-0.002421469688948893
+nivel_carrera_1_Licenciatura No Conducente a Título,tipo_inst_3_Centros de Formación Técnica,-0.03131158146823701
+nivel_carrera_1_Licenciatura No Conducente a Título,tipo_inst_3_Institutos Profesionales,-0.07122100094260538
+nivel_carrera_1_Licenciatura No Conducente a Título,tipo_inst_3_Universidades Estatales CRUCH,0.10630180105744064
+nivel_carrera_1_Licenciatura No Conducente a Título,tipo_inst_3_Universidades Privadas,-0.020418668947071915
+nivel_carrera_1_Licenciatura No Conducente a Título,tipo_inst_3_Universidades Privadas CRUCH,0.019435992315925868
+nivel_carrera_1_Licenciatura No Conducente a Título,jornada_A Distancia,0.05464189877628768
+nivel_carrera_1_Licenciatura No Conducente a Título,jornada_Diurno,0.041091758072617515
+nivel_carrera_1_Licenciatura No Conducente a Título,jornada_Otro,-0.008953787584872742
+nivel_carrera_1_Licenciatura No Conducente a Título,jornada_Semipresencial,0.04534112330097872
+nivel_carrera_1_Licenciatura No Conducente a Título,jornada_Vespertino,-0.06136236936112305
+nivel_carrera_1_Licenciatura No Conducente a Título,tipo_plan_carr_Plan Especial,0.04388754014144679
+nivel_carrera_1_Licenciatura No Conducente a Título,tipo_plan_carr_Plan Regular,-0.04136503593527923
+nivel_carrera_1_Licenciatura No Conducente a Título,tipo_plan_carr_Plan Regular de Continuidad,0.003492042335098999
+nivel_carrera_1_Licenciatura No Conducente a Título,dur_estudio_carr,-0.023211130607017526
+nivel_carrera_1_Licenciatura No Conducente a Título,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.008396769146538394
+nivel_carrera_1_Licenciatura No Conducente a Título,nivel_carrera_1_Licenciatura No Conducente a Título,1.0
+nivel_carrera_1_Licenciatura No Conducente a Título,nivel_carrera_1_Profesional Con Licenciatura,-0.09879110436901904
+nivel_carrera_1_Licenciatura No Conducente a Título,nivel_carrera_1_Profesional Sin Licenciatura,-0.0582954782672628
+nivel_carrera_1_Licenciatura No Conducente a Título,nivel_carrera_1_Técnico de Nivel Superior,-0.057788174485916374
+nivel_carrera_1_Licenciatura No Conducente a Título,oecd_area_Agricultura,-0.015045946642460357
+nivel_carrera_1_Licenciatura No Conducente a Título,oecd_area_Ciencias,0.056683966712629735
+nivel_carrera_1_Licenciatura No Conducente a Título,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.04900532856611399
+nivel_carrera_1_Licenciatura No Conducente a Título,oecd_area_Educación,-0.01576560848539104
+nivel_carrera_1_Licenciatura No Conducente a Título,oecd_area_Humanidades y Artes,0.2548955553933389
+nivel_carrera_1_Licenciatura No Conducente a Título,"oecd_area_Ingeniería, Industria y Construcción",-0.04805797179472536
+nivel_carrera_1_Licenciatura No Conducente a Título,oecd_area_Salud y Servicios Sociales,-0.0362753327121606
+nivel_carrera_1_Licenciatura No Conducente a Título,oecd_area_Servicios,-0.021118114353149385
+nivel_carrera_1_Licenciatura No Conducente a Título,oecd_area_Sin área definida,-0.001527627364304524
+nivel_carrera_1_Licenciatura No Conducente a Título,acreditada_carr_False,0.05146490825532706
+nivel_carrera_1_Licenciatura No Conducente a Título,acreditada_carr_True,-0.05139411304544556
+nivel_carrera_1_Licenciatura No Conducente a Título,acreditada_inst,0.02211804096439969
+nivel_carrera_1_Licenciatura No Conducente a Título,anio_en_carr_actual,0.009809469247885163
+nivel_carrera_1_Licenciatura No Conducente a Título,Class,-0.009476580173219116
+nivel_carrera_1_Profesional Con Licenciatura,GEN_ALU,0.007715416070896325
+nivel_carrera_1_Profesional Con Licenciatura,rango_edad_15 a 19 años,0.08393803159686478
+nivel_carrera_1_Profesional Con Licenciatura,rango_edad_20 a 24 años,0.09829151457710927
+nivel_carrera_1_Profesional Con Licenciatura,rango_edad_25 a 29 años,-0.049199441379650134
+nivel_carrera_1_Profesional Con Licenciatura,rango_edad_30 a 34 años,-0.10175193168380683
+nivel_carrera_1_Profesional Con Licenciatura,rango_edad_35 a 39 años,-0.08012790843890638
+nivel_carrera_1_Profesional Con Licenciatura,rango_edad_40 y más años,-0.0753263070096734
+nivel_carrera_1_Profesional Con Licenciatura,tipo_inst_3_Centros de Formación Técnica,-0.3020495464225187
+nivel_carrera_1_Profesional Con Licenciatura,tipo_inst_3_Institutos Profesionales,-0.6870387895410642
+nivel_carrera_1_Profesional Con Licenciatura,tipo_inst_3_Universidades Estatales CRUCH,0.3843685128978666
+nivel_carrera_1_Profesional Con Licenciatura,tipo_inst_3_Universidades Privadas,0.34660742750811685
+nivel_carrera_1_Profesional Con Licenciatura,tipo_inst_3_Universidades Privadas CRUCH,0.3094499328668417
+nivel_carrera_1_Profesional Con Licenciatura,jornada_A Distancia,-0.090852555175484
+nivel_carrera_1_Profesional Con Licenciatura,jornada_Diurno,0.4310116941825505
+nivel_carrera_1_Profesional Con Licenciatura,jornada_Otro,0.026058415853136185
+nivel_carrera_1_Profesional Con Licenciatura,jornada_Semipresencial,-0.045427653873442296
+nivel_carrera_1_Profesional Con Licenciatura,jornada_Vespertino,-0.4151942983290336
+nivel_carrera_1_Profesional Con Licenciatura,tipo_plan_carr_Plan Especial,-0.01235291424235536
+nivel_carrera_1_Profesional Con Licenciatura,tipo_plan_carr_Plan Regular,-0.009593021700416277
+nivel_carrera_1_Profesional Con Licenciatura,tipo_plan_carr_Plan Regular de Continuidad,0.04774713969511137
+nivel_carrera_1_Profesional Con Licenciatura,dur_estudio_carr,0.7219821524565342
+nivel_carrera_1_Profesional Con Licenciatura,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.0810000706864246
+nivel_carrera_1_Profesional Con Licenciatura,nivel_carrera_1_Licenciatura No Conducente a Título,-0.09879110436901904
+nivel_carrera_1_Profesional Con Licenciatura,nivel_carrera_1_Profesional Con Licenciatura,1.0
+nivel_carrera_1_Profesional Con Licenciatura,nivel_carrera_1_Profesional Sin Licenciatura,-0.5623517543302622
+nivel_carrera_1_Profesional Con Licenciatura,nivel_carrera_1_Técnico de Nivel Superior,-0.5574580098898045
+nivel_carrera_1_Profesional Con Licenciatura,oecd_area_Agricultura,0.0615242578553833
+nivel_carrera_1_Profesional Con Licenciatura,oecd_area_Ciencias,-0.030854307513622538
+nivel_carrera_1_Profesional Con Licenciatura,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.0007015797983213093
+nivel_carrera_1_Profesional Con Licenciatura,oecd_area_Educación,0.04489242246661948
+nivel_carrera_1_Profesional Con Licenciatura,oecd_area_Humanidades y Artes,-0.050530110889078536
+nivel_carrera_1_Profesional Con Licenciatura,"oecd_area_Ingeniería, Industria y Construcción",0.010350634109559607
+nivel_carrera_1_Profesional Con Licenciatura,oecd_area_Salud y Servicios Sociales,0.06545731669298614
+nivel_carrera_1_Profesional Con Licenciatura,oecd_area_Servicios,-0.25465616892749315
+nivel_carrera_1_Profesional Con Licenciatura,oecd_area_Sin área definida,-0.014671147401149909
+nivel_carrera_1_Profesional Con Licenciatura,acreditada_carr_False,-0.18776983873143985
+nivel_carrera_1_Profesional Con Licenciatura,acreditada_carr_True,0.1875207408147871
+nivel_carrera_1_Profesional Con Licenciatura,acreditada_inst,0.06378421119555641
+nivel_carrera_1_Profesional Con Licenciatura,anio_en_carr_actual,0.06479951562451536
+nivel_carrera_1_Profesional Con Licenciatura,Class,-0.12909354836553408
+nivel_carrera_1_Profesional Sin Licenciatura,GEN_ALU,-0.05340666801082805
+nivel_carrera_1_Profesional Sin Licenciatura,rango_edad_15 a 19 años,-0.1344954776841798
+nivel_carrera_1_Profesional Sin Licenciatura,rango_edad_20 a 24 años,-0.05751114835481797
+nivel_carrera_1_Profesional Sin Licenciatura,rango_edad_25 a 29 años,0.06683522650190127
+nivel_carrera_1_Profesional Sin Licenciatura,rango_edad_30 a 34 años,0.08650789253562803
+nivel_carrera_1_Profesional Sin Licenciatura,rango_edad_35 a 39 años,0.06608662924625816
+nivel_carrera_1_Profesional Sin Licenciatura,rango_edad_40 y más años,0.058250532114097524
+nivel_carrera_1_Profesional Sin Licenciatura,tipo_inst_3_Centros de Formación Técnica,-0.17823591387261986
+nivel_carrera_1_Profesional Sin Licenciatura,tipo_inst_3_Institutos Profesionales,0.5607134973028592
+nivel_carrera_1_Profesional Sin Licenciatura,tipo_inst_3_Universidades Estatales CRUCH,-0.2179958943821103
+nivel_carrera_1_Profesional Sin Licenciatura,tipo_inst_3_Universidades Privadas,-0.1486563555603289
+nivel_carrera_1_Profesional Sin Licenciatura,tipo_inst_3_Universidades Privadas CRUCH,-0.18168898210929352
+nivel_carrera_1_Profesional Sin Licenciatura,jornada_A Distancia,0.0977354515213843
+nivel_carrera_1_Profesional Sin Licenciatura,jornada_Diurno,-0.2941709302824778
+nivel_carrera_1_Profesional Sin Licenciatura,jornada_Otro,-0.04043276159154242
+nivel_carrera_1_Profesional Sin Licenciatura,jornada_Semipresencial,0.0248327458001988
+nivel_carrera_1_Profesional Sin Licenciatura,jornada_Vespertino,0.27967529371088024
+nivel_carrera_1_Profesional Sin Licenciatura,tipo_plan_carr_Plan Especial,0.05602160260380787
+nivel_carrera_1_Profesional Sin Licenciatura,tipo_plan_carr_Plan Regular,-0.04283593896732781
+nivel_carrera_1_Profesional Sin Licenciatura,tipo_plan_carr_Plan Regular de Continuidad,-0.018410820065804526
+nivel_carrera_1_Profesional Sin Licenciatura,dur_estudio_carr,-0.04379758124403566
+nivel_carrera_1_Profesional Sin Licenciatura,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.047797196826918666
+nivel_carrera_1_Profesional Sin Licenciatura,nivel_carrera_1_Licenciatura No Conducente a Título,-0.0582954782672628
+nivel_carrera_1_Profesional Sin Licenciatura,nivel_carrera_1_Profesional Con Licenciatura,-0.5623517543302622
+nivel_carrera_1_Profesional Sin Licenciatura,nivel_carrera_1_Profesional Sin Licenciatura,1.0
+nivel_carrera_1_Profesional Sin Licenciatura,nivel_carrera_1_Técnico de Nivel Superior,-0.3289494687797844
+nivel_carrera_1_Profesional Sin Licenciatura,oecd_area_Agricultura,-0.05064093638704373
+nivel_carrera_1_Profesional Sin Licenciatura,oecd_area_Ciencias,0.0008684098653428367
+nivel_carrera_1_Profesional Sin Licenciatura,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.051852776507314284
+nivel_carrera_1_Profesional Sin Licenciatura,oecd_area_Educación,0.037295395443983866
+nivel_carrera_1_Profesional Sin Licenciatura,oecd_area_Humanidades y Artes,0.0390843465500959
+nivel_carrera_1_Profesional Sin Licenciatura,"oecd_area_Ingeniería, Industria y Construcción",0.03954694527560698
+nivel_carrera_1_Profesional Sin Licenciatura,oecd_area_Salud y Servicios Sociales,-0.14525978347275434
+nivel_carrera_1_Profesional Sin Licenciatura,oecd_area_Servicios,0.10689312919905078
+nivel_carrera_1_Profesional Sin Licenciatura,oecd_area_Sin área definida,-0.00869576196841403
+nivel_carrera_1_Profesional Sin Licenciatura,acreditada_carr_False,-0.019059083954317525
+nivel_carrera_1_Profesional Sin Licenciatura,acreditada_carr_True,0.019481951378818682
+nivel_carrera_1_Profesional Sin Licenciatura,acreditada_inst,0.04714016315256575
+nivel_carrera_1_Profesional Sin Licenciatura,anio_en_carr_actual,-0.040257315910175374
+nivel_carrera_1_Profesional Sin Licenciatura,Class,0.20009757874164852
+nivel_carrera_1_Técnico de Nivel Superior,GEN_ALU,0.046557769992116485
+nivel_carrera_1_Técnico de Nivel Superior,rango_edad_15 a 19 años,0.013246425927735776
+nivel_carrera_1_Técnico de Nivel Superior,rango_edad_20 a 24 años,-0.05458751458280228
+nivel_carrera_1_Técnico de Nivel Superior,rango_edad_25 a 29 años,-7.795663603113905e-05
+nivel_carrera_1_Técnico de Nivel Superior,rango_edad_30 a 34 años,0.03796293476722955
+nivel_carrera_1_Técnico de Nivel Superior,rango_edad_35 a 39 años,0.03136129822447059
+nivel_carrera_1_Técnico de Nivel Superior,rango_edad_40 y más años,0.032545005999765536
+nivel_carrera_1_Técnico de Nivel Superior,tipo_inst_3_Centros de Formación Técnica,0.5418337185020543
+nivel_carrera_1_Técnico de Nivel Superior,tipo_inst_3_Institutos Profesionales,0.262048986809545
+nivel_carrera_1_Técnico de Nivel Superior,tipo_inst_3_Universidades Estatales CRUCH,-0.2732323883506003
+nivel_carrera_1_Técnico de Nivel Superior,tipo_inst_3_Universidades Privadas,-0.24198068993855595
+nivel_carrera_1_Técnico de Nivel Superior,tipo_inst_3_Universidades Privadas CRUCH,-0.1823317314272923
+nivel_carrera_1_Técnico de Nivel Superior,jornada_A Distancia,-0.003719294158028481
+nivel_carrera_1_Técnico de Nivel Superior,jornada_Diurno,-0.2254740637643892
+nivel_carrera_1_Técnico de Nivel Superior,jornada_Otro,0.013851281782576693
+nivel_carrera_1_Técnico de Nivel Superior,jornada_Semipresencial,0.01843542786250636
+nivel_carrera_1_Técnico de Nivel Superior,jornada_Vespertino,0.22574456159538395
+nivel_carrera_1_Técnico de Nivel Superior,tipo_plan_carr_Plan Especial,-0.04972701370479265
+nivel_carrera_1_Técnico de Nivel Superior,tipo_plan_carr_Plan Regular,0.06096225855183202
+nivel_carrera_1_Técnico de Nivel Superior,tipo_plan_carr_Plan Regular de Continuidad,-0.03629672099948325
+nivel_carrera_1_Técnico de Nivel Superior,dur_estudio_carr,-0.7731309360677534
+nivel_carrera_1_Técnico de Nivel Superior,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.047381252068557866
+nivel_carrera_1_Técnico de Nivel Superior,nivel_carrera_1_Licenciatura No Conducente a Título,-0.057788174485916374
+nivel_carrera_1_Técnico de Nivel Superior,nivel_carrera_1_Profesional Con Licenciatura,-0.5574580098898045
+nivel_carrera_1_Técnico de Nivel Superior,nivel_carrera_1_Profesional Sin Licenciatura,-0.3289494687797844
+nivel_carrera_1_Técnico de Nivel Superior,nivel_carrera_1_Técnico de Nivel Superior,1.0
+nivel_carrera_1_Técnico de Nivel Superior,oecd_area_Agricultura,-0.015962896149863966
+nivel_carrera_1_Técnico de Nivel Superior,oecd_area_Ciencias,-0.0070596799864349954
+nivel_carrera_1_Técnico de Nivel Superior,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.031600053028515984
+nivel_carrera_1_Técnico de Nivel Superior,oecd_area_Educación,-0.08069553069137954
+nivel_carrera_1_Técnico de Nivel Superior,oecd_area_Humanidades y Artes,-0.04079039478695479
+nivel_carrera_1_Técnico de Nivel Superior,"oecd_area_Ingeniería, Industria y Construcción",-0.045077335178407285
+nivel_carrera_1_Técnico de Nivel Superior,oecd_area_Salud y Servicios Sociales,0.08463249317341978
+nivel_carrera_1_Técnico de Nivel Superior,oecd_area_Servicios,0.19785611797314115
+nivel_carrera_1_Técnico de Nivel Superior,oecd_area_Sin área definida,0.024996403977169384
+nivel_carrera_1_Técnico de Nivel Superior,acreditada_carr_False,0.21276660357817107
+nivel_carrera_1_Técnico de Nivel Superior,acreditada_carr_True,-0.2129290493518209
+nivel_carrera_1_Técnico de Nivel Superior,acreditada_inst,-0.13299411563825753
+nivel_carrera_1_Técnico de Nivel Superior,anio_en_carr_actual,-0.03763893993705983
+nivel_carrera_1_Técnico de Nivel Superior,Class,-0.04588102570928871
+oecd_area_Agricultura,GEN_ALU,-0.00905671656396353
+oecd_area_Agricultura,rango_edad_15 a 19 años,0.006414116385565907
+oecd_area_Agricultura,rango_edad_20 a 24 años,0.015863587493019214
+oecd_area_Agricultura,rango_edad_25 a 29 años,0.00682478457867072
+oecd_area_Agricultura,rango_edad_30 a 34 años,-0.018200028285795703
+oecd_area_Agricultura,rango_edad_35 a 39 años,-0.01959219678614092
+oecd_area_Agricultura,rango_edad_40 y más años,-0.021100414517798646
+oecd_area_Agricultura,tipo_inst_3_Centros de Formación Técnica,0.027179144682426732
+oecd_area_Agricultura,tipo_inst_3_Institutos Profesionales,-0.0599903122114142
+oecd_area_Agricultura,tipo_inst_3_Universidades Estatales CRUCH,0.028288801948359206
+oecd_area_Agricultura,tipo_inst_3_Universidades Privadas,-0.022800419196208583
+oecd_area_Agricultura,tipo_inst_3_Universidades Privadas CRUCH,0.05601771283251993
+oecd_area_Agricultura,jornada_A Distancia,-0.017567825694838606
+oecd_area_Agricultura,jornada_Diurno,0.0677967956987332
+oecd_area_Agricultura,jornada_Otro,-0.00294399476523283
+oecd_area_Agricultura,jornada_Semipresencial,-0.011179534333582694
+oecd_area_Agricultura,jornada_Vespertino,-0.06249803411359156
+oecd_area_Agricultura,tipo_plan_carr_Plan Especial,-0.02236777785804708
+oecd_area_Agricultura,tipo_plan_carr_Plan Regular,0.025364004257869686
+oecd_area_Agricultura,tipo_plan_carr_Plan Regular de Continuidad,-0.011605305476365098
+oecd_area_Agricultura,dur_estudio_carr,0.034393374503039885
+oecd_area_Agricultura,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.005686485847746232
+oecd_area_Agricultura,nivel_carrera_1_Licenciatura No Conducente a Título,-0.015045946642460357
+oecd_area_Agricultura,nivel_carrera_1_Profesional Con Licenciatura,0.0615242578553833
+oecd_area_Agricultura,nivel_carrera_1_Profesional Sin Licenciatura,-0.05064093638704373
+oecd_area_Agricultura,nivel_carrera_1_Técnico de Nivel Superior,-0.015962896149863966
+oecd_area_Agricultura,oecd_area_Agricultura,1.0
+oecd_area_Agricultura,oecd_area_Ciencias,-0.034713037225356035
+oecd_area_Agricultura,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.08060930454184816
+oecd_area_Agricultura,oecd_area_Educación,-0.050722107459306914
+oecd_area_Agricultura,oecd_area_Humanidades y Artes,-0.02933259187184426
+oecd_area_Agricultura,"oecd_area_Ingeniería, Industria y Construcción",-0.07060578726273807
+oecd_area_Agricultura,oecd_area_Salud y Servicios Sociales,-0.06627757865334412
+oecd_area_Agricultura,oecd_area_Servicios,-0.04410230729580159
+oecd_area_Agricultura,oecd_area_Sin área definida,-0.0022443588160569877
+oecd_area_Agricultura,acreditada_carr_False,-0.03445187102384354
+oecd_area_Agricultura,acreditada_carr_True,0.03456746645738784
+oecd_area_Agricultura,acreditada_inst,0.032278492215543006
+oecd_area_Agricultura,anio_en_carr_actual,0.03461286436898008
+oecd_area_Agricultura,Class,-0.0078188059060808
+oecd_area_Ciencias,GEN_ALU,-0.12894840202596478
+oecd_area_Ciencias,rango_edad_15 a 19 años,0.01606183278951288
+oecd_area_Ciencias,rango_edad_20 a 24 años,-0.0017567795470550807
+oecd_area_Ciencias,rango_edad_25 a 29 años,0.0073434712790759965
+oecd_area_Ciencias,rango_edad_30 a 34 años,-0.0033854035715929387
+oecd_area_Ciencias,rango_edad_35 a 39 años,-0.01095786627774079
+oecd_area_Ciencias,rango_edad_40 y más años,-0.023251797169388938
+oecd_area_Ciencias,tipo_inst_3_Centros de Formación Técnica,0.0003472813972432505
+oecd_area_Ciencias,tipo_inst_3_Institutos Profesionales,-0.026340035357231263
+oecd_area_Ciencias,tipo_inst_3_Universidades Estatales CRUCH,0.05489868656076904
+oecd_area_Ciencias,tipo_inst_3_Universidades Privadas,-0.05201300547866392
+oecd_area_Ciencias,tipo_inst_3_Universidades Privadas CRUCH,0.034254868672038793
+oecd_area_Ciencias,jornada_A Distancia,-0.015172709805378257
+oecd_area_Ciencias,jornada_Diurno,0.004382741009126158
+oecd_area_Ciencias,jornada_Otro,-0.004127268875538346
+oecd_area_Ciencias,jornada_Semipresencial,-0.013810792627731671
+oecd_area_Ciencias,jornada_Vespertino,0.0023508081890388434
+oecd_area_Ciencias,tipo_plan_carr_Plan Especial,-0.02956163210674353
+oecd_area_Ciencias,tipo_plan_carr_Plan Regular,0.004654775749441388
+oecd_area_Ciencias,tipo_plan_carr_Plan Regular de Continuidad,0.05090261313565509
+oecd_area_Ciencias,dur_estudio_carr,0.00353214961669676
+oecd_area_Ciencias,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",0.15058273873573494
+oecd_area_Ciencias,nivel_carrera_1_Licenciatura No Conducente a Título,0.056683966712629735
+oecd_area_Ciencias,nivel_carrera_1_Profesional Con Licenciatura,-0.030854307513622538
+oecd_area_Ciencias,nivel_carrera_1_Profesional Sin Licenciatura,0.0008684098653428367
+oecd_area_Ciencias,nivel_carrera_1_Técnico de Nivel Superior,-0.0070596799864349954
+oecd_area_Ciencias,oecd_area_Agricultura,-0.034713037225356035
+oecd_area_Ciencias,oecd_area_Ciencias,1.0
+oecd_area_Ciencias,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.1265853391081723
+oecd_area_Ciencias,oecd_area_Educación,-0.07965178721889526
+oecd_area_Ciencias,oecd_area_Humanidades y Artes,-0.046062624038671035
+oecd_area_Ciencias,"oecd_area_Ingeniería, Industria y Construcción",-0.11087625150123187
+oecd_area_Ciencias,oecd_area_Salud y Servicios Sociales,-0.1040794213144418
+oecd_area_Ciencias,oecd_area_Servicios,-0.0692563415167047
+oecd_area_Ciencias,oecd_area_Sin área definida,-0.003524443281797375
+oecd_area_Ciencias,acreditada_carr_False,-0.01076468361498545
+oecd_area_Ciencias,acreditada_carr_True,0.010945243662695402
+oecd_area_Ciencias,acreditada_inst,0.06154281219518722
+oecd_area_Ciencias,anio_en_carr_actual,0.0091621460803764
+oecd_area_Ciencias,Class,0.0030463121393481426
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",GEN_ALU,0.041014164297416056
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",rango_edad_15 a 19 años,-0.050406217960135065
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",rango_edad_20 a 24 años,-0.05770932440835987
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",rango_edad_25 a 29 años,0.006983213921299645
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",rango_edad_30 a 34 años,0.056447460693488265
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",rango_edad_35 a 39 años,0.05887138737854476
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",rango_edad_40 y más años,0.08456238979561494
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",tipo_inst_3_Centros de Formación Técnica,-0.03093445212961901
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",tipo_inst_3_Institutos Profesionales,0.010364632279726041
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",tipo_inst_3_Universidades Estatales CRUCH,-0.021186236310130103
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",tipo_inst_3_Universidades Privadas,0.07335844022676401
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",tipo_inst_3_Universidades Privadas CRUCH,-0.05567883267675812
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",jornada_A Distancia,0.1273134220143611
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",jornada_Diurno,-0.1780778359761246
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",jornada_Otro,0.010565255679348613
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",jornada_Semipresencial,0.08228806040431882
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",jornada_Vespertino,0.13465628481605618
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",tipo_plan_carr_Plan Especial,0.05971184576485378
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",tipo_plan_carr_Plan Regular,-0.039485085914538816
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",tipo_plan_carr_Plan Regular de Continuidad,-0.033787667746105615
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",dur_estudio_carr,-0.025382378178981986
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho","nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.04320473815568733
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",nivel_carrera_1_Licenciatura No Conducente a Título,-0.04900532856611399
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",nivel_carrera_1_Profesional Con Licenciatura,-0.0007015797983213093
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",nivel_carrera_1_Profesional Sin Licenciatura,0.051852776507314284
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",nivel_carrera_1_Técnico de Nivel Superior,-0.031600053028515984
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",oecd_area_Agricultura,-0.08060930454184816
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",oecd_area_Ciencias,-0.1265853391081723
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho","oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",1.0
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",oecd_area_Educación,-0.1849643732226648
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",oecd_area_Humanidades y Artes,-0.1069648865616824
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho","oecd_area_Ingeniería, Industria y Construcción",-0.25747264538108283
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",oecd_area_Salud y Servicios Sociales,-0.2416893029162802
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",oecd_area_Servicios,-0.1608244616716681
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",oecd_area_Sin área definida,-0.008184329132563643
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",acreditada_carr_False,0.02591810965705356
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",acreditada_carr_True,-0.02578267502263028
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",acreditada_inst,-0.017814735601877782
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",anio_en_carr_actual,-0.006200074498183586
+"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",Class,0.042366479366489136
+oecd_area_Educación,GEN_ALU,0.19170223427226904
+oecd_area_Educación,rango_edad_15 a 19 años,-0.014175973859437191
+oecd_area_Educación,rango_edad_20 a 24 años,0.006222579457372097
+oecd_area_Educación,rango_edad_25 a 29 años,0.011407416186963974
+oecd_area_Educación,rango_edad_30 a 34 años,0.0011321475667467698
+oecd_area_Educación,rango_edad_35 a 39 años,-0.008170649137885675
+oecd_area_Educación,rango_edad_40 y más años,-0.00814881618651573
+oecd_area_Educación,tipo_inst_3_Centros de Formación Técnica,-0.04959400270136749
+oecd_area_Educación,tipo_inst_3_Institutos Profesionales,0.031550564872231575
+oecd_area_Educación,tipo_inst_3_Universidades Estatales CRUCH,-0.0901536243036059
+oecd_area_Educación,tipo_inst_3_Universidades Privadas,0.059960914596654376
+oecd_area_Educación,tipo_inst_3_Universidades Privadas CRUCH,0.035840557243526305
+oecd_area_Educación,jornada_A Distancia,-0.022306726577615576
+oecd_area_Educación,jornada_Diurno,0.053269874277168255
+oecd_area_Educación,jornada_Otro,-0.017052275760252655
+oecd_area_Educación,jornada_Semipresencial,-0.003148157903026627
+oecd_area_Educación,jornada_Vespertino,-0.04508305383436585
+oecd_area_Educación,tipo_plan_carr_Plan Especial,-0.025091556186476845
+oecd_area_Educación,tipo_plan_carr_Plan Regular,0.025019653899591862
+oecd_area_Educación,tipo_plan_carr_Plan Regular de Continuidad,-0.005140847287509003
+oecd_area_Educación,dur_estudio_carr,-0.02894138030169377
+oecd_area_Educación,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.027212534300420227
+oecd_area_Educación,nivel_carrera_1_Licenciatura No Conducente a Título,-0.01576560848539104
+oecd_area_Educación,nivel_carrera_1_Profesional Con Licenciatura,0.04489242246661948
+oecd_area_Educación,nivel_carrera_1_Profesional Sin Licenciatura,0.037295395443983866
+oecd_area_Educación,nivel_carrera_1_Técnico de Nivel Superior,-0.08069553069137954
+oecd_area_Educación,oecd_area_Agricultura,-0.050722107459306914
+oecd_area_Educación,oecd_area_Ciencias,-0.07965178721889526
+oecd_area_Educación,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.1849643732226648
+oecd_area_Educación,oecd_area_Educación,1.0
+oecd_area_Educación,oecd_area_Humanidades y Artes,-0.06730593325140831
+oecd_area_Educación,"oecd_area_Ingeniería, Industria y Construcción",-0.1620105180357186
+oecd_area_Educación,oecd_area_Salud y Servicios Sociales,-0.15207910382294718
+oecd_area_Educación,oecd_area_Servicios,-0.10119620400801364
+oecd_area_Educación,oecd_area_Sin área definida,-0.00514985737782135
+oecd_area_Educación,acreditada_carr_False,-0.1804022037399058
+oecd_area_Educación,acreditada_carr_True,0.18019972737203335
+oecd_area_Educación,acreditada_inst,-0.047756008530910964
+oecd_area_Educación,anio_en_carr_actual,-0.004217311653867109
+oecd_area_Educación,Class,-0.044246131070658085
+oecd_area_Humanidades y Artes,GEN_ALU,-0.003183971000294589
+oecd_area_Humanidades y Artes,rango_edad_15 a 19 años,0.018136448262298717
+oecd_area_Humanidades y Artes,rango_edad_20 a 24 años,0.03840762576710969
+oecd_area_Humanidades y Artes,rango_edad_25 a 29 años,-0.013138266083508364
+oecd_area_Humanidades y Artes,rango_edad_30 a 34 años,-0.031823125106613545
+oecd_area_Humanidades y Artes,rango_edad_35 a 39 años,-0.029472322892002363
+oecd_area_Humanidades y Artes,rango_edad_40 y más años,-0.029461407344388332
+oecd_area_Humanidades y Artes,tipo_inst_3_Centros de Formación Técnica,-0.028072929318979853
+oecd_area_Humanidades y Artes,tipo_inst_3_Institutos Profesionales,0.04427627117261245
+oecd_area_Humanidades y Artes,tipo_inst_3_Universidades Estatales CRUCH,0.02550793416436985
+oecd_area_Humanidades y Artes,tipo_inst_3_Universidades Privadas,-0.03198295621622655
+oecd_area_Humanidades y Artes,tipo_inst_3_Universidades Privadas CRUCH,-0.031005385792355983
+oecd_area_Humanidades y Artes,jornada_A Distancia,-0.02331170692171771
+oecd_area_Humanidades y Artes,jornada_Diurno,0.08606732642624236
+oecd_area_Humanidades y Artes,jornada_Otro,-0.017455717688245075
+oecd_area_Humanidades y Artes,jornada_Semipresencial,-0.014834734384956772
+oecd_area_Humanidades y Artes,jornada_Vespertino,-0.07638256232084181
+oecd_area_Humanidades y Artes,tipo_plan_carr_Plan Especial,-0.0356410945885536
+oecd_area_Humanidades y Artes,tipo_plan_carr_Plan Regular,0.03826924233205449
+oecd_area_Humanidades y Artes,tipo_plan_carr_Plan Regular de Continuidad,-0.013567441811806552
+oecd_area_Humanidades y Artes,dur_estudio_carr,0.007006612193020242
+oecd_area_Humanidades y Artes,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",0.004665877350871558
+oecd_area_Humanidades y Artes,nivel_carrera_1_Licenciatura No Conducente a Título,0.2548955553933389
+oecd_area_Humanidades y Artes,nivel_carrera_1_Profesional Con Licenciatura,-0.050530110889078536
+oecd_area_Humanidades y Artes,nivel_carrera_1_Profesional Sin Licenciatura,0.0390843465500959
+oecd_area_Humanidades y Artes,nivel_carrera_1_Técnico de Nivel Superior,-0.04079039478695479
+oecd_area_Humanidades y Artes,oecd_area_Agricultura,-0.02933259187184426
+oecd_area_Humanidades y Artes,oecd_area_Ciencias,-0.046062624038671035
+oecd_area_Humanidades y Artes,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.1069648865616824
+oecd_area_Humanidades y Artes,oecd_area_Educación,-0.06730593325140831
+oecd_area_Humanidades y Artes,oecd_area_Humanidades y Artes,1.0
+oecd_area_Humanidades y Artes,"oecd_area_Ingeniería, Industria y Construcción",-0.0936906734065072
+oecd_area_Humanidades y Artes,oecd_area_Salud y Servicios Sociales,-0.08794733713397954
+oecd_area_Humanidades y Artes,oecd_area_Servicios,-0.0585217590475673
+oecd_area_Humanidades y Artes,oecd_area_Sin área definida,-0.00297816223002236
+oecd_area_Humanidades y Artes,acreditada_carr_False,0.06555138378235932
+oecd_area_Humanidades y Artes,acreditada_carr_True,-0.06543931993382535
+oecd_area_Humanidades y Artes,acreditada_inst,-0.014483085599840262
+oecd_area_Humanidades y Artes,anio_en_carr_actual,-0.008286399075858876
+oecd_area_Humanidades y Artes,Class,-0.029660900933323176
+"oecd_area_Ingeniería, Industria y Construcción",GEN_ALU,-0.2974445968285883
+"oecd_area_Ingeniería, Industria y Construcción",rango_edad_15 a 19 años,0.0009641728539271373
+"oecd_area_Ingeniería, Industria y Construcción",rango_edad_20 a 24 años,0.011293819300539814
+"oecd_area_Ingeniería, Industria y Construcción",rango_edad_25 a 29 años,0.00621165648769015
+"oecd_area_Ingeniería, Industria y Construcción",rango_edad_30 a 34 años,-0.010362187336193594
+"oecd_area_Ingeniería, Industria y Construcción",rango_edad_35 a 39 años,-0.00773199893917477
+"oecd_area_Ingeniería, Industria y Construcción",rango_edad_40 y más años,-0.021316283921249474
+"oecd_area_Ingeniería, Industria y Construcción",tipo_inst_3_Centros de Formación Técnica,0.003381632545817523
+"oecd_area_Ingeniería, Industria y Construcción",tipo_inst_3_Institutos Profesionales,-0.0465769590799577
+"oecd_area_Ingeniería, Industria y Construcción",tipo_inst_3_Universidades Estatales CRUCH,0.12624237669124028
+"oecd_area_Ingeniería, Industria y Construcción",tipo_inst_3_Universidades Privadas,-0.12285917307112405
+"oecd_area_Ingeniería, Industria y Construcción",tipo_inst_3_Universidades Privadas CRUCH,0.06057888159541841
+"oecd_area_Ingeniería, Industria y Construcción",jornada_A Distancia,-0.05361775047514588
+"oecd_area_Ingeniería, Industria y Construcción",jornada_Diurno,-0.010187594941350995
+"oecd_area_Ingeniería, Industria y Construcción",jornada_Otro,-0.007838698276039445
+"oecd_area_Ingeniería, Industria y Construcción",jornada_Semipresencial,-0.0357083378315715
+"oecd_area_Ingeniería, Industria y Construcción",jornada_Vespertino,0.03115185539001027
+"oecd_area_Ingeniería, Industria y Construcción",tipo_plan_carr_Plan Especial,0.041261484117635416
+"oecd_area_Ingeniería, Industria y Construcción",tipo_plan_carr_Plan Regular,-0.07551653804736294
+"oecd_area_Ingeniería, Industria y Construcción",tipo_plan_carr_Plan Regular de Continuidad,0.0873300977509732
+"oecd_area_Ingeniería, Industria y Construcción",dur_estudio_carr,0.08473524104025769
+"oecd_area_Ingeniería, Industria y Construcción","nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",0.023619927970563642
+"oecd_area_Ingeniería, Industria y Construcción",nivel_carrera_1_Licenciatura No Conducente a Título,-0.04805797179472536
+"oecd_area_Ingeniería, Industria y Construcción",nivel_carrera_1_Profesional Con Licenciatura,0.010350634109559607
+"oecd_area_Ingeniería, Industria y Construcción",nivel_carrera_1_Profesional Sin Licenciatura,0.03954694527560698
+"oecd_area_Ingeniería, Industria y Construcción",nivel_carrera_1_Técnico de Nivel Superior,-0.045077335178407285
+"oecd_area_Ingeniería, Industria y Construcción",oecd_area_Agricultura,-0.07060578726273807
+"oecd_area_Ingeniería, Industria y Construcción",oecd_area_Ciencias,-0.11087625150123187
+"oecd_area_Ingeniería, Industria y Construcción","oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.25747264538108283
+"oecd_area_Ingeniería, Industria y Construcción",oecd_area_Educación,-0.1620105180357186
+"oecd_area_Ingeniería, Industria y Construcción",oecd_area_Humanidades y Artes,-0.0936906734065072
+"oecd_area_Ingeniería, Industria y Construcción","oecd_area_Ingeniería, Industria y Construcción",1.0
+"oecd_area_Ingeniería, Industria y Construcción",oecd_area_Salud y Servicios Sociales,-0.21169595249716225
+"oecd_area_Ingeniería, Industria y Construcción",oecd_area_Servicios,-0.14086634033296086
+"oecd_area_Ingeniería, Industria y Construcción",oecd_area_Sin área definida,-0.007168663777720376
+"oecd_area_Ingeniería, Industria y Construcción",acreditada_carr_False,-0.00878172488873062
+"oecd_area_Ingeniería, Industria y Construcción",acreditada_carr_True,0.008833943781354246
+"oecd_area_Ingeniería, Industria y Construcción",acreditada_inst,0.10834481830579823
+"oecd_area_Ingeniería, Industria y Construcción",anio_en_carr_actual,0.005863572838004398
+"oecd_area_Ingeniería, Industria y Construcción",Class,0.06407515633845964
+oecd_area_Salud y Servicios Sociales,GEN_ALU,0.21528486246191947
+oecd_area_Salud y Servicios Sociales,rango_edad_15 a 19 años,0.029419529105478355
+oecd_area_Salud y Servicios Sociales,rango_edad_20 a 24 años,0.009426801728364454
+oecd_area_Salud y Servicios Sociales,rango_edad_25 a 29 años,-0.011900667867069342
+oecd_area_Salud y Servicios Sociales,rango_edad_30 a 34 años,-0.017508096769193716
+oecd_area_Salud y Servicios Sociales,rango_edad_35 a 39 años,-0.016936945444011208
+oecd_area_Salud y Servicios Sociales,rango_edad_40 y más años,-0.009580084506067756
+oecd_area_Salud y Servicios Sociales,tipo_inst_3_Centros de Formación Técnica,0.005704857322321092
+oecd_area_Salud y Servicios Sociales,tipo_inst_3_Institutos Profesionales,-0.0067814303766432155
+oecd_area_Salud y Servicios Sociales,tipo_inst_3_Universidades Estatales CRUCH,-0.05236117916127291
+oecd_area_Salud y Servicios Sociales,tipo_inst_3_Universidades Privadas,0.0853276583850096
+oecd_area_Salud y Servicios Sociales,tipo_inst_3_Universidades Privadas CRUCH,-0.038041266533193466
+oecd_area_Salud y Servicios Sociales,jornada_A Distancia,-0.012853873373883872
+oecd_area_Salud y Servicios Sociales,jornada_Diurno,0.11167127853968073
+oecd_area_Salud y Servicios Sociales,jornada_Otro,0.00670778723034555
+oecd_area_Salud y Servicios Sociales,jornada_Semipresencial,0.0021561719841025552
+oecd_area_Salud y Servicios Sociales,jornada_Vespertino,-0.11250153706705768
+oecd_area_Salud y Servicios Sociales,tipo_plan_carr_Plan Especial,-0.06638412194359987
+oecd_area_Salud y Servicios Sociales,tipo_plan_carr_Plan Regular,0.07442627986710178
+oecd_area_Salud y Servicios Sociales,tipo_plan_carr_Plan Regular de Continuidad,-0.03249185277465926
+oecd_area_Salud y Servicios Sociales,dur_estudio_carr,0.05193654088227993
+oecd_area_Salud y Servicios Sociales,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.032781096110768945
+oecd_area_Salud y Servicios Sociales,nivel_carrera_1_Licenciatura No Conducente a Título,-0.0362753327121606
+oecd_area_Salud y Servicios Sociales,nivel_carrera_1_Profesional Con Licenciatura,0.06545731669298614
+oecd_area_Salud y Servicios Sociales,nivel_carrera_1_Profesional Sin Licenciatura,-0.14525978347275434
+oecd_area_Salud y Servicios Sociales,nivel_carrera_1_Técnico de Nivel Superior,0.08463249317341978
+oecd_area_Salud y Servicios Sociales,oecd_area_Agricultura,-0.06627757865334412
+oecd_area_Salud y Servicios Sociales,oecd_area_Ciencias,-0.1040794213144418
+oecd_area_Salud y Servicios Sociales,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.2416893029162802
+oecd_area_Salud y Servicios Sociales,oecd_area_Educación,-0.15207910382294718
+oecd_area_Salud y Servicios Sociales,oecd_area_Humanidades y Artes,-0.08794733713397954
+oecd_area_Salud y Servicios Sociales,"oecd_area_Ingeniería, Industria y Construcción",-0.21169595249716225
+oecd_area_Salud y Servicios Sociales,oecd_area_Salud y Servicios Sociales,1.0
+oecd_area_Salud y Servicios Sociales,oecd_area_Servicios,-0.13223108633013336
+oecd_area_Salud y Servicios Sociales,oecd_area_Sin área definida,-0.006729217189264974
+oecd_area_Salud y Servicios Sociales,acreditada_carr_False,0.008679505833085606
+oecd_area_Salud y Servicios Sociales,acreditada_carr_True,-0.008931845211432254
+oecd_area_Salud y Servicios Sociales,acreditada_inst,-0.03351209170015633
+oecd_area_Salud y Servicios Sociales,anio_en_carr_actual,0.01985008542204907
+oecd_area_Salud y Servicios Sociales,Class,-0.06188783804398493
+oecd_area_Servicios,GEN_ALU,-0.026751874705462992
+oecd_area_Servicios,rango_edad_15 a 19 años,-0.020501493113247605
+oecd_area_Servicios,rango_edad_20 a 24 años,-0.006448777170756407
+oecd_area_Servicios,rango_edad_25 a 29 años,0.008970567594765853
+oecd_area_Servicios,rango_edad_30 a 34 años,0.017502494896416424
+oecd_area_Servicios,rango_edad_35 a 39 años,0.011234837033082416
+oecd_area_Servicios,rango_edad_40 y más años,-0.00165427075258381
+oecd_area_Servicios,tipo_inst_3_Centros de Formación Técnica,0.10839114891167304
+oecd_area_Servicios,tipo_inst_3_Institutos Profesionales,0.2075595562344344
+oecd_area_Servicios,tipo_inst_3_Universidades Estatales CRUCH,-0.12148834101235907
+oecd_area_Servicios,tipo_inst_3_Universidades Privadas,-0.12763628495770066
+oecd_area_Servicios,tipo_inst_3_Universidades Privadas CRUCH,-0.07180936405640588
+oecd_area_Servicios,jornada_A Distancia,-0.0017368997975781408
+oecd_area_Servicios,jornada_Diurno,-0.09397036526421187
+oecd_area_Servicios,jornada_Otro,-0.0060164277357428395
+oecd_area_Servicios,jornada_Semipresencial,-0.01684932529797049
+oecd_area_Servicios,jornada_Vespertino,0.10032524564808776
+oecd_area_Servicios,tipo_plan_carr_Plan Especial,0.01484393815247426
+oecd_area_Servicios,tipo_plan_carr_Plan Regular,-0.011160447760055231
+oecd_area_Servicios,tipo_plan_carr_Plan Regular de Continuidad,-0.005313607247250712
+oecd_area_Servicios,dur_estudio_carr,-0.22646185864611326
+oecd_area_Servicios,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.024612402397493703
+oecd_area_Servicios,nivel_carrera_1_Licenciatura No Conducente a Título,-0.021118114353149385
+oecd_area_Servicios,nivel_carrera_1_Profesional Con Licenciatura,-0.25465616892749315
+oecd_area_Servicios,nivel_carrera_1_Profesional Sin Licenciatura,0.10689312919905078
+oecd_area_Servicios,nivel_carrera_1_Técnico de Nivel Superior,0.19785611797314115
+oecd_area_Servicios,oecd_area_Agricultura,-0.04410230729580159
+oecd_area_Servicios,oecd_area_Ciencias,-0.0692563415167047
+oecd_area_Servicios,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.1608244616716681
+oecd_area_Servicios,oecd_area_Educación,-0.10119620400801364
+oecd_area_Servicios,oecd_area_Humanidades y Artes,-0.0585217590475673
+oecd_area_Servicios,"oecd_area_Ingeniería, Industria y Construcción",-0.14086634033296086
+oecd_area_Servicios,oecd_area_Salud y Servicios Sociales,-0.13223108633013336
+oecd_area_Servicios,oecd_area_Servicios,1.0
+oecd_area_Servicios,oecd_area_Sin área definida,-0.004477743611388414
+oecd_area_Servicios,acreditada_carr_False,0.027327381032227243
+oecd_area_Servicios,acreditada_carr_True,-0.027302142998023488
+oecd_area_Servicios,acreditada_inst,-0.018862755572099488
+oecd_area_Servicios,anio_en_carr_actual,-0.01134108760040992
+oecd_area_Servicios,Class,0.060564832971705125
+oecd_area_Sin área definida,GEN_ALU,-0.006348451213355957
+oecd_area_Sin área definida,rango_edad_15 a 19 años,0.006431191375638642
+oecd_area_Sin área definida,rango_edad_20 a 24 años,0.004053304150740993
+oecd_area_Sin área definida,rango_edad_25 a 29 años,-0.00583878803932696
+oecd_area_Sin área definida,rango_edad_30 a 34 años,-0.003495405091394606
+oecd_area_Sin área definida,rango_edad_35 a 39 años,-0.0024219376450460963
+oecd_area_Sin área definida,rango_edad_40 y más años,-0.002227520917862731
+oecd_area_Sin área definida,tipo_inst_3_Centros de Formación Técnica,-0.004670654867101408
+oecd_area_Sin área definida,tipo_inst_3_Institutos Profesionales,-0.010623823489980738
+oecd_area_Sin área definida,tipo_inst_3_Universidades Estatales CRUCH,0.02627087653307477
+oecd_area_Sin área definida,tipo_inst_3_Universidades Privadas,-0.006893701768289675
+oecd_area_Sin área definida,tipo_inst_3_Universidades Privadas CRUCH,-0.005514226162937342
+oecd_area_Sin área definida,jornada_A Distancia,0.003252343502771929
+oecd_area_Sin área definida,jornada_Diurno,0.00956492450619835
+oecd_area_Sin área definida,jornada_Otro,-0.0013356096883301572
+oecd_area_Sin área definida,jornada_Semipresencial,-0.0011350673355631446
+oecd_area_Sin área definida,jornada_Vespertino,-0.010156243761905735
+oecd_area_Sin área definida,tipo_plan_carr_Plan Especial,0.00016514519312589996
+oecd_area_Sin área definida,tipo_plan_carr_Plan Regular,0.0004496583680550745
+oecd_area_Sin área definida,tipo_plan_carr_Plan Regular de Continuidad,-0.0013758665267322805
+oecd_area_Sin área definida,dur_estudio_carr,-0.01407728021449859
+oecd_area_Sin área definida,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",0.005869060372493257
+oecd_area_Sin área definida,nivel_carrera_1_Licenciatura No Conducente a Título,-0.001527627364304524
+oecd_area_Sin área definida,nivel_carrera_1_Profesional Con Licenciatura,-0.014671147401149909
+oecd_area_Sin área definida,nivel_carrera_1_Profesional Sin Licenciatura,-0.00869576196841403
+oecd_area_Sin área definida,nivel_carrera_1_Técnico de Nivel Superior,0.024996403977169384
+oecd_area_Sin área definida,oecd_area_Agricultura,-0.0022443588160569877
+oecd_area_Sin área definida,oecd_area_Ciencias,-0.003524443281797375
+oecd_area_Sin área definida,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.008184329132563643
+oecd_area_Sin área definida,oecd_area_Educación,-0.00514985737782135
+oecd_area_Sin área definida,oecd_area_Humanidades y Artes,-0.00297816223002236
+oecd_area_Sin área definida,"oecd_area_Ingeniería, Industria y Construcción",-0.007168663777720376
+oecd_area_Sin área definida,oecd_area_Salud y Servicios Sociales,-0.006729217189264974
+oecd_area_Sin área definida,oecd_area_Servicios,-0.004477743611388414
+oecd_area_Sin área definida,oecd_area_Sin área definida,1.0
+oecd_area_Sin área definida,acreditada_carr_False,0.01220992365418625
+oecd_area_Sin área definida,acreditada_carr_True,-0.012200125445955834
+oecd_area_Sin área definida,acreditada_inst,0.004527704000200718
+oecd_area_Sin área definida,anio_en_carr_actual,-0.0006363012858140743
+oecd_area_Sin área definida,Class,-0.003969339047049247
+acreditada_carr_False,GEN_ALU,-0.01444702003684892
+acreditada_carr_False,rango_edad_15 a 19 años,-0.0010713664253504242
+acreditada_carr_False,rango_edad_20 a 24 años,-0.10395193737777728
+acreditada_carr_False,rango_edad_25 a 29 años,0.006663845644185972
+acreditada_carr_False,rango_edad_30 a 34 años,0.0684020046817842
+acreditada_carr_False,rango_edad_35 a 39 años,0.07156980159552279
+acreditada_carr_False,rango_edad_40 y más años,0.08706454995904515
+acreditada_carr_False,tipo_inst_3_Centros de Formación Técnica,0.1633193168976768
+acreditada_carr_False,tipo_inst_3_Institutos Profesionales,0.05350180872903205
+acreditada_carr_False,tipo_inst_3_Universidades Estatales CRUCH,-0.12893060441413104
+acreditada_carr_False,tipo_inst_3_Universidades Privadas,0.06465937244457852
+acreditada_carr_False,tipo_inst_3_Universidades Privadas CRUCH,-0.13604242702918504
+acreditada_carr_False,jornada_A Distancia,0.0864373238323049
+acreditada_carr_False,jornada_Diurno,-0.1786838467957347
+acreditada_carr_False,jornada_Otro,0.058818583371180816
+acreditada_carr_False,jornada_Semipresencial,0.019446783043863082
+acreditada_carr_False,jornada_Vespertino,0.14655887295625464
+acreditada_carr_False,tipo_plan_carr_Plan Especial,0.106440466240534
+acreditada_carr_False,tipo_plan_carr_Plan Regular,-0.08044778836334557
+acreditada_carr_False,tipo_plan_carr_Plan Regular de Continuidad,-0.0371375053148134
+acreditada_carr_False,dur_estudio_carr,-0.2630005817849964
+acreditada_carr_False,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",0.0646097449199275
+acreditada_carr_False,nivel_carrera_1_Licenciatura No Conducente a Título,0.05146490825532706
+acreditada_carr_False,nivel_carrera_1_Profesional Con Licenciatura,-0.18776983873143985
+acreditada_carr_False,nivel_carrera_1_Profesional Sin Licenciatura,-0.019059083954317525
+acreditada_carr_False,nivel_carrera_1_Técnico de Nivel Superior,0.21276660357817107
+acreditada_carr_False,oecd_area_Agricultura,-0.03445187102384354
+acreditada_carr_False,oecd_area_Ciencias,-0.01076468361498545
+acreditada_carr_False,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.02591810965705356
+acreditada_carr_False,oecd_area_Educación,-0.1804022037399058
+acreditada_carr_False,oecd_area_Humanidades y Artes,0.06555138378235932
+acreditada_carr_False,"oecd_area_Ingeniería, Industria y Construcción",-0.00878172488873062
+acreditada_carr_False,oecd_area_Salud y Servicios Sociales,0.008679505833085606
+acreditada_carr_False,oecd_area_Servicios,0.027327381032227243
+acreditada_carr_False,oecd_area_Sin área definida,0.01220992365418625
+acreditada_carr_False,acreditada_carr_False,1.0
+acreditada_carr_False,acreditada_carr_True,-0.9991975208663126
+acreditada_carr_False,acreditada_inst,-0.2451453953361467
+acreditada_carr_False,anio_en_carr_actual,-0.03299575111872825
+acreditada_carr_False,Class,-0.03780494730654165
+acreditada_carr_True,GEN_ALU,0.014480609521251206
+acreditada_carr_True,rango_edad_15 a 19 años,0.0012050710918864696
+acreditada_carr_True,rango_edad_20 a 24 años,0.1043509518299125
+acreditada_carr_True,rango_edad_25 a 29 años,-0.006738885090102997
+acreditada_carr_True,rango_edad_30 a 34 años,-0.06859321434425579
+acreditada_carr_True,rango_edad_35 a 39 años,-0.07188800663626747
+acreditada_carr_True,rango_edad_40 y más años,-0.08757042734868156
+acreditada_carr_True,tipo_inst_3_Centros de Formación Técnica,-0.1631074312688147
+acreditada_carr_True,tipo_inst_3_Institutos Profesionales,-0.05295828891352748
+acreditada_carr_True,tipo_inst_3_Universidades Estatales CRUCH,0.12913963454546445
+acreditada_carr_True,tipo_inst_3_Universidades Privadas,-0.06585962978503461
+acreditada_carr_True,tipo_inst_3_Universidades Privadas CRUCH,0.13635726752883226
+acreditada_carr_True,jornada_A Distancia,-0.0863590918575912
+acreditada_carr_True,jornada_Diurno,0.17887499874276916
+acreditada_carr_True,jornada_Otro,-0.059573009687054125
+acreditada_carr_True,jornada_Semipresencial,-0.01939102085372901
+acreditada_carr_True,jornada_Vespertino,-0.1466398939320477
+acreditada_carr_True,tipo_plan_carr_Plan Especial,-0.10650797706678213
+acreditada_carr_True,tipo_plan_carr_Plan Regular,0.08047517440514945
+acreditada_carr_True,tipo_plan_carr_Plan Regular de Continuidad,0.03721530375977655
+acreditada_carr_True,dur_estudio_carr,0.26360356709769245
+acreditada_carr_True,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.06455546712489937
+acreditada_carr_True,nivel_carrera_1_Licenciatura No Conducente a Título,-0.05139411304544556
+acreditada_carr_True,nivel_carrera_1_Profesional Con Licenciatura,0.1875207408147871
+acreditada_carr_True,nivel_carrera_1_Profesional Sin Licenciatura,0.019481951378818682
+acreditada_carr_True,nivel_carrera_1_Técnico de Nivel Superior,-0.2129290493518209
+acreditada_carr_True,oecd_area_Agricultura,0.03456746645738784
+acreditada_carr_True,oecd_area_Ciencias,0.010945243662695402
+acreditada_carr_True,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.02578267502263028
+acreditada_carr_True,oecd_area_Educación,0.18019972737203335
+acreditada_carr_True,oecd_area_Humanidades y Artes,-0.06543931993382535
+acreditada_carr_True,"oecd_area_Ingeniería, Industria y Construcción",0.008833943781354246
+acreditada_carr_True,oecd_area_Salud y Servicios Sociales,-0.008931845211432254
+acreditada_carr_True,oecd_area_Servicios,-0.027302142998023488
+acreditada_carr_True,oecd_area_Sin área definida,-0.012200125445955834
+acreditada_carr_True,acreditada_carr_False,-0.9991975208663126
+acreditada_carr_True,acreditada_carr_True,1.0
+acreditada_carr_True,acreditada_inst,0.2462106410269329
+acreditada_carr_True,anio_en_carr_actual,0.03305644505439497
+acreditada_carr_True,Class,0.037757293300523735
+acreditada_inst,GEN_ALU,-0.07078990622103701
+acreditada_inst,rango_edad_15 a 19 años,0.07891182570032088
+acreditada_inst,rango_edad_20 a 24 años,0.14298105012230358
+acreditada_inst,rango_edad_25 a 29 años,-0.043440581767885886
+acreditada_inst,rango_edad_30 a 34 años,-0.10790012870808943
+acreditada_inst,rango_edad_35 a 39 años,-0.11076256081175606
+acreditada_inst,rango_edad_40 y más años,-0.15310649556990286
+acreditada_inst,tipo_inst_3_Centros de Formación Técnica,-0.18376636791338632
+acreditada_inst,tipo_inst_3_Institutos Profesionales,0.04151230475083035
+acreditada_inst,tipo_inst_3_Universidades Estatales CRUCH,0.21818139131783684
+acreditada_inst,tipo_inst_3_Universidades Privadas,-0.2587231944833998
+acreditada_inst,tipo_inst_3_Universidades Privadas CRUCH,0.1526983426782977
+acreditada_inst,jornada_A Distancia,-0.22213138206428493
+acreditada_inst,jornada_Diurno,0.2105017675170424
+acreditada_inst,jornada_Otro,-0.0976851223717902
+acreditada_inst,jornada_Semipresencial,-0.07854695242547809
+acreditada_inst,jornada_Vespertino,-0.1280233558336042
+acreditada_inst,tipo_plan_carr_Plan Especial,-0.07148174974075769
+acreditada_inst,tipo_plan_carr_Plan Regular,0.0720409210760219
+acreditada_inst,tipo_plan_carr_Plan Regular de Continuidad,-0.016398604962097673
+acreditada_inst,dur_estudio_carr,0.1859963478444545
+acreditada_inst,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",0.03376201180960573
+acreditada_inst,nivel_carrera_1_Licenciatura No Conducente a Título,0.02211804096439969
+acreditada_inst,nivel_carrera_1_Profesional Con Licenciatura,0.06378421119555641
+acreditada_inst,nivel_carrera_1_Profesional Sin Licenciatura,0.04714016315256575
+acreditada_inst,nivel_carrera_1_Técnico de Nivel Superior,-0.13299411563825753
+acreditada_inst,oecd_area_Agricultura,0.032278492215543006
+acreditada_inst,oecd_area_Ciencias,0.06154281219518722
+acreditada_inst,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.017814735601877782
+acreditada_inst,oecd_area_Educación,-0.047756008530910964
+acreditada_inst,oecd_area_Humanidades y Artes,-0.014483085599840262
+acreditada_inst,"oecd_area_Ingeniería, Industria y Construcción",0.10834481830579823
+acreditada_inst,oecd_area_Salud y Servicios Sociales,-0.03351209170015633
+acreditada_inst,oecd_area_Servicios,-0.018862755572099488
+acreditada_inst,oecd_area_Sin área definida,0.004527704000200718
+acreditada_inst,acreditada_carr_False,-0.2451453953361467
+acreditada_inst,acreditada_carr_True,0.2462106410269329
+acreditada_inst,acreditada_inst,1.0
+acreditada_inst,anio_en_carr_actual,0.031218816683274333
+acreditada_inst,Class,0.060066539350830325
+anio_en_carr_actual,GEN_ALU,-0.0032950791468177713
+anio_en_carr_actual,rango_edad_15 a 19 años,0.023712514421904456
+anio_en_carr_actual,rango_edad_20 a 24 años,0.01527812410366439
+anio_en_carr_actual,rango_edad_25 a 29 años,-0.011788965468379226
+anio_en_carr_actual,rango_edad_30 a 34 años,-0.01829689642003272
+anio_en_carr_actual,rango_edad_35 a 39 años,-0.014098170675416587
+anio_en_carr_actual,rango_edad_40 y más años,-0.017200734456867994
+anio_en_carr_actual,tipo_inst_3_Centros de Formación Técnica,-0.02252163395415715
+anio_en_carr_actual,tipo_inst_3_Institutos Profesionales,-0.050323317587004604
+anio_en_carr_actual,tipo_inst_3_Universidades Estatales CRUCH,-0.033597412235125745
+anio_en_carr_actual,tipo_inst_3_Universidades Privadas,-0.04440795848057762
+anio_en_carr_actual,tipo_inst_3_Universidades Privadas CRUCH,0.19246035495898034
+anio_en_carr_actual,jornada_A Distancia,-0.008058581602017934
+anio_en_carr_actual,jornada_Diurno,0.05272699605517717
+anio_en_carr_actual,jornada_Otro,-0.005778170322978428
+anio_en_carr_actual,jornada_Semipresencial,-0.005155359632283986
+anio_en_carr_actual,jornada_Vespertino,-0.04992622854337996
+anio_en_carr_actual,tipo_plan_carr_Plan Especial,-0.012329313136729338
+anio_en_carr_actual,tipo_plan_carr_Plan Regular,0.013748147414468784
+anio_en_carr_actual,tipo_plan_carr_Plan Regular de Continuidad,-0.005862942143517068
+anio_en_carr_actual,dur_estudio_carr,0.059343620585622724
+anio_en_carr_actual,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",0.0030021041697054626
+anio_en_carr_actual,nivel_carrera_1_Licenciatura No Conducente a Título,0.009809469247885163
+anio_en_carr_actual,nivel_carrera_1_Profesional Con Licenciatura,0.06479951562451536
+anio_en_carr_actual,nivel_carrera_1_Profesional Sin Licenciatura,-0.040257315910175374
+anio_en_carr_actual,nivel_carrera_1_Técnico de Nivel Superior,-0.03763893993705983
+anio_en_carr_actual,oecd_area_Agricultura,0.03461286436898008
+anio_en_carr_actual,oecd_area_Ciencias,0.0091621460803764
+anio_en_carr_actual,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",-0.006200074498183586
+anio_en_carr_actual,oecd_area_Educación,-0.004217311653867109
+anio_en_carr_actual,oecd_area_Humanidades y Artes,-0.008286399075858876
+anio_en_carr_actual,"oecd_area_Ingeniería, Industria y Construcción",0.005863572838004398
+anio_en_carr_actual,oecd_area_Salud y Servicios Sociales,0.01985008542204907
+anio_en_carr_actual,oecd_area_Servicios,-0.01134108760040992
+anio_en_carr_actual,oecd_area_Sin área definida,-0.0006363012858140743
+anio_en_carr_actual,acreditada_carr_False,-0.03299575111872825
+anio_en_carr_actual,acreditada_carr_True,0.03305644505439497
+anio_en_carr_actual,acreditada_inst,0.031218816683274333
+anio_en_carr_actual,anio_en_carr_actual,1.0
+anio_en_carr_actual,Class,-0.02400765865295533
+Class,GEN_ALU,-0.05277068954117228
+Class,rango_edad_15 a 19 años,-0.06468193165951339
+Class,rango_edad_20 a 24 años,0.021911013790293768
+Class,rango_edad_25 a 29 años,0.0046756768321553005
+Class,rango_edad_30 a 34 años,0.020310202341876145
+Class,rango_edad_35 a 39 años,0.013600816682721265
+Class,rango_edad_40 y más años,0.006200573229111195
+Class,tipo_inst_3_Centros de Formación Técnica,0.012919909622475918
+Class,tipo_inst_3_Institutos Profesionales,0.08923902678098818
+Class,tipo_inst_3_Universidades Estatales CRUCH,-0.09226211193173894
+Class,tipo_inst_3_Universidades Privadas,0.05342529833018398
+Class,tipo_inst_3_Universidades Privadas CRUCH,-0.09014802580425726
+Class,jornada_A Distancia,-0.003156108542135134
+Class,jornada_Diurno,-0.10286019316657452
+Class,jornada_Otro,0.02912712613011463
+Class,jornada_Semipresencial,-0.0015854217195686033
+Class,jornada_Vespertino,0.1006411366016134
+Class,tipo_plan_carr_Plan Especial,0.040008677949128005
+Class,tipo_plan_carr_Plan Regular,-0.05506983010892815
+Class,tipo_plan_carr_Plan Regular de Continuidad,0.0430209879107847
+Class,dur_estudio_carr,-0.061499711206834874
+Class,"nivel_carrera_1_Bachillerato, Ciclo Inicial o Plan Común",-0.01592798251863131
+Class,nivel_carrera_1_Licenciatura No Conducente a Título,-0.009476580173219116
+Class,nivel_carrera_1_Profesional Con Licenciatura,-0.12909354836553408
+Class,nivel_carrera_1_Profesional Sin Licenciatura,0.20009757874164852
+Class,nivel_carrera_1_Técnico de Nivel Superior,-0.04588102570928871
+Class,oecd_area_Agricultura,-0.0078188059060808
+Class,oecd_area_Ciencias,0.0030463121393481426
+Class,"oecd_area_Ciencias Sociales, Enseñanza Comercial y Derecho",0.042366479366489136
+Class,oecd_area_Educación,-0.044246131070658085
+Class,oecd_area_Humanidades y Artes,-0.029660900933323176
+Class,"oecd_area_Ingeniería, Industria y Construcción",0.06407515633845964
+Class,oecd_area_Salud y Servicios Sociales,-0.06188783804398493
+Class,oecd_area_Servicios,0.060564832971705125
+Class,oecd_area_Sin área definida,-0.003969339047049247
+Class,acreditada_carr_False,-0.03780494730654165
+Class,acreditada_carr_True,0.037757293300523735
+Class,acreditada_inst,0.060066539350830325
+Class,anio_en_carr_actual,-0.02400765865295533
+Class,Class,1.0
