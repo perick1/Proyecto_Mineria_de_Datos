@@ -1,0 +1,168 @@
+---
+title: "Pregunta 4: Reglas de asociación año 2019"
+output: 
+  html_document: 
+    theme: cosmo
+    toc: yes
+---
+
+```{r, echo=FALSE}
+knitr::opts_chunk$set(error = TRUE)
+```
+
+```{r eval=F}
+library(magrittr) 
+library(dplyr)    
+library(tidyr)
+library('arules') 
+library('arulesViz')
+library('sjPlot')
+```
+
+
+```{r}
+#Selección de atributos, año 2019
+datos_2019<-read.csv(file = "datos_limpios/2019.csv", sep = ",")[ ,c("jornada","rango_edad","dur_total_carr","tipo_inst_3","area_conocimiento","region_sede","acreditada_inst","valor_arancel","valor_matricula")]
+```
+
+```{r}
+#Se filtran valores faltantes
+datos_2019<-datos_2019[complete.cases(datos_2019),]
+```
+
+
+```{r}
+#Creación de categorías por percentiles para el valor de arancel
+Percentile_00_A2019  = min(datos_2019$valor_arancel)
+Percentile_33_A2019  = quantile(datos_2019$valor_arancel, 0.33333)
+Percentile_67_A2019  = quantile(datos_2019$valor_arancel, 0.66667)
+Percentile_100_A2019 = max(datos_2019$valor_arancel)
+
+RB = rbind(Percentile_00_A2019, Percentile_33_A2019, Percentile_67_A2019, Percentile_100_A2019)
+
+dimnames(RB)[[2]] = "Value"
+```
+
+
+
+```{r}
+#Creación de categorías por percentiles para el valor de matrícula
+Percentile_00_M2019  = min(datos_2019$valor_matricula)
+Percentile_33_M2019  = quantile(datos_2019$valor_matricula, 0.33333)
+Percentile_67_M2019  = quantile(datos_2019$valor_matricula, 0.66667)
+Percentile_100_M2019 = max(datos_2019$valor_matricula)
+
+RBM = rbind(Percentile_00_M2019, Percentile_33_M2019, Percentile_67_M2019, Percentile_100_M2019)
+
+dimnames(RBM)[[2]] = "Value"
+```
+
+```{r}
+datos_2019$Categoria_arancel[datos_2019$valor_arancel >= Percentile_00_A2019 & datos_2019$valor_arancel <  Percentile_33_A2019]  = "AB"
+datos_2019$Categoria_arancel[datos_2019$valor_arancel >= Percentile_33_A2019 & datos_2019$valor_arancel <  Percentile_67_A2019]  = "AM"
+datos_2019$Categoria_arancel[datos_2019$valor_arancel >= Percentile_67_A2019 & datos_2019$valor_arancel <= Percentile_100_A2019] = "AA"
+datos_2019$valor_arancel <- NULL
+```
+
+
+```{r}
+datos_2019$Categoria_matricula[datos_2019$valor_matricula >= Percentile_00_M2019 & datos_2019$valor_matricula <  Percentile_33_M2019]  = "MB"
+datos_2019$Categoria_matricula[datos_2019$valor_matricula >= Percentile_33_M2019& datos_2019$valor_matricula <  Percentile_67_M2019]  = "MM"
+datos_2019$Categoria_matricula[datos_2019$valor_matricula >= Percentile_67_M2019 & datos_2019$valor_matricula <= Percentile_100_M2019] = "MA"
+datos_2019$valor_matricula <- NULL
+```
+
+### Muestra de los datos con categorías para arancel y matrícula
+```{r warning=FALSE, echo=FALSE, message= FALSE}
+library(sjPlot)
+tab_df(head(datos_2019))
+```
+
+```{r}
+#CSV con atributos seleccionados
+write.csv(datos_2019,"datos_limpios/2019_P4.csv", row.names = FALSE)
+```
+
+
+```{r  warning = F, echo = F}
+library('arules') 
+df2019 <- read.transactions("datos_limpios/2019_P4.csv", sep=",")
+```
+### Items frecuentes con mayor support de acuerdo a algoritmo ECLAT
+```{r  warning=F, echo = F, message = FALSE}
+frequentItems <- eclat(df2019, parameter = list(supp = 0.04))
+items.sorted <- sort(frequentItems, by="support")
+items.sorted_dataframe <- as(items.sorted, 'data.frame')
+tab_df(head(items.sorted_dataframe))
+```
+
+```{r}
+itemFrequencyPlot(df2019, topN=10, type="absolute", main="Items más frecuentes")
+```
+
+
+
+```{r  warning=F, echo = F, message = FALSE}
+# Se utiliza apriori para encontrar reglas de asociación de itemset frecuentes con support 4% y confidence 30%
+# Las reglas se ordenan por lift
+rules2019 <- apriori(df2019, parameter=list(support=0.04, confidence=0.3), minlen=2)
+rules2019.sorted <- sort(rules2019, by="lift")
+rules2019.sorted.first10 <- head(rules2019.sorted, 10)
+rules2019.sorted.first10_dataframe <- as(rules2019.sorted.first10, 'data.frame')
+```
+### Top 10 reglas con mayor lift, usando APRIORI
+```{r}
+tab_df(rules2019.sorted.first10_dataframe)
+```
+
+
+```{r  warning =FALSE, echo = F, message = FALSE}
+library('arulesViz') 
+plot(rules2019, measure=c("support", "confidence"), shading="lift", interactive=FALSE, main= "Reglas de asociación 2019: 8484 reglas")
+```
+
+### Reglas que implican Arancel Alto (AA)
+```{r}
+#Reglas que implican Arancel Alto (AA)
+rhs_AA_rules2019 <- sort(subset(rules2019, subset = rhs %in% "AA"), by = "lift")
+#inspect(head(rhs_AA_rules2019))
+rhs_AA_rules2019_dataframe <- as(rhs_AA_rules2019, 'data.frame')
+tab_df(head(rhs_AA_rules2019_dataframe))
+```
+### Reglas que implican Arancel Alto (AA): Top 50 reglas
+```{r warning=F}
+rhs_AA_subrules2019 <- head(rhs_AA_rules2019, n = 50, by = "lift")
+plot(rhs_AA_subrules2019, method = "graph")
+```
+
+### Reglas que implican Arancel Medio (AM)
+```{r}
+rhs_AM_rules2019 <- sort(subset(rules2019, subset = rhs %in% "AM"), by = "lift")
+rhs_AM_rules2019_dataframe <- as(rhs_AM_rules2019, 'data.frame')
+tab_df(head(rhs_AM_rules2019_dataframe))
+
+```
+### Reglas que implican Arancel Medio (AM): Top 50 reglas
+```{r  warning=F}
+rhs_AM_subrules2019 <- head(rhs_AM_rules2019, n = 50, by = "lift")
+plot(rhs_AM_subrules2019, method = "graph")
+```
+### Reglas que implican Arancel Bajo (AB)
+```{r}
+rhs_AB_rules2019 <- sort(subset(rules2019, subset = rhs %in% "AB"), by = "lift")
+rhs_AB_rules2019_dataframe <- as(rhs_AB_rules2019, 'data.frame')
+tab_df(head(rhs_AB_rules2019_dataframe))
+
+```
+### Reglas que implican Arancel Bajo (AB): Top 50 reglas
+```{r warning=F}
+rhs_AB_subrules2019 <- head(rhs_AB_rules2019, n = 50, by = "lift")
+plot(rhs_AB_subrules2019, method = "graph")
+```
+
+
+
+
+
+
+
