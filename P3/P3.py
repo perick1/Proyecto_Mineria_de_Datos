@@ -45,14 +45,13 @@ def histogramasCategoricas(df,anio):
         ax.set_xticklabels(bn, rotation=90)
     plt.show(block=False)
     fig.tight_layout()
-    #plt.savefig(f'{anio}_Cat.png', format="png")
+    plt.savefig(f'{anio}_Cat.png', format="png")
 
 def histogramasNumericas(df,anio):
     fig, axs = plt.subplots(nrows=1 ,ncols=5 ,figsize = (17,3.5))
     axs = axs.flatten()
     cols = df.columns.values
     total = len(df)
-    dic_metricas = {}
     cols_info = {'dur_total_carr':('Duración de la carrera',0.45,(0.5,7.5),(0,0.3)),
                 'valor_arancel': ('Valor del arancel',0.22,(0,6.5),(0,0.25)),
                 'edad_alu':('Edad del alumno',0.45,(16.5,30.5),(0,0.1)),
@@ -83,55 +82,22 @@ def histogramasNumericas(df,anio):
         #ax.legend()
         ax.set_xlim(xlim)
         ax.set_ylim(ylim)
-        if col == 'anios_U':
-            total_nuevos = len(df[df['anios_U']==0])
-            dic_metricas['NAnuevos'] =  round(an[bn][0]/total_nuevos,2)
-            dic_metricas['Anuevos'] =  round(ass[bs][0]/total_nuevos,2)
-        if col == 'valor_arancel':
-            dic_metricas['NAarancel_mean'] = round(no_acre.mean(),1)
-            dic_metricas['Aarancel_mean'] =  round(si_acre.mean(),1)
-            dic_metricas['NAarancel_std'] =  round(no_acre.std(),1)
-            dic_metricas['Aarancel_std'] =  round(si_acre.std(),1)
     fig.suptitle(f'Año {anio}', fontsize=16)
     plt.show(block=False)
     fig.tight_layout()
-    return dic_metricas
-    #plt.savefig(f'{anio}_Num.png', format="png")
+    plt.savefig(f'{anio}_Num.png', format="png")
 
-
-anios = [2011,2012,2013,2014,2015,2016,2017,2018]
-PANA = []#promedio de arancel no acreditado
-PASA = []#promedio de arancel no acreditado
-DANA = []#desviacion estandar de arancel no acreditado
-DASA = []#desviacion estandar de arancel acreditado
-NNA = []#cantidad de alumnos nuevos no acreditado
-NSA = []#cantidad de alumnos nuevos acreditado
-a = []
-
+anios = [2012,2013,2014,2015,2016,2017,2018]
 for anio in anios:
     filename = f'data_acre/modif_acre_{anio}.csv'
     df = pd.read_csv(filename, error_bad_lines=False)
-    dic = histogramasNumericas(df,anio)
+    histogramasNumericas(df,anio)
     histogramasCategoricas(df,anio)
-
-    PANA = np.append(PANA,dic['NAarancel_mean'])
-    PASA = np.append(PASA,dic['Aarancel_mean'])
-    DANA = np.append(DANA,dic['NAarancel_std'])
-    DASA = np.append(DASA,dic['Aarancel_std'])
-    NNA = np.append(NNA,dic['NAnuevos'])
-    NSA = np.append(NSA,dic['Anuevos'])
-
-
-'''
-anio = 2011
-filename = f'data_acre/modif_acre_{anio}.csv'
-df = pd.read_csv(filename, error_bad_lines=False)
-dic = histogramasNumericas(df,anio)
 #imprime columnas
 #cols = df.columns.values
 #for i in range(len(cols)):
 #    print(i+1,cols[i])
-
+'''
 fig, ax = plt.subplots(figsize = (10,3))
 a = df['edad_alu'].value_counts()
 b = np.sort(a.index.values)
