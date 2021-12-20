@@ -20475,23 +20475,23 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   <script>
     // set the dimensions and margins of the graph
-    var margin = {
+    var margin2 = {
         top: 50,
         right: 15,
         bottom: 290,
         left: 290
       },
-      width = 850 - margin.left - margin.right,
-      height = 900 - margin.top - margin.bottom;
+      width = 850 - margin2.left - margin2.right,
+      height = 900 - margin2.top - margin2.bottom;
 
     // append the svg object to the body of the page
-    var svg = d3.select("#my_dataviz2")
+    var svg2 = d3.select("#my_dataviz2")
       .append("svg")
-      .attr("width", width + margin.left + margin.right)
-      .attr("height", height + margin.top + margin.bottom)
+      .attr("width", width + margin2.left + margin2.right)
+      .attr("height", height + margin2.top + margin2.bottom)
       .append("g")
       .attr("transform",
-        "translate(" + margin.left + "," + margin.top + ")");
+        "translate(" + margin2.left + "," + margin2.top + ")");
 
     //Read the data
     d3.csv(
@@ -20511,7 +20511,7 @@ all of MD as it is not optimized for dense, information rich UIs.
           .range([0, width])
           .domain(myGroups)
           .padding(0.05);
-        svg.append("g")
+        svg2.append("g")
           .style("font-size", 15)
           .attr("class", "AxisX2")
           .attr("transform", "translate(0," + (height - 5) + ")")
@@ -20523,7 +20523,7 @@ all of MD as it is not optimized for dense, information rich UIs.
           .range([height, 0])
           .domain(myVars)
           .padding(0.05);
-        svg.append("g")
+        svg2.append("g")
           .style("font-size", 15)
           .call(d3.axisLeft(y).tickSize(0))
           .select(".domain").remove()
@@ -20575,7 +20575,7 @@ all of MD as it is not optimized for dense, information rich UIs.
         }
 
         // add the squares
-        svg.selectAll()
+        svg2.selectAll()
           .data(data, function (d) {
             return d.group + ':' + d.variable;
           })
@@ -20603,7 +20603,7 @@ all of MD as it is not optimized for dense, information rich UIs.
       })
 
     // Add title to graph
-    svg.append("text")
+    svg2.append("text")
       .attr("x", 0)
       .attr("y", -20)
       .attr("text-anchor", "left")
